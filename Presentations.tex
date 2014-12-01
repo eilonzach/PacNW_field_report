@@ -8,8 +8,9 @@
 \usepackage{graphicx}
 \usepackage{placeins}
 \usepackage{caption}
-%\usepackage{subcaption}
-%\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage{wrapfig}
 \usepackage{float}
 \usepackage{sidecap}
 \usepackage[bottom]{footmisc}
@@ -20,6 +21,9 @@
 \usepackage{url} 
 \usepackage{enumerate}
 %\setlength{\belowcaptionskip}{-7pt}
+
+\newcommand{\fdir}{\string~/Dropbox/Washington_State_Field_Trip/Presentations_Tex}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,7 +36,7 @@
 Pacific Northwest of the contiguous United States offers unique insights into the geologic history of western North America. Several crustal complexities in adjoining regions, such as the extensional features in the Basin and Range, the Rocky Mountains and crystalline belts in British Columbia, terminate in Washington. The region has been exposed to a multitude of tectonic events such as continental collisions, metamorphism, igneous intrusions, volcanism and massive flooding events. Washington is part of the American Cordillera, one of the oldest orogenic belts on the planet, and has a long tectonic history with an evolution that spans the entire Phanerozoic (541 Ma-current). 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.55\textwidth, angle=0]{PaperFigs/Raj_tectonic.png}
+\includegraphics[width=0.55\textwidth, angle=0]{\fdir/PaperFigs/Raj_tectonic.png}
 \end{center}
    \caption{Tectonic setting of the Pacific Northwest. Source: USGS.}
    \label{fig:tectonic}
@@ -40,7 +44,7 @@ Pacific Northwest of the contiguous United States offers unique insights into th
 A reason for its long history is the tectonically unstable configuration of an ocean-continent lithospheric boundary, which has persisted atleast since the Cambrian. Much of the Mesozoic evolution of the western North American lithosphere can be attributed to the diverse interactions between the Farallon and North American plates \citep{Dickinson91,Dickinson97,Dickinson06,Engebretson84,Humphreys95,Humphreys09}. The geology of Washington continues to evolve today due to subduction along the Cascadia convergent margin and associated arc volcanism. In its current configuration (Fig. \ref{fig:tectonic}), the Juan de Fuca plate subducts beneath North America at a rate that increases northward from 30 to 45 mm/yr with an azimuth of 55 to 63$^{\circ}$ and the plate is only $\sim$10 My old at the trench \citep{DeMets99,Wilson93,Wilson02,McCaffreyGJI2007}. The subduction is oblique along the Oregon coast while it is more normal to the margin off Washington and Vancouver Island. 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.70\textwidth, angle=0]{PaperFigs/Raj_region.png}
+\includegraphics[width=0.70\textwidth, angle=0]{\fdir/PaperFigs/Raj_region.png}
 \end{center}
    \caption{Major physiographic regions of Washington. Adopted from Washington State Department of Natural Resources (DNR).}
    \label{fig:regions}
@@ -56,13 +60,13 @@ The complex geology of Washington can be best studied by dividing it into major 
 \centering
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_div1.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_div1.png}
 	 \caption{First-order subdivision of the Cordilleran orogen.}
 	\label{fig:division1}
 \end{subfigure}	
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_div2.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_div2.png}
 	\caption{Ages of pre-Cordilleran Precambrian orogenic belts.}
 	\label{fig:division2}
 \end{subfigure}	
@@ -75,13 +79,13 @@ The isotopic ratio \textsuperscript{87}Sr/\textsuperscript{86}Sr is a sensitive 
 \centering
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_plate1.jpg}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_plate1.jpg}
 	 \caption{Early Devonian (400 Ma)}
 	\label{fig:NAM1}
 \end{subfigure}	
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_plate2.jpg}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_plate2.jpg}
 	\caption{Early Permian (290 Ma)}
 	\label{fig:NAM2}
 \end{subfigure}	
@@ -93,13 +97,13 @@ Large tracts of preserved Mesozoic and Cenozoic oceanic lithosphere in western N
 \centering
 \begin{subfigure}{.35\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_50Ma.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_50Ma.png}
 	 \caption{Global subduction configuration.}
 	\label{fig:plate1}
 \end{subfigure}	
 \begin{subfigure}{.60\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_50Ma2.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_50Ma2.png}
 	\caption{Accretion to the margin at $\sim$50 Ma}
 	\label{fig:plate2}
 \end{subfigure}	
@@ -110,13 +114,13 @@ Large tracts of preserved Mesozoic and Cenozoic oceanic lithosphere in western N
 \centering
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_siletzia1.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_siletzia1.png}
 	 \caption{Formations composing Siletzia (red) and postaccretion basaltic magmatism (blue).}
 	\label{fig:siletzia1}
 \end{subfigure}	
 \begin{subfigure}{.45\textwidth}
 	\centering
-	\includegraphics[width=\linewidth]{PaperFigs/Raj_siletzia2.png}
+	\includegraphics[width=\linewidth]{\fdir/PaperFigs/Raj_siletzia2.png}
 	\caption{ Extent of Siletzia in the subsurface from regional aeromagnetic data and deep exploration wells.}
 	\label{fig:siletzia2}
 \end{subfigure}	
@@ -126,7 +130,7 @@ Large tracts of preserved Mesozoic and Cenozoic oceanic lithosphere in western N
 The last of the Farallon oceanic terranes, `Siletzia', was accreted between 56 and 49 Ma (Fig. \ref{fig:plate}). This event coincided with the cessation of the contractional and amagmatic Laramide orogeny and caused a westward jump in subduction to the present-day configuration of the Cascadia subduction zone. Post-accretion marginal rifting and magnetism ensued in Siletzia (44-30 Ma) along with the initiation of the Cascade arc. Siletzia is now a massive formation of marine basalts and interbedded sediments in the forearc of the Cascadia subduction zone \citep{Wells14}. Collectively, this province includes basalts of the Metchosin Fm. (Vancouver, B.C.), Crescent Fm. (Washington), and Siletz River Volcanics (Oregon) \citep[Fig. \ref{fig:siletzia1}][]{Irving79}. It is classified as an oceanic large igneous province (LIP) and is 8-12 times as voluminous as the Columbia River flood basalts \citep{Reidel13}, which terminate in south-eastern Washington. Geophysical techniques such as seismic imaging and regional potential field data (Fig. \ref{fig:siletzia2}) suggest that the Siletzia province approached 1.7--2.6 million km$^3$ in original volume \citep[e.g.][]{Trehu94} while isotopic dating suggests that much of the magmatism was produced over a 6 million year interval beginning at 56 Ma. The large volume of basalt may indicate a hotspot origin with a mantle source that has isotopic signatures similar to the source of the Columbia River flood basalts \citep[e.g][]{Wells14}.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.50\textwidth, angle=0]{PaperFigs/Raj_paleo.png}
+\includegraphics[width=0.50\textwidth, angle=0]{\fdir/PaperFigs/Raj_paleo.png}
 \end{center}
    \caption{Tectonic rotations of rock units (in $^{\circ}$) from 21 paleomagnetic studies (1977-1988), summarized by \citet{Wells88}}
    \label{fig:paleomag}
@@ -134,7 +138,7 @@ The last of the Farallon oceanic terranes, `Siletzia', was accreted between 56 a
 Although present-day Cascadia contains most of the characteristics typical of convergent margins \citep[e.g.][]{vonHuene91}, several of its unique features make it an end member among subduction zones. Oblique subduction of the Juan de Fuca plate has created a complex, seismically active convergent margin and transpressive volcanic arc in the Pacific Northwest. The small plates of the Cascadia convergent margin are caught in in the dextral shear couple between the much larger Pacific and North American plates \citep{Wells93}. There is evidence of progressive and widespread clockwise rotation of the forearc in a broad deformation zone along the plate boundary \citep[e.g.][]{Magill82}. Paleomagnetic data indicate Cenozoic clockwise rotation of the Pacific Northwest at the rate of $\sim$1$^{\circ}$/Ma with respect to stable North America (Fig. \ref{fig:paleomag}, \citet{Wells88}). Global Positioning System (GPS) velocities have also shown evidence to suggest that the forearc, arc and a large part of the backarc is rotating as a single, quasi-rigid body \citep[e.g.][]{Khazaradze99,Savage00,WellsSimpson01}. 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=0.50\textwidth, angle=0]{PaperFigs/Raj_vel.png}
+\includegraphics[width=0.50\textwidth, angle=0]{\fdir/PaperFigs/Raj_vel.png}
 \end{center}
    \caption{Velocity field for Oregon forearc microplate calculated from OC-NA pole (from \citet{WellsSimpson01}, modified from \citet{Wells98}).}
    \label{fig:velocityfield}
@@ -151,7 +155,7 @@ The GPS velocity field in the forearc has largely been explained as the sum of t
 Due to Cascadia's modern subduction environment, it has been the subject of numerous seismic studies over the past several decades. Seismic studies can be broadly defined into active and passive source experiments. The former refers to studies that use anthropogenic sources, and the latter refers to studies that use earthquakes and other natural seismic events as sources. Since the tectonic system of Cascadia is characterized by the subduction of the oceanic Juan de Fuca Plate underneath the continental North American plate, a comprehensive study of this area requires both onshore and offshore studies, which each provide unique challenges and advantages.
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{PaperFigs/Casc_active.pdf}
+\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{\fdir/PaperFigs/Casc_active.pdf}
 \end{center}
    \caption{Recent onshore and offshore active-source seismic experiments in Cascadia. Green lines: results from \citet{Parsons1998}; orange: results from \citet{Gerdom2000}; yellow: results from \citet{Nedimovic2009}; blue: Ridge-to-Trench and COAST Cruises. Blue triangles indicate volcanoes.}
    \label{fig:active}
@@ -161,14 +165,14 @@ As seen in figure \ref{fig:active}, Cascadia has been quite extensively studied 
 
  \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.98\textwidth,trim=0 270 0 270, clip, angle=0]{PaperFigs/Parsons_1998}
+\includegraphics[width=0.98\textwidth,trim=0 270 0 270, clip, angle=0]{\fdir/PaperFigs/Parsons_1998}
 \end{center}
    \caption{Velocity profile determined by \citet{Parsons1998}.}
    \label{fig:parsons}
 \end{figure} 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.27\textwidth,trim=100 10 100 0, clip, angle=0]{PaperFigs/Nedimovic2009_2.pdf}
+\includegraphics[width=0.27\textwidth,trim=100 10 100 0, clip, angle=0]{\fdir/PaperFigs/Nedimovic2009_2.pdf}
 \end{center}
    \caption{Crustal faults observed in \citet{Nedimovic2009}.}
    \label{fig:mcs}
@@ -177,7 +181,7 @@ As seen in figure \ref{fig:active}, Cascadia has been quite extensively studied 
  Passive source seismology in Cascadia has focused on both studies that use local seismicity as well as those that use teleseismic data. Unlike many other subduction zones, Cascadia has relatively little local tectonic seismicity; therefore this is not heavily used in studies to constrain the location of the subducting plate. However, paleoseismology studies indicate that large ($\sim$M9.0) megathrust earthquakes have occurred along the thrust interface in the past, most recently in 1700 generating a tsunami historically recorded in Japan \citep{Atwater1987,Goldfinger2003}. Therefore, seismologists need to rely on other geophysical techniques to determine the earthquake risk in the region.
  \begin{figure}[h]
 \begin{center}
-\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{PaperFigs/Casc_passive.pdf}
+\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{\fdir/PaperFigs/Casc_passive.pdf}
 \end{center}
    \caption{Recently deployed stations for passive teleseismic studies including those used for the results of \citet{Abers2009}, \citet{Audet2009}, and \citet{Bostock2002} (red circles), as well as the OBS stations from the Cascadia Initiative (yellow circles). }
    \label{fig:passive}
@@ -193,14 +197,14 @@ Unfortunately, the margin of the Juan de Fuca and North American plates extends 
 \begin{figure}[h]
   \begin{minipage}[b]{0.5\linewidth}
     \centering
-    \includegraphics[scale=.4,trim=0 170 0 170, clip=true]{PaperFigs/abers_map.pdf}
+    \includegraphics[scale=.4,trim=0 170 0 170, clip=true]{\fdir/PaperFigs/abers_map.pdf}
     \caption{Map of the CAFE Array, and stations used in \citet{Abers2009}. }
     \label{fig:rf_map}
   \end{minipage}
   \hspace{0.5cm}
   \begin{minipage}[b]{0.5\linewidth}
     \centering
-    \includegraphics[scale=.4,trim=0 100 0 100, clip=true]{PaperFigs/abers_RF.pdf}
+    \includegraphics[scale=.4,trim=0 100 0 100, clip=true]{\fdir/PaperFigs/abers_RF.pdf}
     \caption{S and P wave velocity contracts determined from receiver functions for the stations shown in the map on the left. Results from \citet{Abers2009}. }
     \label{fig:rf}
   \end{minipage}
@@ -220,7 +224,7 @@ As shown in Figure \ref{figs:cascadia_eq_sources}\footnote{http://en.wikipedia.o
 \end{itemize}
 \begin{figure}
   \begin{center}
-  \includegraphics[trim=0cm 1cm 0cm 3cm,clip=true,width=0.7\textwidth]{PaperFigs/cascadia_eq_sources}
+  \includegraphics[trim=0cm 1cm 0cm 3cm,clip=true,width=0.7\textwidth]{\fdir/PaperFigs/cascadia_eq_sources}
   \caption{\small{Cartoon of Cascadia earthquake sources}}
   \label{figs:cascadia_eq_sources}
   \end{center}
@@ -228,9 +232,9 @@ As shown in Figure \ref{figs:cascadia_eq_sources}\footnote{http://en.wikipedia.o
 
 \begin{figure}
   \begin{center}
-  \includegraphics[trim=1cm 1.5cm 1cm 9.2cm,clip=true,width=0.7\textwidth]{PaperFigs/IRIS_stamap}
+  \includegraphics[trim=1cm 1.5cm 1cm 9.2cm,clip=true,width=0.7\textwidth]{\fdir/PaperFigs/IRIS_stamap}
   \label{figs:IRIS_stamap}
-  \includegraphics[trim=3cm 18.72cm 12cm 4.6cm,clip=true,width=0.2\textwidth]{PaperFigs/IRIS_stamap_legend}
+  \includegraphics[trim=3cm 18.72cm 12cm 4.6cm,clip=true,width=0.2\textwidth]{\fdir/PaperFigs/IRIS_stamap_legend}
   \caption{\small{Summary of all active seismic stations in Cascadia reporting data to IRIS. Network code in legend. Map from IRIS website.}}
   \label{figs:IRIS_stamap_legend}
   \end{center}
@@ -242,20 +246,47 @@ These earthquakes are captured by a number of seismic recording networks (Figure
 \item The California Integrated Seismic Network (CISN): an array of seismometers deployed throughout California, run from the University of California: Berkeley.\\
 \end{itemize}
 This close monitoring allows excellent observations of local seismicity, with magnitude of completeness of the seismic catalogue as low as M=0 beneath much of the PNSN\footnote{http://pnsn.org/blog/2014/07/29/is-mount-st-helens-seismicity-increasing}. Despite this good coverage, very few earthquakes are observed, compared to other subduction zones (e.g. Japan - see Figure \ref{fig:seismicity_comparison}). The Cascadia subduction zone is largely quiescent; this results from some convergence being accommodated aseismically (see section \ref{sec:ETS}) as well as some strain accumulation that may be released in large megathrust earthquakes (see section \ref{sec:thebigone}).
-\begin{figure}
-    \centering
-    \null\hfill
-    \subfloat[\small{Seismicity in Cascadia since 1971: $\sim$1500 earthquakes total}]{\makebox[1.2\width]{\includegraphics[height=0.6\textwidth]{PaperFigs/cascadia_seismicity}}}
-    \hfill
-    \subfloat[\small{Seismicity at Japan trench since 1971: 5000 shown, of $\sim$50000 earthquakes total}]{\includegraphics[height=0.6\textwidth]{PaperFigs/japan_seismicity}}
-    \hfill\null
-    \caption{\small{Comparison of seismicity at Cascadia and NE Japan, at the same scale. Only M$\ge$3 are shown.}}
-    \label{fig:seismicity_comparison}
-\end{figure}
+
+
+
+%\begin{figure}
+%    \centering
+%    \null\hfill
+%    \subfloat[]{\makebox[1.2\width]{\includegraphics[height=0.6\textwidth]{\fdir/PaperFigs/cascadia_seismicity}}}
+%    \hfill
+%    \subfloat[]{\includegraphics{\fdir/PaperFigs/japan_seismicity}}
+%    \hfill\null
+%    \caption{\small{}}
+%    \label{fig:seismicity_comparison}
+%\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.33\textheight}
+	\centering
+	\includegraphics[height=1.2\textwidth]{\fdir/PaperFigs/cascadia_seismicity}
+	 \caption{\small{Seismicity in Cascadia since 1971: $\sim$1500 earthquakes total}}
+	\label{fig:Casc_seismicity}
+\end{subfigure}	
+\begin{subfigure}{.33\textheight}
+	\centering
+	\includegraphics[height=1.2\textwidth]{\fdir/PaperFigs/japan_seismicity}
+	\caption{\small{Seismicity at Japan trench since 1971: 5000 shown, of $\sim$50,000 earthquakes total}}
+	\label{fig:Jap_seismicity}
+\end{subfigure}	
+\caption{Comparison of seismicity at Cascadia and NE Japan, at the same scale. Only M$\ge$3 are shown. Source: IRIS event browser.}
+\label{fig:seismicity_comparison}
+\end{figure} 
+
+
+
+
+
+
 In the last 20 years we have discovered abundant evidence for very large, M$>$8 earthquakes on the Cascadia thrust zone. These destructive earthquakes have a periodicity of between 300-500 years, and the most recent was in 1700. The next ``big one'' has the potential to be the single largest natural disaster ever to strike the continental US.
 \begin{figure}[h]
   \begin{center}
-  \includegraphics[width=\textwidth]{PaperFigs/satake2003}
+  \includegraphics[width=\textwidth]{\fdir/PaperFigs/satake2003}
   \caption{\small{Forward models of 1700 rupture \citep{Satake2003}. The "Long-narrow" or "Long-splayed" simulations (a \& b on the left) match paleotsunami records in Japan the best. Both of these indicate that the 1700 earthquake had magnitude $M_W$ $\sim$9.0 }}
   \label{figs:satake2003}
   \end{center}
@@ -264,8 +295,8 @@ The last major earthquake on the Cascadia subduction zone occurred in 1700, acco
 One of the ways of investigating the state of stress on a subduction interface is by using geodetic observations to estimate fault locking. Using GPS stations close to the plate boundary, one may assess what stage of the seismic cycle the interface is at:\\
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[trim=0cm 4.3cm 0cm 0cm,clip=true,width=0.45\textwidth]{PaperFigs/seismic_cycle_cartoon}
-  \caption*{\small{Primary processes following a subduction earthquake \citep{Wang2012}}}
+    \includegraphics[trim=0cm 4.3cm 0cm 0cm,clip=true,width=0.45\textwidth]{\fdir/PaperFigs/seismic_cycle_cartoon}
+  \caption{\small{Primary processes following a subduction earthquake \citep{Wang2012}}}
   \label{fig:seismic_cycle_cartoon}
   \end{center}
 \end{figure}
@@ -277,7 +308,7 @@ One of the ways of investigating the state of stress on a subduction interface i
 Between phases (2) and (3) the region of neutral motion moves progressively landward: this line is therefore some proxy for time since rupture and mantle rheology.\\\\
 Figure \ref{fig:seismic_cycle_eg} shows a comparison between the geodetic motions at Cascadia in comparison to other subduction zones: Cascadia appears to be in the inter seismic stage (3), as expected from the known time since the last large rupture. That said, the average GPS motions are smaller in magnitude than the relative plate motion vector, indicating that only a portion of the convergence is being stored as stress on a locked interface. Given that the margin is largely aseismic (Section \ref{sec:seismicity}) the rest of the motion must be accommodated by slippage that has no seismic signature, or via ETS (Section \ref{sec:ETS}).
 \begin{figure}[h]
-    \includegraphics[trim=0cm 0cm 0cm 0cm,clip=true,width=0.8\textwidth]{PaperFigs/seismic_cycle_eg}
+    \includegraphics[trim=0cm 0cm 0cm 0cm,clip=true,width=0.8\textwidth]{\fdir/PaperFigs/seismic_cycle_eg}
   \caption{\small{Comparison of geodetic models at three well studied subduction zones \citep{Wang2012}}}
   \label{fig:seismic_cycle_eg}
 \end{figure}
@@ -289,7 +320,7 @@ this parameter is a proxy for the temperature of the plate at a given depth (lar
 
 Thus, a good understanding of "what goes down" is the foundation upon which interpretations of subduction zone processes must be built. This understanding is built from a synthesis of ODP data, active source seismology experiments, and OBS observations, as well as geomagnetic and bathymetric surveys (e.g. \citet{Nedimovic2009}).
 \begin{figure}[h]
-    \includegraphics[width=0.6\textwidth]{PaperFigs/Nedimovic_JdF}
+    \includegraphics[width=0.6\textwidth]{\fdir/PaperFigs/Nedimovic_JdF}
   \caption{\small{Compilation of data on Juan de Fuca plate \citep{Nedimovic2009}}}
   \label{fig:Nedimovic_JdF}
 \end{figure}
@@ -301,21 +332,21 @@ Seismic images of this sort also reveal eclogitisation of the basaltic oceanic c
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.55\textwidth]{PaperFigs/Bostock2002}
+  \includegraphics[width=0.55\textwidth]{\fdir/PaperFigs/Bostock2002}
   \caption{Top: thermal model of Cascadia subduction zone, showing cold nose of the wedge. Bottom: S-velocity perturbations, with interpreted structure. From \citet{Bostock2002}.}
   \label{fig:Bostock2002}
 \end{figure}
 An emerging technique which has important potential for informing us about fluids, in particular, is the magnetotelluric method (e.g. Figure \ref{fig:Evans2013}). This measures conductivity (or, inversely, resistivity) which is a  function of temperature and is also strongly sensitive to the presence of interconnected fluids and melts. This has the potential to enable observation of fluid transport pathways within the mantle wedge, which may allow us to answer long-held questions regarding channelisation and the nature of arc melts. This imaging technique can also be used complementarily with seismic analysis, to help resolve trade-offs between heterogeneities in melt/temperature/composition.
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.8\textwidth]{PaperFigs/Evans2013}
+  \includegraphics[width=0.8\textwidth]{\fdir/PaperFigs/Evans2013}
   \caption{Preferred model from an EM inversion using an onshore/offshore MT transect in central Cascadia. N.B. this model is under-resolved, and importantly includes prior information specifying a slab. From \citet{Evans2013}.}
   \label{fig:Evans2013}
 \end{figure}
 Using a combination of reflection (and refraction) data collected during active source seismic experiments, we may image the structure of the shallow subduction system. We observe the megathrust interface as well as structures within the accretionary prism and overriding plate. This may inform us about potential rupture characteristics, for example the presence of megasplays with tsunamigenic risk. In more detail, the nature of the reflective character of the interface is thought to be related to its physical properties (e.g. thickness, presence of water) that in turn control seismogenicity. \citet{Nedimovic2003} show a good agreement between a change in reflection character of the plate interface and the transition\footnote{Inferred from thermal and dislocation studies.} between locking and aseismic sliding. The down-dip limit of the frictionally unstable portion of the fault is a key control on the maximum size of earthquake that may occur, since magnitude is proportional to area and, hence, fault width. Thus the reflection character may inform us about potential seismic hazard and fault behaviour.
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=\textwidth]{PaperFigs/Nedimovic2003}
+  \includegraphics[width=\textwidth]{\fdir/PaperFigs/Nedimovic2003}
   \caption{Preferred model from an EM inversion using an onshore/offshore MT transect in central Cascadia. N.B. this model is under-resolved, and importantly includes prior information specifying a slab. From \citet{Nedimovic2003}.}
   \label{fig:Nedimovic2003}
 \end{figure}
@@ -328,14 +359,14 @@ iMUSH\footnote{The following descriptions reference information on the iMUSH web
 \end{itemize}
 \begin{figure}[1,h!]
   \centering
-  \includegraphics[width=0.75\textwidth]{PaperFigs/imush_passive}
+  \includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/imush_passive}
   \caption{Intended deployment of all passive stations.}
   \label{fig:imush_passive}
 \end{figure}
 \vspace{4cm}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=\textwidth]{PaperFigs/imush_active_receivers}
+  \includegraphics[width=\textwidth]{\fdir/PaperFigs/imush_active_receivers}
   \caption{Planned active-source experiment: shots are stars and receivers are dots. Left is the entire deployment, right is a close-up around Mt St. Helens. Purple receivers are deployed throughout, blue receivers are deployed for the first set of shots, red ones for the second.}
   \label{fig:imush_active}
 \end{figure}
@@ -346,7 +377,7 @@ iMUSH\footnote{The following descriptions reference information on the iMUSH web
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{PaperFigs/Scholz_BDT}
+  \includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Scholz_BDT}
   \caption{Frictional stability in subduction zones.  Earthquake nucleation occurs in the unstable regime (pink).  \textit{After \citet{Scholz1998}}}
   \label{BDT}
 \end{figure}
@@ -354,13 +385,13 @@ In addition to being an area of interest for those studying megathrust earthquak
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{PaperFigs/GPS_seismicity}
+  \includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/GPS_seismicity}
   \caption{Episodic tremor and slip can be recorded using GPS (blue data) as well as cross-correlated seismic signals.  The coincidence of these measures provides confidence that this strain is being accommodated in tremor events rather than by aseismic slip.  \textit{\citep{Rogers2003}}}
   \label{GPS_seismicity}
 \end{figure}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{PaperFigs/ETS_migration}
+  \includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/ETS_migration}
   \caption{Migration of ETS in Cascadia.  \textit{\citep{Kao2009}}}
   \label{ETS_migration}
 \end{figure}
@@ -368,7 +399,7 @@ In addition to being an area of interest for those studying megathrust earthquak
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.5\textwidth]{PaperFigs/ETS_water}
+  \includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/ETS_water}
   \caption{Earthquakes (black dots) and low frequency events/ETS (red dots) overlaying a $v_p/v_s$ map.  The ETS events correspond to areas of high pore fluid pressure.   \textit{\citep{Burlini2009}}}
   \label{ETS_water}
 \end{figure}
@@ -381,7 +412,7 @@ In addition to being an area of interest for those studying megathrust earthquak
 This section is basically a summary of \citet{van2002crustal}, which is based on the results of a joint inversion of local earthquake locations and crustal seismic velocity around the Seattle area.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=6in]{PaperFigs/vel_map}
+	\includegraphics[width=6in]{\fdir/PaperFigs/vel_map}
 	\caption{P wave velocity map at 2.5km depth. Black open circles are earthquake locations. }
 	\label{fig:velmap}
 \end{figure}
@@ -397,7 +428,7 @@ Seattle fault zone (SFZ) is associated with frequent occurring shallow events an
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=6in]{PaperFigs/gmt}
+	\includegraphics[width=6in]{\fdir/PaperFigs/gmt}
 	\caption{Focal mechanisms of the local earthquakes}
 	\label{fig:gmt}
 \end{figure}
@@ -409,9 +440,9 @@ Seattle fault zone (SFZ) is associated with frequent occurring shallow events an
 Volcanic eruptions have great societal impacts and often cause significant human and economic losses. Seismic signals preceding and during volcanic eruptions can help us better understand their physical mechanisms and facilitate forecasting volcanic hazard. Compared with tectonic earthquakes, which are usually generated by releasing the stress built up due to relative plate motion, volcanic earthquakes have a large variation of focal mechanisms yet many of them unclear. Volcanic earthquakes also have distinctive signal characteristics. 
 \begin{figure}
    \begin{center}
-    \includegraphics[width=0.4\textwidth]{PaperFigs/Yang_1a}
+    \includegraphics[width=0.4\textwidth]{\fdir/PaperFigs/Yang_1a}
     \hfill
-    \includegraphics[width=0.5\textwidth]{PaperFigs/Yang_1b}
+    \includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Yang_1b}
     \hfill\null
     \caption{An example of a volcanotectonic (left) and a low frequency event (right) at Mt. Merapi, Indonesia. \citep{Wassermann2002}}
     \label{Yang_1}
@@ -421,7 +452,7 @@ Volcanic eruptions have great societal impacts and often cause significant human
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=6in]{PaperFigs/Yang_2}
+	\includegraphics[width=6in]{\fdir/PaperFigs/Yang_2}
 	\caption{Example of waveform and spectrogram of harmonic tremor form Mt.Semeru, Indonesia. \citep{Wassermann2002}}
 	\label{Yang_2}
 \end{figure}
@@ -431,7 +462,7 @@ Volcanic seismic signals can be generally divided into two main categories: tran
 Volcanic tremor is the most common continuous seismic signal. Volcanic tremor signals can last between minutes and months and are very narrow band. Nearly all volcanoes show tremor at different eruption stages and volcanic tremor is the most favored parameter in volcano early eruption warning. Harmonic tremors have nearly constant energy on a few resonance frequencies (Figure \ref{Yang_2}), while spasmodic tremors have higher or more broadband frequency exhibiting pulsating signals.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=6in]{PaperFigs/Yang_3}
+	\includegraphics[width=6in]{\fdir/PaperFigs/Yang_3}
 	\caption{Schematic diagram of the time history of a generic earthquake swarm model.  \citep{McNutt1996}}
 	\label{Yang_3}
 \end{figure}
@@ -440,7 +471,7 @@ Nearly all volcanic eruptions are preceded by some kind of seismic activities. H
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=6in]{PaperFigs/Yang_4}
+	\includegraphics[width=6in]{\fdir/PaperFigs/Yang_4}
 	\caption{Counts of earthquakes > M 2.5 preceding and during the 1980 Mount St.Helens eruption. \citep{McNutt1996,Malone1981}}
 	\label{Yang_4}
 \end{figure}
@@ -457,7 +488,7 @@ Mount Rainier is an active stratovolcano whose 4393 meters height makes it the h
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/MtRainierHazards}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/MtRainierHazards}
 	\caption{This map shows potential impact area for ground based hazards during a volcanic event in Mount Rainier.}
 	\label{MtRainierHazards}
 \end{figure}
@@ -470,7 +501,7 @@ Tephra is a mixture of hot gas with rock particles that is less dense than air, 
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/MtRainierLahars}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/MtRainierLahars}
 	\caption{Schematic of eruptive hazards.}
 	\label{MtRainierLahars}
 \end{figure}
@@ -489,11 +520,11 @@ Mount Rainier has two types of lahars:
 
 \begin{figure}
    \begin{center}
-    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers1}
+    \includegraphics[width=0.3\textwidth]{\fdir/PaperFigs/MtRainierGlaciers1}
     \hfill
-    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers2}
+    \includegraphics[width=0.3\textwidth]{\fdir/PaperFigs/MtRainierGlaciers2}
     \hfill
-    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers3}
+    \includegraphics[width=0.3\textwidth]{\fdir/PaperFigs/MtRainierGlaciers3}
     \hfill\null
     \caption{Formation of ridges modulated by the presence of glaciers at Mt. Rainier.}
     \label{MtRainierGlaciers}
@@ -513,7 +544,7 @@ Mount St. Helens is an active stratovolcano located in the Cascades Volcanic Arc
 Subduction of the Juan de Fuca plate beneath the North American Plate at $\sim$40 mm/year leads to arc volcanism along the northwest coast of the United States. The volcanic arc extends from Lassen Peak in Northern California to Mt. Baker in Washington, extending even further north into Canada. Although volcanism began in the Cascades Arc about 37 Myr ago, most of the present-day volcanoes are less than 2 Myr old. St. Helens is relatively young compared to other major volcanoes in the range; the current volcanic edifice has formed within the past 40 kyr. During the Holocene, St. Helens has been the most active volcano within the arc. 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_1}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Celia_1}
 	\caption{Eruptive stages of St. Helens. Figure from USGS.}
 	\label{Celia_1}
 \end{figure}
@@ -526,7 +557,7 @@ The current stage of volcanism, Spirit Lake, began 4000 years ago. The eruptive 
 Intermittent volcanism in the Spirit Lake stage is divided up into shorter eruptive periods. For this stage there is better preservation of deposits and good age estimates from carbon and tree-ring dating. As a result, there is more detail for the eruptive history within the present stage. The Spirit Lake stage consists of seven periods of volcanism. The Smith Creek period occurred between 4000-3300 years ago, during which time the most voluminous eruption in St. Helens history happened. This eruption was approximately four times larger than the eruption in 1980. The Pine Creek period occurred from 2900-2500 years ago and was characterized by smaller-volume eruptions. During the Castle Creek period, from 2500-1600 years ago, there was a change of composition of the erupted lavas. Olivine and basalt are present in lavas from this stage, indicating intrusion and mixing with a mantle-derived magma that contaminated the crustal magma system. During this period, clusters of domes from earlier periods were transformed into the classic cone-shaped composite volcano through multiple basalt and dacite flows erupted within a short period of time. During the Sugar Bowl period around 1200 years ago, there was short-lived growth of three lava domes and there is evidence for lateral blasts similar to the one that occurred during the 1980 eruption. The Kalama period, from 1479-1720 A.D., was characterized by large-volume eruptions that lead to growth of a large dome at the summit. From 1800-1857, the Goat Rocks period was the last period of activity before the modern eruptive period. The last significant eruption before 1980 occurred in 1857.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_2}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Celia_2}
 	\caption{Cryptodome on the north flank of St. Helens in the days preceding the eruption on May 18, 1980.}
 	\label{Celia_2}
 \end{figure}
@@ -534,7 +565,7 @@ Intermittent volcanism in the Spirit Lake stage is divided up into shorter erupt
 In the spring of 1980, activity began at St. Helens. The main eruption was preceded by an earthquake swarm beginning on March 20, 1980. This swarm lasted for several months, during which time there were several small eruptions at the volcano. Magma intruding into the volcano caused the north flank to swell and form a cryptodome. By the time of the eruption on May 18th, the north flank of the volcano had swelled almost 500 feet (Figure \ref{Celia_2}).
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_3}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Celia_3}
 	\caption{Ash cloud during the May 1980 eruption of St. Helens.}
 	\label{Celia_3}
 \end{figure}
@@ -542,13 +573,13 @@ In the spring of 1980, activity began at St. Helens. The main eruption was prece
 On May 18, 1980 at 8:32 A.M. there was a magnitude 5.1 earthquake. A few seconds later, the north flank of the volcano collapsed, leading to the largest debris avalanche in recorded history during which 2.5 cubic km of material travelled at speeds of 170-250 km/hr. This collapse reduced the confining pressure on the partially molten, volatile rich rock, leading to the lateral blast and eruption. The pyroclastic flow from the eruption flattened vegetation and buildings over an area of 600 square km, and traveled at 250-1080 km/hr. Tephra was erupted for more than 9 hours, with the ash plume reaching more than 20 km into the atmosphere (Figure \ref{Celia_3}). The ash then moved east at about 60 mph and was deposited over 11 states. Lightning generated in the ash cloud also started forest fires. Ice, snow, and water on St. Helens mixed with debris to form lahars, which flowed down the Toutle and Cowlitz rivers. In total, the eruption released 24 Mton of thermal energy and more than 0.67 cubic miles of material was ejected. Figure 3 shows pictures taken just before and after the eruption. The elevation of the summit was reduced from 9677 ft to 8365 ft.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_4}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Celia_4}
 	\caption{Before and after the May 1980 eruption of St. Helens, looking from the North.}
 	\label{Celia_4}
 \end{figure}
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_5}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Celia_5}
 	\caption{“Whaleback” feature seen in the crater on St. Helens in February 2005.}
 	\label{Celia_5}
 \end{figure}
@@ -568,14 +599,14 @@ The Columbia River Basalt Group (CRBG) is a large igneous province (LIP) that co
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_1}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Natalia_1}
 	\caption{Geologic map of the Columbia River Basalt Group \citep{Martin2005}.}
 	\label{Natalia_1}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_2}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Natalia_2}
 	\caption{A model of the spread of the Yellowstone mantle plume \citep{Camp2004}, showing (1) the approximate position of the plume head after impingement and rapid spreading (?15.0 Ma), (2) its approximate position today after moderate rate spreading associated with asthenospheric drag and counterflow above the subducting plate, (3) the track of the plume tail connecting that CRBG with the modern-day position of the Yellowstone hotspot. The short lines located above the area of first-stage spreading are surficial dikes; the longer curvilinear lines indicate the linear magnetic anomalies, which are thought to be buried intrusions or keel dikes. The approximate boundaries of distinct lithospheric domains beneath the plume head are delineated by the 87Sr/86Sr isopleths.}
 	\label{Natalia_2}
 \end{figure}
@@ -585,7 +616,7 @@ The Columbia River Basalt Group is located in the intermontane region between th
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_3}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Natalia_3}
 	\caption{Principal structural features of the Columbia River Flood Basalt province \citep{Martin2005}.}
 	\label{Natalia_3}
 \end{figure}
@@ -594,9 +625,9 @@ The Columbia Plateau consists of three structural-tectonic regions or subprovinc
 
 \begin{figure}
    \begin{center}
-    \includegraphics[width=0.2\textwidth]{PaperFigs/Natalia_4a}
+    \includegraphics[width=0.2\textwidth]{\fdir/PaperFigs/Natalia_4a}
     \quad
-    \includegraphics[width=0.3\textwidth]{PaperFigs/Natalia_4b}
+    \includegraphics[width=0.3\textwidth]{\fdir/PaperFigs/Natalia_4b}
     \hfill\null
     \caption{Typical flow structure in the Columbia River Basalt Group. Left – A simplified flow schematic \citep{Long1986}; Right – colonnades and entablature in a CRBG flow.}
     \label{Natalia_4}
@@ -607,11 +638,11 @@ Each CRBG formation consists of tens to hundreds individual flows, each represen
 
 \begin{figure}
    \begin{center}
-    \includegraphics[width=0.25\textwidth]{PaperFigs/Natalia_5c}
+    \includegraphics[width=0.25\textwidth]{\fdir/PaperFigs/Natalia_5c}
     \quad
-    \includegraphics[width=0.25\textwidth]{PaperFigs/Natalia_5b}
+    \includegraphics[width=0.25\textwidth]{\fdir/PaperFigs/Natalia_5b}
     % leave this space blank so that the last picture will go on the next line
-    \includegraphics[width=0.6\textwidth]{PaperFigs/Natalia_5a}
+    \includegraphics[width=0.6\textwidth]{\fdir/PaperFigs/Natalia_5a}
     \center
     \caption{Examples of columnar joints in the Columbia River Flood Basalt.}
     \label{Natalia_5}
@@ -630,7 +661,7 @@ Paleotsunamis and their parent megathrust earthquakes have been part of native s
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_1}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Jonathan_1}
 	\caption{Story Motifs related to Cascadian Earthquake and Tsunami Phenomena \citep{Ludwin2005}}
 	\label{Jonathan_1}
 \end{figure}
@@ -639,7 +670,7 @@ The entire Cascadia subduction zone appears to have evidence for paleotsunami ac
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_2}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Jonathan_2}
 	\caption{Map of Cascadia Subduction Zone with land level changes and paleotsunami locations.}
 	\label{Jonathan_2}
 \end{figure}
@@ -648,7 +679,7 @@ Paleotsunamis have been recorded in the low areas along the Pacific coast and Pu
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_3}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Jonathan_3}
 	\caption{Photo from Oregon's Salmon River of a peat layer overlain by tsunami sands which are covered by grey-green layers of marine plants and sediments.  Two Native American campfire pits buried by the peat, paleotsunami deposit. (From PNSN)}
 	\label{Jonathan_3}
 \end{figure}
@@ -664,7 +695,7 @@ The ELA also marks a transition in strain rate within the glacier, and thus in d
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Mike_1}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Mike_1}
 	\caption{Crevasses on the lateral shear margin of Nesqually Glacier on Mount Rainier.  Glacier surface is partially covered by avalanche debris.  Picture by Mike Wolovick.}
 	\label{Mike_1}
 \end{figure}
@@ -683,7 +714,7 @@ The Pliestocene has seen cyclical fluctuations of large-scale ice sheets on the 
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{PaperFigs/Mike_2}
+	\includegraphics[width=0.5\textwidth]{\fdir/PaperFigs/Mike_2}
 	\caption{Map of the Puget lobe of the Cordilleran ice sheet.  Taken from \citet{Porter1998}.}
 	\label{Mike_2}
 \end{figure}
@@ -704,7 +735,7 @@ The air quality at the Olympic National Park is relatively good, however, some a
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Keren_1}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Keren_1}
 	\caption{\citep{NPS2014}}
 	\label{Keren_1}
 \end{figure}
@@ -718,7 +749,7 @@ The two major water bodies visited on this trip were the Olympic Coast and the P
 The Pacific coast of the Olympic Peninsula stretches for 73 miles (117.5 km) and comprises both rocky and sandy beaches. The strong winds of the region produce high-energy waves at the coast. This has resulted in erosional features along the coast such as sea stacks, cliffs, caves, and arches, seen in particular on the stretch of Ruby Beach.
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_1}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Nandini_1}
 	\caption{Pattern of wind stress near the Pacific coast of the USA.}
 	\label{Nandini_1}
 \end{figure}
@@ -726,7 +757,7 @@ The Pacific coast of the Olympic Peninsula stretches for 73 miles (117.5 km) and
 The Olympic Coast lies in the region of transition from westerly winds at lower latitudes to southwesterly winds at higher latitudes, near the boundary between the North Pacific subtropical gyre and the North Pacific polar gyre (Figure \ref{Nandini_1}). The divergent winds at the coast resulting from this transition drive an upwelling eddy that remains in place near the Olympic Coast known as the Juan de Fuca Eddy \citep{NOAA2008} (Figure \ref{Nandini_2}).
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_2}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Nandini_2}
 	\caption{Juan de Fuca Eddy.}
 	\label{Nandini_2}
 \end{figure}
@@ -734,14 +765,14 @@ The Olympic Coast lies in the region of transition from westerly winds at lower 
 Regions in the ocean dominated by upwelling motion are highly biologically productive. Photosynthesizing phytoplankton form the base of the food chain in many ocean ecosystems. While the sunlight that they require is abundant at the surface of the ocean, nutrients are not. Upwelling motion brings nutrients from lower depths in the ocean to the surface, enabling the growth of phytoplankton, which in turn supports entire ecosystems. In addition, runoff from coastal water bodies can supplement coastal regions with nutrients. The Juan de Fuca Eddy draws nutrients both through upwelling motion and from the outflow from the Puget Sound through the Strait of Juan de Fuca into the Pacific Ocean \citep{NOAA2008}, producing a region of high nutrient concentrations that facilitates the growth of an abundance of species in the region. 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_3}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Nandini_3}
 	\caption{Underwater photograph of bull kelp. Image credit: Royal British Columbia Museum.}
 	\label{Nandini_3}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_4}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Nandini_4}
 	\caption{Schematic of the intertidal zone environment.}
 	\label{Nandini_4}
 \end{figure}
@@ -759,7 +790,7 @@ The intertidal zone in this region forms many tidal pools as a consequence of th
 \end{itemize}
 \begin{figure}[htp]
 	\centering
-	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_5}
+	\includegraphics[width=0.75\textwidth]{\fdir/PaperFigs/Nandini_5}
 	\caption{Subdivisions of the Puget Sound from USGS Washington Water Science Center.}
 	\label{Nandini_5}
 \end{figure}
