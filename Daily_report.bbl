@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tucker(2014)]{Tucker2014}
+D.~Tucker.
+\newblock Fidalgo ophiolite.
+\newblock \emph{Northwest Geology Field Trips}, 2014.
+\newblock URL
+  \url{http://nwgeology.wordpress.com/the-fieldtrips/fidalgo-ophiolite-part-2/}.
+
+\end{thebibliography}

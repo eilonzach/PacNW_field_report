@@ -1,0 +1,795 @@
+\documentclass[12pt]{amsart}
+\usepackage[top=1.25in, bottom=1.25in,
+            left=1in, right=1in]{geometry}
+\setlength{\oddsidemargin}{36pt}
+\setlength{\evensidemargin}{36pt}
+\geometry{a4paper} % or letter or a5paper or ... etc
+\usepackage[justification=centering]{caption}
+\usepackage{graphicx}
+\usepackage{placeins}
+\usepackage{caption}
+%\usepackage{subcaption}
+%\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{sidecap}
+\usepackage[bottom]{footmisc}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{url} 
+\usepackage{enumerate}
+%\setlength{\belowcaptionskip}{-7pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%% GEOLOGIC SETTING %%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Geologic Setting\\\textit{Raj Moulik}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Pacific Northwest of the contiguous United States offers unique insights into the geologic history of western North America. Several crustal complexities in adjoining regions, such as the extensional features in the Basin and Range, the Rocky Mountains and crystalline belts in British Columbia, terminate in Washington. The region has been exposed to a multitude of tectonic events such as continental collisions, metamorphism, igneous intrusions, volcanism and massive flooding events. Washington is part of the American Cordillera, one of the oldest orogenic belts on the planet, and has a long tectonic history with an evolution that spans the entire Phanerozoic (541 Ma-current). 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.55\textwidth, angle=0]{PaperFigs/Raj_tectonic.png}
+\end{center}
+   \caption{Tectonic setting of the Pacific Northwest. Source: USGS.}
+   \label{fig:tectonic}
+\end{figure} 
+A reason for its long history is the tectonically unstable configuration of an ocean-continent lithospheric boundary, which has persisted atleast since the Cambrian. Much of the Mesozoic evolution of the western North American lithosphere can be attributed to the diverse interactions between the Farallon and North American plates \citep{Dickinson91,Dickinson97,Dickinson06,Engebretson84,Humphreys95,Humphreys09}. The geology of Washington continues to evolve today due to subduction along the Cascadia convergent margin and associated arc volcanism. In its current configuration (Fig. \ref{fig:tectonic}), the Juan de Fuca plate subducts beneath North America at a rate that increases northward from 30 to 45 mm/yr with an azimuth of 55 to 63$^{\circ}$ and the plate is only $\sim$10 My old at the trench \citep{DeMets99,Wilson93,Wilson02,McCaffreyGJI2007}. The subduction is oblique along the Oregon coast while it is more normal to the margin off Washington and Vancouver Island. 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.70\textwidth, angle=0]{PaperFigs/Raj_region.png}
+\end{center}
+   \caption{Major physiographic regions of Washington. Adopted from Washington State Department of Natural Resources (DNR).}
+   \label{fig:regions}
+\end{figure} 
+The complex geology of Washington can be best studied by dividing it into major geomorphic regions \citep[Fig. \ref{fig:regions};][]{dnr}:
+\begin{itemize}
+	\item \textbf{Olympic Mountains:}  These are part of the Pacific Coast Ranges that reach moderate heights of up to $\sim$2400 meters. Olympic peninsula catches moisture-laden Pacific storms that cause an average of 140 inches of precipitation per year, making it the wettest place in the 48 contiguous states. The Olympics are made up of Eocene sandstone, turbidites and basaltic oceanic crust. The Coast Range basement consists of Eocene Crescent Formation with thick submarine basalt flows such as pillow lavas. Crescent formation was deposited upon continentally derived marine sediments and is interbedded with Eocene sediments that are now limestones. As the convergence accelerated in the Miocene, rocks along the west flank of the Olympics were broken and jumbled up to form a melange called the Hoh rock assemblage. The Olympics were also shaped in the Pleistocene by advancing and retreating glaciers that lead to the typical U-shaped valleys of the Hoh and Queets rivers. 
+	\item \textbf{Puget Sound:} This is a broad, low-lying region situated between the Cascade Range to the east and the Olympic Mountains to the west. The Triassic and Cretaceous sections are represented by clastic sedimentary rocks that have only rare limestone lenses. The sequence of Jurassic rocks on Fidalgo Island is interpreted to be an ophiolite \citep{Brown79} i.e. a section through oceanic crust including some portion of the underlying mantle that has been thrust onto the arc or continental crust by obduction. Starting in the early Pleistocene, the Puget Lowland was subject to four periods of extensive glaciation. Puget Sound owes its current geomorphic features to the last continental glacier that covered the region 18-10,000 years ago.
+	\item \textbf{Cascade Range:} The Cascadia arc have been active for the past 37 Ma and is made up of almost 20 major volcanoes that can be classified broadly into North and South Cascades. North Cascades are made up of jagged, glaciated mountains that are composed of Mesozoic crystalline and metamorphic rocks. The magmatic arc consist of two Quaternary stratovolcanoes: Mount Baker and Glacier Peak. Current rugged topography is a result of Holocene glaciation. This region contains the greatest concentration of alpine glaciers in the 48 contiguous states. The southern portion of the Cascade mountain range in Washington consists predominantly of Cenozoic volcanic rocks and associated deposits. South Cascades are lapped by basalts of the Columbia Basin to the east, Columbia River to the south and Puget Lowland to the west. 
+	\item \textbf{Columbia Basin:} The Columbia Basin is the drainage basin of the Columbia River and covers an area of 668,000 km$^2$. The province is characterized by incised rivers, plateaus, and anticlinal ridges. The region is underlain by Miocene Columbia River Basalt Group rocks and interbedded Neogene terrestrial sediments. Columbia basin province is best defined by the areal extent of the Miocene Columbia River Basalt Group rocks and cover 36 percent of the entire state. 
+\end{itemize}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_div1.png}
+	 \caption{First-order subdivision of the Cordilleran orogen.}
+	\label{fig:division1}
+\end{subfigure}	
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_div2.png}
+	\caption{Ages of pre-Cordilleran Precambrian orogenic belts.}
+	\label{fig:division2}
+\end{subfigure}	
+\caption{Overall subdivisions and ages of western North America. Source: \citet{Burchfiel92}.}
+\label{fig:division}
+\end{figure} 
+Due to its long history, the Pacific Northwest has become a natural laboratory to study how tectonic processes constantly amass and mould terrestrial crust from older or preexisting crustal material \citep[e.g.][]{Coney1980,Howell89}. An accretionary belt makes up 20 to 50 percent of the width of American Cordillera at different latitudes (Fig. \ref{fig:division1}). Although a few of the western terranes can be tied to North America \citep[e.g.][]{Gray86}, most of them are allochthonous terranes of primarily oceanic origin \citep{Burchfiel92}. Regional variations in isotopic compositions of Sr, O, Nd and Pb in igneous rocks can be used to delineate the boundary between Pre-Cambrian sialic crust and the late Paleozoic-Mesozoic accreted terranes. 
+The isotopic ratio \textsuperscript{87}Sr/\textsuperscript{86}Sr is a sensitive indicator of the source material of magmas and of the type of underlying crust. Due to increased crustal contributions from the Pre-Cambrian craton, higher radiogenic \textsuperscript{87}Sr/\textsuperscript{86}Sr ratios are observed in the plutonic rocks to the east of the cordillera \citep{FarmerDePaolo83,Arndt87,DePaolo91}. Magmas intruding the arc terranes were potentially derived from the upper mantle or subducted oceanic lithosphere of Phanerozoic age and thereby exhibit a lower radiogenic signature. The \textsuperscript{87}Sr/\textsuperscript{86}Sr = 0.706 line appears to delineate the margin between Proterozoic North America and the younger provinces \citep[e.g.][]{FleckCriss85,Ernst88}. This demarcation runs approximately roughly along the Oregon-Idaho border and cuts northwest into Washington State (Fig. \ref{fig:division2}).
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_plate1.jpg}
+	 \caption{Early Devonian (400 Ma)}
+	\label{fig:NAM1}
+\end{subfigure}	
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_plate2.jpg}
+	\caption{Early Permian (290 Ma)}
+	\label{fig:NAM2}
+\end{subfigure}	
+\caption{Evolution of the western margin. Source: \citet{Nam}}
+\label{fig:NAM}
+\end{figure} 
+Large tracts of preserved Mesozoic and Cenozoic oceanic lithosphere in western North America has enabled the long-term reconstruction of the Pacific Basin \citep[e.g.][]{Atwater1970,StockMolnar88} .The basement of the eastern Cordillean orogen consists of tectonic elements that were already assembled in the Archean and Proterozoic ($\sim$1.6 Ga, \citet{Hoffman88}). Several terranes were subsequently accreted to form the eastern region of Cordillean orogen. With the breakup of the Rodinia super-continent in the neo-Proterozoic ($\sim$650 Ma), the North American Craton (Laurentia) drifted away to form a passive margin till it was interrupted in Devonian times by the accretion of several island arc terranes (400-250 Ma, Fig. \ref{fig:NAM1}). With the formation of super-continent Pangea in the Permian, the western margin of North America was dominated by a subduction zone alongwith the continued accretion of island arcs and generation of continental magmatic arcs (250-50 Ma, Fig. \ref{fig:NAM2}). 
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.35\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_50Ma.png}
+	 \caption{Global subduction configuration.}
+	\label{fig:plate1}
+\end{subfigure}	
+\begin{subfigure}{.60\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_50Ma2.png}
+	\caption{Accretion to the margin at $\sim$50 Ma}
+	\label{fig:plate2}
+\end{subfigure}	
+\caption{Accretion of Siletzia. Source: \citet{PacWebAtwater,WellsWeb}}
+\label{fig:plate}
+\end{figure} 
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_siletzia1.png}
+	 \caption{Formations composing Siletzia (red) and postaccretion basaltic magmatism (blue).}
+	\label{fig:siletzia1}
+\end{subfigure}	
+\begin{subfigure}{.45\textwidth}
+	\centering
+	\includegraphics[width=\linewidth]{PaperFigs/Raj_siletzia2.png}
+	\caption{ Extent of Siletzia in the subsurface from regional aeromagnetic data and deep exploration wells.}
+	\label{fig:siletzia2}
+\end{subfigure}	
+\caption{Formations and extent of Siletzia. Source: \citet{Wells14}}
+\label{fig:siletzia}
+\end{figure} 
+The last of the Farallon oceanic terranes, `Siletzia', was accreted between 56 and 49 Ma (Fig. \ref{fig:plate}). This event coincided with the cessation of the contractional and amagmatic Laramide orogeny and caused a westward jump in subduction to the present-day configuration of the Cascadia subduction zone. Post-accretion marginal rifting and magnetism ensued in Siletzia (44-30 Ma) along with the initiation of the Cascade arc. Siletzia is now a massive formation of marine basalts and interbedded sediments in the forearc of the Cascadia subduction zone \citep{Wells14}. Collectively, this province includes basalts of the Metchosin Fm. (Vancouver, B.C.), Crescent Fm. (Washington), and Siletz River Volcanics (Oregon) \citep[Fig. \ref{fig:siletzia1}][]{Irving79}. It is classified as an oceanic large igneous province (LIP) and is 8-12 times as voluminous as the Columbia River flood basalts \citep{Reidel13}, which terminate in south-eastern Washington. Geophysical techniques such as seismic imaging and regional potential field data (Fig. \ref{fig:siletzia2}) suggest that the Siletzia province approached 1.7--2.6 million km$^3$ in original volume \citep[e.g.][]{Trehu94} while isotopic dating suggests that much of the magmatism was produced over a 6 million year interval beginning at 56 Ma. The large volume of basalt may indicate a hotspot origin with a mantle source that has isotopic signatures similar to the source of the Columbia River flood basalts \citep[e.g][]{Wells14}.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.50\textwidth, angle=0]{PaperFigs/Raj_paleo.png}
+\end{center}
+   \caption{Tectonic rotations of rock units (in $^{\circ}$) from 21 paleomagnetic studies (1977-1988), summarized by \citet{Wells88}}
+   \label{fig:paleomag}
+\end{figure}
+Although present-day Cascadia contains most of the characteristics typical of convergent margins \citep[e.g.][]{vonHuene91}, several of its unique features make it an end member among subduction zones. Oblique subduction of the Juan de Fuca plate has created a complex, seismically active convergent margin and transpressive volcanic arc in the Pacific Northwest. The small plates of the Cascadia convergent margin are caught in in the dextral shear couple between the much larger Pacific and North American plates \citep{Wells93}. There is evidence of progressive and widespread clockwise rotation of the forearc in a broad deformation zone along the plate boundary \citep[e.g.][]{Magill82}. Paleomagnetic data indicate Cenozoic clockwise rotation of the Pacific Northwest at the rate of $\sim$1$^{\circ}$/Ma with respect to stable North America (Fig. \ref{fig:paleomag}, \citet{Wells88}). Global Positioning System (GPS) velocities have also shown evidence to suggest that the forearc, arc and a large part of the backarc is rotating as a single, quasi-rigid body \citep[e.g.][]{Khazaradze99,Savage00,WellsSimpson01}. 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.50\textwidth, angle=0]{PaperFigs/Raj_vel.png}
+\end{center}
+   \caption{Velocity field for Oregon forearc microplate calculated from OC-NA pole (from \citet{WellsSimpson01}, modified from \citet{Wells98}).}
+   \label{fig:velocityfield}
+\end{figure}
+The GPS velocity field in the forearc has largely been explained as the sum of two processes: 1) elastic deformation above the locked Cascadia subduction zone; and 2) the long term clockwise rotation of an Oregon forearc microplate in response to oblique subduction, basin and range extension and Pacific-North America dextral shear \citep{Wells98}.The forearc rotation is linked to contemporary northward migration of the Sierra Nevada block, which breaks western Washington into smaller, seismically active blocks (Fig. \ref{fig:velocityfield}) and compresses them against the Canadian Coast mountains \citep[e.g.][]{WellsSimpson01}. The north-south shortening is concentrated in Washington, where it is accommodated by east-west oriented thrust faults like the Seattle fault. The style of slip partitioning is markedly different than that of several other oblique subduction zones like Sumatra, where the migrating forearc is clearly defined by strike-slip faulting near the volcanic arc \citep[e.g.][]{Fitch72,McCaffreyGJI2007}. Due to this tectonic configuration, several surface-rupturing earthquakes are known to have occurred on the Seattle thrust \citep[e.g.][]{Atwater92} and recent trenching and LIDAR imaging of fault scarps confirm the Quarternary activity on this fault \citep[e.g.][]{Nelson02,Sherrod04}. The Holocene earthquake record for subduction-zone related earthquakes in Cascadia has a repeat time of $\sim$600 years \citep{Goldfinger2003}. Due to relative quiescence in the recent geologic record and presence of onshore fault systems, robust hazard assessment in the Pacific Northwest is of paramount importance.
+
+%%%%%%%%%%%%%%% SEISMIC OBSERVATIONS %%%%%%%%%%%%%%%%%%%%%%%%
+\section{Seismic Observations\\\textit{Helen Janiszewski, Zach Eilon, Hannah Rabinowitz, Ge Jin, and Yang Zha}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Seismic Techniques}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Due to Cascadia's modern subduction environment, it has been the subject of numerous seismic studies over the past several decades. Seismic studies can be broadly defined into active and passive source experiments. The former refers to studies that use anthropogenic sources, and the latter refers to studies that use earthquakes and other natural seismic events as sources. Since the tectonic system of Cascadia is characterized by the subduction of the oceanic Juan de Fuca Plate underneath the continental North American plate, a comprehensive study of this area requires both onshore and offshore studies, which each provide unique challenges and advantages.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{PaperFigs/Casc_active.pdf}
+\end{center}
+   \caption{Recent onshore and offshore active-source seismic experiments in Cascadia. Green lines: results from \citet{Parsons1998}; orange: results from \citet{Gerdom2000}; yellow: results from \citet{Nedimovic2009}; blue: Ridge-to-Trench and COAST Cruises. Blue triangles indicate volcanoes.}
+   \label{fig:active}
+\end{figure}
+Active source seismic studies in Cascadia have been conducted both onshore and offshore. Onshore studies typically use either explosions or other machines that cause ground shaking to generate seismic signals that are then recorded by seismometers deployed on land nearby. Offshore studies typically involve a ship equipped with an air gun to generate seismic signals. These can be recorded by either hydrophones towed on a streamer by the ship (called a multi-channel seismic study-MCS), or by nearby seismometers (wide-angle reflection and refraction study) deployed either on the sea floor (Ocean Bottom Seismometers - OBS) or onshore if close to the coast line. MCS studies are sensitive to upper crustal structure and are typically used for information on sediments and faulting within the crust. Wide-angle reflection/refraction studies give larger scale information about the velocity structure of the crust and the upper mantle. In subduction environments, the technique can also give information about the subducting crust.\\
+As seen in figure \ref{fig:active}, Cascadia has been quite extensively studied using active-source seismic methods. \citet{Parsons1998} (Figure \ref{fig:parsons}) and \citet{Gerdom2000} used wide angle onshore and offshore data to image the subducting Juan de Fuca crust from the margin region offshore to just as it begins to descend beneath the North American plate. In addition to providing velocity profiles of the North American plate and the subducting crust, they have observed a region of high reflectivity along the  subducting plate interface that may indicate hydration within the subducting crust and have implications for the locked zone of the plate interface. Since the link between megathrust fault slip and hydration is not fully understood, it is important to be able to estimate the water that may be contained within the slab. One proxy for this is using the extent of faulting within the slab, in particular faults that reach the mantle that may cause serpentinization which can be determined using MCS data \citep{Nedimovic2009} (Figure \ref{fig:mcs}).\\
+
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.98\textwidth,trim=0 270 0 270, clip, angle=0]{PaperFigs/Parsons_1998}
+\end{center}
+   \caption{Velocity profile determined by \citet{Parsons1998}.}
+   \label{fig:parsons}
+\end{figure} 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.27\textwidth,trim=100 10 100 0, clip, angle=0]{PaperFigs/Nedimovic2009_2.pdf}
+\end{center}
+   \caption{Crustal faults observed in \citet{Nedimovic2009}.}
+   \label{fig:mcs}
+\end{figure}
+ 
+ Passive source seismology in Cascadia has focused on both studies that use local seismicity as well as those that use teleseismic data. Unlike many other subduction zones, Cascadia has relatively little local tectonic seismicity; therefore this is not heavily used in studies to constrain the location of the subducting plate. However, paleoseismology studies indicate that large ($\sim$M9.0) megathrust earthquakes have occurred along the thrust interface in the past, most recently in 1700 generating a tsunami historically recorded in Japan \citep{Atwater1987,Goldfinger2003}. Therefore, seismologists need to rely on other geophysical techniques to determine the earthquake risk in the region.
+ \begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.68\textwidth,trim=100 45 125 60, clip, angle=0]{PaperFigs/Casc_passive.pdf}
+\end{center}
+   \caption{Recently deployed stations for passive teleseismic studies including those used for the results of \citet{Abers2009}, \citet{Audet2009}, and \citet{Bostock2002} (red circles), as well as the OBS stations from the Cascadia Initiative (yellow circles). }
+   \label{fig:passive}
+\end{figure}
+
+Locally, seismologists track the spatiotemporal evolution of episodic tremor and slip (ETS), an emergent seismic phenomenon not controlled by normal tectonic processes \citep{Rogers2003}. The mechanism behind ETS is not fully understood, but is thought to be related to locking and slip along the megathrust. 
+
+Other techniques used in passive-source seismology make use of teleseismic events, or events that occur globally that are recorded in Cascadia. A sampling of instruments that have been deployed recently for passive source seismic experiments is shown in Figure \ref{fig:passive}, and includes both onshore and offshore instruments. Wider scale tomography has been used along the entire western United States to image the remnant Farallon plate and the mantle plume related to the Yellowstone hotspot \citep{Obrebski2010}. 
+
+On a more localized scale, receiver functions have been used to image the structure of the downgoing Juan de Fuca crust beneath Cascadia \citep{Abers2009, Audet2009}. These are most sensitive to abrupt velocity boundaries and can image at a resolution that can see layering within the subducting crust. These studies have observed velocity contrasts at both the top and base of the subducting crust, which are interpreted as a layer of hydrous minerals or metasediments at the top of the crust, and the oceanic Moho at the base (Figures \ref{fig:rf_map} and \ref{fig:rf}). Understanding the compositional structure of the subducting crust through results that studies such as these provide is important for determining the location of the locked zone and therefore regional risk due to a megathrust earthquake.
+
+Unfortunately, the margin of the Juan de Fuca and North American plates extends several hundreds of kilometers offshore in Cascadia. Receiver functions calculated from OBS stations deployed off the coast are most suitable for resolving this velocity structure of the subducting crust offshore. The stations deployed as part of the Cascadia Initiative (a large 4 year community experiment) are being utilized in this regard, and will hopefully determine the extent of this structure within the slab and be capable of resolving local heterogeneities.
+\begin{figure}[h]
+  \begin{minipage}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[scale=.4,trim=0 170 0 170, clip=true]{PaperFigs/abers_map.pdf}
+    \caption{Map of the CAFE Array, and stations used in \citet{Abers2009}. }
+    \label{fig:rf_map}
+  \end{minipage}
+  \hspace{0.5cm}
+  \begin{minipage}[b]{0.5\linewidth}
+    \centering
+    \includegraphics[scale=.4,trim=0 100 0 100, clip=true]{PaperFigs/abers_RF.pdf}
+    \caption{S and P wave velocity contracts determined from receiver functions for the stations shown in the map on the left. Results from \citet{Abers2009}. }
+    \label{fig:rf}
+  \end{minipage}
+  \end{figure}
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Geophysical Observations in the Cascadia Subduction Zone\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textit{\\The dominant tectonic influence on the Pacific Northwest today is the Cascadia\footnote{\textit{Cascadia} refers to the Pacific coast of the North America from northern CA up to WA.} subduction system. The Juan de Fuca plate is subducting eastwards beneath the North American continent, resulting in classic arc magmatism and (according to palaeoseismic data) occasional megathrust earthquakes. The associated seismic hazard is perhaps the most potent natural disaster that could affect the continental US; this risk, along with easy access to facilitate experiments, has made the Cascadia subduction zone one of the best studied worldwide. Among its atypical features are: a paucity of M$<$7 thrust interface earthquakes, regular episodic tremor and slip, and a relatively shallow arc system.}\\
+\textit{\\The Cascadia subduction zone is atypically ``quiet'', i.e. there is very little seismic activity observed. As a result, it was thought to be a region of low seismic hazard \citep{Acharya1992}. In fact, fault quiescence can result from two end members of fault behaviour: total unlocking (aseismic slip) or total locking. The former implies essentially frictionless sliding and zero stress accumulation, while the latter implies zero slip and maximal stress accumulation, which must be relieved in occasional large slip (megathrust) events. Paleoseismic observations of M$>$8 thrust events made it clear that, whereas the former case had been long-assumed, in fact the latter must prevail.}\\
+As shown in Figure \ref{figs:cascadia_eq_sources}\footnote{http://en.wikipedia.org/wiki/Cascadia$\_$subduction$\_$zone} there are three source regions for earthquakes associated with Cascadia subduction:
+\begin{itemize}
+\item Subduction interface: earthquakes associated with friction at the interface between the North American overriding plate and the subducting Juan de Fuca plate. Outboard of the trench, we may also observe bending-related faulting at the outer rise.
+\item Deep slab events: deeper than $\sim$30km we observe earthquakes within the subducting slab \citep{Preston2003}, thought to be a result of dewatering reactions or (at depths $>$70 km) a number of other proposed mechanisms including hydration embrittlement, volume-reducing phase transitions, and runaway thermal instability.
+\item Upper plate crustal faults: Earthquakes in the crust of the overriding plate, largely as a result of some trench-parallel component of convergent motion introducing a component of shear (in addition to the near-perpendicular shortening) that is accommodated in transform zones close to the plate boundary. There may also be some seismic activity associated with volcanism.\\
+\end{itemize}
+\begin{figure}
+  \begin{center}
+  \includegraphics[trim=0cm 1cm 0cm 3cm,clip=true,width=0.7\textwidth]{PaperFigs/cascadia_eq_sources}
+  \caption{\small{Cartoon of Cascadia earthquake sources}}
+  \label{figs:cascadia_eq_sources}
+  \end{center}
+\end{figure}
+
+\begin{figure}
+  \begin{center}
+  \includegraphics[trim=1cm 1.5cm 1cm 9.2cm,clip=true,width=0.7\textwidth]{PaperFigs/IRIS_stamap}
+  \label{figs:IRIS_stamap}
+  \includegraphics[trim=3cm 18.72cm 12cm 4.6cm,clip=true,width=0.2\textwidth]{PaperFigs/IRIS_stamap_legend}
+  \caption{\small{Summary of all active seismic stations in Cascadia reporting data to IRIS. Network code in legend. Map from IRIS website.}}
+  \label{figs:IRIS_stamap_legend}
+  \end{center}
+\end{figure}
+These earthquakes are captured by a number of seismic recording networks (Figure \ref{figs:IRIS_stamap}): 
+\begin{itemize}
+\item Cascadia Initiative deployment: an array of onshore/offshore seismometers and geodetic stations that has been marching up and down the Pacific NW coast.
+\item The Pacific Northwest Seismic Network (PNSN): a heterogeneous mix of seismometers deployed throughout Cascadia, run from the University of Washington.
+\item The California Integrated Seismic Network (CISN): an array of seismometers deployed throughout California, run from the University of California: Berkeley.\\
+\end{itemize}
+This close monitoring allows excellent observations of local seismicity, with magnitude of completeness of the seismic catalogue as low as M=0 beneath much of the PNSN\footnote{http://pnsn.org/blog/2014/07/29/is-mount-st-helens-seismicity-increasing}. Despite this good coverage, very few earthquakes are observed, compared to other subduction zones (e.g. Japan - see Figure \ref{fig:seismicity_comparison}). The Cascadia subduction zone is largely quiescent; this results from some convergence being accommodated aseismically (see section \ref{sec:ETS}) as well as some strain accumulation that may be released in large megathrust earthquakes (see section \ref{sec:thebigone}).
+\begin{figure}
+    \centering
+    \null\hfill
+    \subfloat[\small{Seismicity in Cascadia since 1971: $\sim$1500 earthquakes total}]{\makebox[1.2\width]{\includegraphics[height=0.6\textwidth]{PaperFigs/cascadia_seismicity}}}
+    \hfill
+    \subfloat[\small{Seismicity at Japan trench since 1971: 5000 shown, of $\sim$50000 earthquakes total}]{\includegraphics[height=0.6\textwidth]{PaperFigs/japan_seismicity}}
+    \hfill\null
+    \caption{\small{Comparison of seismicity at Cascadia and NE Japan, at the same scale. Only M$\ge$3 are shown.}}
+    \label{fig:seismicity_comparison}
+\end{figure}
+In the last 20 years we have discovered abundant evidence for very large, M$>$8 earthquakes on the Cascadia thrust zone. These destructive earthquakes have a periodicity of between 300-500 years, and the most recent was in 1700. The next ``big one'' has the potential to be the single largest natural disaster ever to strike the continental US.
+\begin{figure}[h]
+  \begin{center}
+  \includegraphics[width=\textwidth]{PaperFigs/satake2003}
+  \caption{\small{Forward models of 1700 rupture \citep{Satake2003}. The "Long-narrow" or "Long-splayed" simulations (a \& b on the left) match paleotsunami records in Japan the best. Both of these indicate that the 1700 earthquake had magnitude $M_W$ $\sim$9.0 }}
+  \label{figs:satake2003}
+  \end{center}
+\end{figure}
+The last major earthquake on the Cascadia subduction zone occurred in 1700, according to data from Japanese tsunami descriptions \citep{Satake2003} and radiocarbon dating from deposits along the Pacific NW coast \citep{Nelson1995}. A history of large earthquakes on this plate boundary has been pieced together from several types of paleoseismological data, including tsunami deposits in coastal Oregon lakes \citep{Kelsey2005}, turbidites \citep{Goldfinger2012}, and tidal-zone tsunami deposits \citep{Nelson2006}. The widespread nature of these seismic indicators points to rupture zones up to 900 km long and the magnitude of, for example, tsunami waves as far away as Japan confirms the large magnitude of these ruptures: on the order of $M_W$$\sim$9.0.
+One of the ways of investigating the state of stress on a subduction interface is by using geodetic observations to estimate fault locking. Using GPS stations close to the plate boundary, one may assess what stage of the seismic cycle the interface is at:\\
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[trim=0cm 4.3cm 0cm 0cm,clip=true,width=0.45\textwidth]{PaperFigs/seismic_cycle_cartoon}
+  \caption*{\small{Primary processes following a subduction earthquake \citep{Wang2012}}}
+  \label{fig:seismic_cycle_cartoon}
+  \end{center}
+\end{figure}
+\begin{enumerate}[(1)]
+  \item Afterslip stage: Overriding plate moves seaward.
+  \item Post-seismic: Ductile relaxation processes; near-trench region moves landward, further inland, upper plate slips seaward.
+  \item Inter-seismic: Overriding plate moves landward at subducting plate rate. Locked.
+\end{enumerate}
+Between phases (2) and (3) the region of neutral motion moves progressively landward: this line is therefore some proxy for time since rupture and mantle rheology.\\\\
+Figure \ref{fig:seismic_cycle_eg} shows a comparison between the geodetic motions at Cascadia in comparison to other subduction zones: Cascadia appears to be in the inter seismic stage (3), as expected from the known time since the last large rupture. That said, the average GPS motions are smaller in magnitude than the relative plate motion vector, indicating that only a portion of the convergence is being stored as stress on a locked interface. Given that the margin is largely aseismic (Section \ref{sec:seismicity}) the rest of the motion must be accommodated by slippage that has no seismic signature, or via ETS (Section \ref{sec:ETS}).
+\begin{figure}[h]
+    \includegraphics[trim=0cm 0cm 0cm 0cm,clip=true,width=0.8\textwidth]{PaperFigs/seismic_cycle_eg}
+  \caption{\small{Comparison of geodetic models at three well studied subduction zones \citep{Wang2012}}}
+  \label{fig:seismic_cycle_eg}
+\end{figure}
+One of the principal controls on the behaviour of the subduction zone, from seismicity to slab morphology to volcanism, is the composition and (thermal/mechanical) structure of the down going plate. Sediments may have implications for mechanical/hydrous lubrication of the plate interface, and may form accretionary wedges that affect tsunamigenesis and material transport. Pre-existing weaknesses at faults formed close to mid-ocean ridges or at the outer rise can be later reactivated within the slab, and may control localisation of deep seismicity; the availability of these structures is thought to be partly contingent upon the orientation of abyssal fabric with respect to the trench. The age of the downgoing plate ($A$), the convergence rate ($V$), and the slab dip ($\delta$), all of which are potentially interrelated, are important parameters that contribute to the \textit{thermal parameter}:
+\begin{equation}\label{eq:thermal_parm}
+	\Phi = A V \sin{\delta}
+\end{equation}
+this parameter is a proxy for the temperature of the plate at a given depth (larger $\Phi$ means cooler temperature) which is a fundamental control on the width of the seismogenic zone and the depth of mineral reactions within the slab. This last is key to the flux of water into the subduction wedge as a result of de-watering reactions. Hydrous minerals in the slab crust and upper mantle release H$_2$O, a process that controls volcanism, wedge dynamics, and global water budgets. 
+
+Thus, a good understanding of "what goes down" is the foundation upon which interpretations of subduction zone processes must be built. This understanding is built from a synthesis of ODP data, active source seismology experiments, and OBS observations, as well as geomagnetic and bathymetric surveys (e.g. \citet{Nedimovic2009}).
+\begin{figure}[h]
+    \includegraphics[width=0.6\textwidth]{PaperFigs/Nedimovic_JdF}
+  \caption{\small{Compilation of data on Juan de Fuca plate \citep{Nedimovic2009}}}
+  \label{fig:Nedimovic_JdF}
+\end{figure}
+At the point of subduction, the sediments, crust, and upper mantle of the downgoing plate contain weight percents of water bound within the structure of hydrous minerals\footnote{Some water is also carried as pore fluid, but this is mostly lost during shallow compaction. Additionally a small quantity of water is bound within nominally anhydrous minerals.}.  As the plate subducts and heats up, these hydrous minerals become thermodynamically unstable and break down, releasing their water in the process. Different minerals undergo these dehydration reactions at different depths, resulting in a spectrum of depths of release of hydrous fluid, from 40-150 km.
+
+As these hydrous fluids rise into the wedge, they hydrate the olivine-dominated mantle in the cold nose of the wedge, forming the mineral serpentine. This has significantly lower seismic velocities and higher Vp/Vs ratio than olivine, and thus the serpentinisation progress (fraction reacted) can be observed using seismic imaging techniques: the serpentinised nose of the wedge has markedly lower velocities than the adjacent peridotitic mantle, sometimes so low that there is an inverted velocity jump (i.e. low to high, as opposed to the usual high to low) at the Moho of the overriding continent (Figure \ref{fig:Bostock2002}). 
+
+Seismic images of this sort also reveal eclogitisation of the basaltic oceanic crust at depths $>$40 km. Eclogite is an assemblage of primarily garnet and omphacite (cpx) which are seismically faster than basalt/gabbro. As a result, the onset of this reaction is marked by a reduction in velocity contrast between the slab crust and the mantle.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.55\textwidth]{PaperFigs/Bostock2002}
+  \caption{Top: thermal model of Cascadia subduction zone, showing cold nose of the wedge. Bottom: S-velocity perturbations, with interpreted structure. From \citet{Bostock2002}.}
+  \label{fig:Bostock2002}
+\end{figure}
+An emerging technique which has important potential for informing us about fluids, in particular, is the magnetotelluric method (e.g. Figure \ref{fig:Evans2013}). This measures conductivity (or, inversely, resistivity) which is a  function of temperature and is also strongly sensitive to the presence of interconnected fluids and melts. This has the potential to enable observation of fluid transport pathways within the mantle wedge, which may allow us to answer long-held questions regarding channelisation and the nature of arc melts. This imaging technique can also be used complementarily with seismic analysis, to help resolve trade-offs between heterogeneities in melt/temperature/composition.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{PaperFigs/Evans2013}
+  \caption{Preferred model from an EM inversion using an onshore/offshore MT transect in central Cascadia. N.B. this model is under-resolved, and importantly includes prior information specifying a slab. From \citet{Evans2013}.}
+  \label{fig:Evans2013}
+\end{figure}
+Using a combination of reflection (and refraction) data collected during active source seismic experiments, we may image the structure of the shallow subduction system. We observe the megathrust interface as well as structures within the accretionary prism and overriding plate. This may inform us about potential rupture characteristics, for example the presence of megasplays with tsunamigenic risk. In more detail, the nature of the reflective character of the interface is thought to be related to its physical properties (e.g. thickness, presence of water) that in turn control seismogenicity. \citet{Nedimovic2003} show a good agreement between a change in reflection character of the plate interface and the transition\footnote{Inferred from thermal and dislocation studies.} between locking and aseismic sliding. The down-dip limit of the frictionally unstable portion of the fault is a key control on the maximum size of earthquake that may occur, since magnitude is proportional to area and, hence, fault width. Thus the reflection character may inform us about potential seismic hazard and fault behaviour.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=\textwidth]{PaperFigs/Nedimovic2003}
+  \caption{Preferred model from an EM inversion using an onshore/offshore MT transect in central Cascadia. N.B. this model is under-resolved, and importantly includes prior information specifying a slab. From \citet{Nedimovic2003}.}
+  \label{fig:Nedimovic2003}
+\end{figure}
+iMUSH\footnote{The following descriptions reference information on the iMUSH website: http://imush.org.} is an ongoing collaborative experiment attempting to image Mt. St. Helens in more detail and with a greater variety of observational techniques than have ever before been brought to bear on a single volcano. The total data collection will take 4 years, and will entail passive seismic monitoring, multi-shot active-source seismics, magnetotelluric imaging, and extensive geochemical sampling to complement the existing database. This experiment brings together researchers from the University of Washington, Rice University, Columbia University, Oregon State, as well as the USGS. 
+\begin{itemize}
+	\item \textbf{Passive seismic:} A 100 km aperture array of 70 broadband instruments was installed in June 2014, centred on the volcano. These stations will record local and teleseismic earthquakes during their 2 year lifetime; in theory, they will allow tomographic imaging down to $\sim$100 km depth, as well as monitoring shallower seismicity caused by magma movements. Receiver function and ambient noise techniques will contribute to detailed 3D imaging of crust and upper mantle. 
+	\item \textbf{Active seismic:} 23 explosive charges in roughly concentric rings around the volcano provided the sources for this part of the experiment; these charges were placed in boreholes and were of considerable magnitude: the largest two were recorded as $M_L = 2.3$. The receivers were arrayed in SE-NW and SW-NE refraction lines, as well as shorter radial lines, and in dense lines in the volcano's immediate vicinity (see Figure \ref{fig:imush_active}): around 4200 sensors in all. The 150 km offset refraction lines should image down to the 15km moho, and an interative analysis scheme of travel time tomography, waveform tomography, and adjoint tomography will lead to a highly detailed image of the crustal structure within the arrays. 
+	\item \textbf{Magnetotelluric:} A wide-aperture array of 150 wide-band MT stations, with a nominal site spacing of 7.5 km, will shortly be deployed, bridging the gap between a previous edifice-scale study and the coarse Earthscope coverage. This technique aims to answer a principal question: where and in what volumes do arc magmas stall within the crust?
+	\item \textbf{Geochemical:} Systematic sample collection will complement existing petrological datasets. In-situ U/Th/Pb dating on zircons will identify xenolith inclusions that are co-magmatic with recent volcanic activity. For those inclusions with amphibole and pyroxene phenocrysts, geothermobarometric techniques will be applied to obtain crystallisation histories. The resultant constraints on last equilibration P,T conditions (putatively identifying magma chambers/stalling sites) can be compared to the geophysical results.
+\end{itemize}
+\begin{figure}[1,h!]
+  \centering
+  \includegraphics[width=0.75\textwidth]{PaperFigs/imush_passive}
+  \caption{Intended deployment of all passive stations.}
+  \label{fig:imush_passive}
+\end{figure}
+\vspace{4cm}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\textwidth]{PaperFigs/imush_active_receivers}
+  \caption{Planned active-source experiment: shots are stars and receivers are dots. Left is the entire deployment, right is a close-up around Mt St. Helens. Purple receivers are deployed throughout, blue receivers are deployed for the first set of shots, red ones for the second.}
+  \label{fig:imush_active}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Episodic Tremor and Slip\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{PaperFigs/Scholz_BDT}
+  \caption{Frictional stability in subduction zones.  Earthquake nucleation occurs in the unstable regime (pink).  \textit{After \citet{Scholz1998}}}
+  \label{BDT}
+\end{figure}
+In addition to being an area of interest for those studying megathrust earthquakes, Cascadia is notable in its role as the site where the phenomenon of episodic tremor and slip (ETS) was first observed.  First, we consider the frictional stability conditions of a subducting plate in order to put the ETS phenomenon into context (Figure \ref{BDT}).  The shallowest part of a subducting plate (the upper $\sim$10 km) is generally thought of as stably sliding due to the velocity strengthening character of shallow sediments \citep{Ikari2011a,Marone1988,Scholz1998}.  Seismicity generally nucleates below this depth up to depths of around 35 km where material begins to deform by more plastic mechanisms \citep{Hyndman1997}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{PaperFigs/GPS_seismicity}
+  \caption{Episodic tremor and slip can be recorded using GPS (blue data) as well as cross-correlated seismic signals.  The coincidence of these measures provides confidence that this strain is being accommodated in tremor events rather than by aseismic slip.  \textit{\citep{Rogers2003}}}
+  \label{GPS_seismicity}
+\end{figure}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{PaperFigs/ETS_migration}
+  \caption{Migration of ETS in Cascadia.  \textit{\citep{Kao2009}}}
+  \label{ETS_migration}
+\end{figure}
+	In 2001, through analysis of GPS data, scientists were able to record a new mechanism for release of strain in subduction zones \citep{Dragert2004}.  Geodetic signals in the Cascadia region that show repeated episodes of increased slip in the opposite direction of plate motion have been demonstrated to be contemporaneous with emergent seismic signals that are correlated across local seismic networks (Figure \ref{GPS_seismicity}) \citep{Dragert2004,Rogers2003}.  ETS in Cascadia is characterized by repeating slip events that last for tens of days and recur approximately every 14 months.  These signals are also seen in other places such as in Japan \citep{Obara2002,Obara2009} though the repeat times in different locations vary slightly.  These events have also been demonstrated to migrate in space during each recurrence (Figure \ref{ETS_migration}) \citep{Kao2009}.  Proposed mechanisms for ETS have focused on the effect of elevated pore fluid pressure in generating low frequency events at the deep transition zone conditions (Figure \ref{ETS_water}) \citep{Burlini2009,Saffer2011}.   
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{PaperFigs/ETS_water}
+  \caption{Earthquakes (black dots) and low frequency events/ETS (red dots) overlaying a $v_p/v_s$ map.  The ETS events correspond to areas of high pore fluid pressure.   \textit{\citep{Burlini2009}}}
+  \label{ETS_water}
+\end{figure}
+	ETS has been an area of active recent research, largely due to the implications for seismic hazards in several subduction zones around the world \citep{Dragert2004}.  Specifically, the discovery of ETS changed the way that megathrust faults are thought to be loaded.  Rather than being loaded continuously due to a constant convergence between two plates, megathrust loading is now thought to have a saw-tooth component where faults are loaded from below during the tremor events and loading decreases during the quiet periods.  Also, the discovery of this stress-release mechanism has provided another potential constraint on the lower-limit of propagation for large megathrust events, allowing for more constrained estimates of the largest expected earthquake in the relevant subduction zones.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Crustal structure and seismicity of North Cascades\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This section is basically a summary of \citet{van2002crustal}, which is based on the results of a joint inversion of local earthquake locations and crustal seismic velocity around the Seattle area.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=6in]{PaperFigs/vel_map}
+	\caption{P wave velocity map at 2.5km depth. Black open circles are earthquake locations. }
+	\label{fig:velmap}
+\end{figure}
+Figure~\ref{fig:velmap} shows a map of P-wave velocity at 2.5 km depth in this area, together with the major fault locations and geological units. 
+
+The local stress environment mainly is controlled by the clockwise rotation of Oregon block relative to the North American plate, and the subduction of the Juan De Fuca plate. Locally, the shallow stress field is dominated by a N-S trending compression, while the deeper (sub-crustal) structure is mainly controlled by the eastwards subduction. As a result, the seismicity in this legion can be divided into two groups: the crustal events with the P-axis (compressional axis) trending mainly N-S direction (Figure~\ref{fig:gmt}, and deep earthquakes that are subduction related.
+
+From the seismic velocity structure in Figure~\ref{fig:velmap} we can easily identify different geological units. All the sediment basins are associated with slow anomalies, and they are separated by several E-W trending velocity highs which are either anticlines or uplifted by the surrounded thrust faults. Olympic mountains are associated with fast velocities because the exposure of Crescent basalt and basement.
+
+The local seismicity mainly concentrates between the depth of 15 to 25 km within the central part of the model, which is interpreted as inside the Crescent basement. The focal mechanisms reveal primarily strike-slip and thrust events, with the P-axes directing N-S with an overall average plunge less than $20^\circ$, as shown in Figure~\ref{fig:gmt}.
+
+Seattle fault zone (SFZ) is associated with frequent occurring shallow events and could be seismic hazardous.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=6in]{PaperFigs/gmt}
+	\caption{Focal mechanisms of the local earthquakes}
+	\label{fig:gmt}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Volcano Seismology\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Volcanic eruptions have great societal impacts and often cause significant human and economic losses. Seismic signals preceding and during volcanic eruptions can help us better understand their physical mechanisms and facilitate forecasting volcanic hazard. Compared with tectonic earthquakes, which are usually generated by releasing the stress built up due to relative plate motion, volcanic earthquakes have a large variation of focal mechanisms yet many of them unclear. Volcanic earthquakes also have distinctive signal characteristics. 
+\begin{figure}
+   \begin{center}
+    \includegraphics[width=0.4\textwidth]{PaperFigs/Yang_1a}
+    \hfill
+    \includegraphics[width=0.5\textwidth]{PaperFigs/Yang_1b}
+    \hfill\null
+    \caption{An example of a volcanotectonic (left) and a low frequency event (right) at Mt. Merapi, Indonesia. \citep{Wassermann2002}}
+    \label{Yang_1}
+    \end{center}
+\end{figure}
+
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=6in]{PaperFigs/Yang_2}
+	\caption{Example of waveform and spectrogram of harmonic tremor form Mt.Semeru, Indonesia. \citep{Wassermann2002}}
+	\label{Yang_2}
+\end{figure}
+
+Volcanic seismic signals can be generally divided into two main categories: transient and continuous signals \citep{McNutt2005}. One major type of event in the transient signal category is volcanotectonic (VT) earthquakes. VT earthquakes are thought to have a double couple shear failure mechanism, similar to a tectonic earthquakes. Deep (>2 km) VT events are characterized by clear onset of P and S wave arrivals and high frequency content (> 5 Hz). Shallow (< 2 km) VT events, on the other hand, have more emergent P wave but no clear S wave arrival.  Another major type of transient signal is the low frequency (LF, or long period, LP) event. These events usually have a weak high frequency onset, followed by quasi-monochromatic oscillations. LF events are believed to be induced by the opening and resonating of cracks as magmas are moving in the shallow part of the volcano \citep{Wassermann2002}. Other types of transient signal includes hybrid event (combination of VT and LF events), explosion and rockfalls.
+
+Volcanic tremor is the most common continuous seismic signal. Volcanic tremor signals can last between minutes and months and are very narrow band. Nearly all volcanoes show tremor at different eruption stages and volcanic tremor is the most favored parameter in volcano early eruption warning. Harmonic tremors have nearly constant energy on a few resonance frequencies (Figure \ref{Yang_2}), while spasmodic tremors have higher or more broadband frequency exhibiting pulsating signals.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=6in]{PaperFigs/Yang_3}
+	\caption{Schematic diagram of the time history of a generic earthquake swarm model.  \citep{McNutt1996}}
+	\label{Yang_3}
+\end{figure}
+
+Nearly all volcanic eruptions are preceded by some kind of seismic activities. However, occurrence of seismic activities do not directly indicate the timing of an oncoming eruption. Seismic activities may begin months or hours before an eruption, hindering more effective forecasting. \citep{McNutt1996} reviewed the generic volcanic earthquake swarm model (Figure \ref{Yang_3}). In the generic model, high frequency VT earthquake swarms begin first in the eruption cycle, reflecting brittle failure of the country rock near the volcano due to increasing magmatic pressure or transport of magma from depth. When magmas arrive at shallow depth, volatiles begin to exsolve from the magmas, altering their rheology and acoustic properties. Thus at shallow depth the signals generated by magma movement are rich in low frequency. The appearance of LF events and tremor are followed by a period of quiescence of relatively low seismicity rate, before the final volcanic eruption. The difficulty for accurately forecasting the eruption lies in the lack of a deterministic precursor shortly before the eruption. 
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=6in]{PaperFigs/Yang_4}
+	\caption{Counts of earthquakes > M 2.5 preceding and during the 1980 Mount St.Helens eruption. \citep{McNutt1996,Malone1981}}
+	\label{Yang_4}
+\end{figure}
+On May 18, 1980, Mount St.Helens in Washington erupted catastrophically after 59 days of increased seismicity. The sequence started on March 20, 1980, when an M=4 event occurred. Seismicity rate quickly increased to eight M>4 event per hour on March 27. The seismicity rate then gradually decreased, with no immediate precursors in the hours before the catastrophic eruption. However, it is believed that the shaking of a 5.1 earthquake uncapped the volcano and initiated the eruption. 
+
+%%%%%%%%%%%%%%% VOLCANIC FEATURES %%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Volcanic Features\\\textit{Chloe Gao, Celia Eddy, Philipp Ruprecht, and Natalia Zakharova}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mt. Rainier\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Mount Rainier is an active stratovolcano whose 4393 meters height makes it the highest peak of the Cascade Range.  Its geological features, high elevation, hydrothermal alteration, icecap, glacier-fed radial valleys also make it the most dangerous volcano in the Cascades. When it erupts, Mount Rainier could produce tephra, lava flows, pyroclastic flows and surges, as well as lahars, which could pose greater threat than the eruption itself (Figure \ref{MtRainierHazards}). 
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/MtRainierHazards}
+	\caption{This map shows potential impact area for ground based hazards during a volcanic event in Mount Rainier.}
+	\label{MtRainierHazards}
+\end{figure}
+
+Volcanic eruptions usually produce plumes of gases mixed with solid particles from rocks. These solid rock particles rise with the hot gases together to a height where they are no longer buoyant. At that point, tephra/volcanic ash, the particles in the plume, falls down and covers a wide range of area. The wind would carry the particles away from the vent; therefore, the particles' size and thickness decrease as distance from the vent increases.
+ 
+Compared to other Cascades volcanoes, Mount Rainier is not a significant source of tephra. In the past 10,000 years, eruptions have left layers of pumice (tephra), who were produced by gas-rich magma (molten rock), on Mount Rainier. The many other layers between the pumice layers were produced by gas-poor magma or steam-driven eruptions.
+
+Tephra is a mixture of hot gas with rock particles that is less dense than air, but sometimes eruptions produce a similar mixture more dense than air.  Whereas the low density gas-particle mixture rise to produce tephra, the higher density mixture flows on the earth surface to 1) produce pyroclastic flows, if it is made up mostly of rock particles (gas-poor), or 2) produce pyroclastic surge, if it is made up mostly of gas (gas-rich). Pyroclastic flows and pyroclastic surge usually happen simultaneously, the former has high density and its path is controlled by topography, the latter, being made up of mostly gas, has low density, and its path is not so much controlled by topography. They are highly dangerous due to their typical high speeds of more than 10 meters per second, and at points close to the source, their speeds could reach up to 100 meters per second or more. Pyroclastic flows are also hazardous due to their high temperature exceeding 300 degree Celsius.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/MtRainierLahars}
+	\caption{Schematic of eruptive hazards.}
+	\label{MtRainierLahars}
+\end{figure}
+
+Mount Rainier has few deposits of both pyroclastic flows and surges. Two possible reasons are, one, Mount Rainier does not produce much of them; two, most of the pyroclastic flows and surges meet snow and ice on their way downhill, melt them, then they all mix together to form debris flows.
+
+Lava flows are flows of molten rock that were erupted non-explosively and flowed downhill to cool and solidify. Slow-moving, very viscous andesite lava flows make up most of Mount Rainier. Even though they destroy everything upon contact, their main hazard comes when they meet snow and ice, melts them and mix to form debris flows and floods. The only lava flow that erupted from Mount Rainier built the summit cone, and probably the ridges of the Emmons Glacier as well.
+
+As mentioned before, lava flows and pyroclastic flows melt snow and ice and form the greatest volcanic hazard, debris flows, which are slurries of water and sediments. They are sometimes called mudflows and in volcanic events, lahars. They flow at speeds that ranges from tens to hundreds of miles per hour and destroy things upon contact. There were at least 60 debris flows in Mount Rainier in the past ten thousand years. Debris flows can be cohesive and non-cohesive, the former form from clay from chemically altered rocks, and the latter form from the mixture of pyroclastic flows and lava flows with snow and ice melt. 
+
+Mount Rainier has two types of lahars:
+\begin{itemize}
+\item Meltwater-generated lahars (see diagram): Mount Rainier has much glacial ice; pyroclastic flows and lava flow melt the ice and form these lahars.
+\item Landslide-generated lahars: Landslides can happen when magma intrudes into a volcano or triggered by earthquakes. Magma releases heat that creates acidic water that can convert volcanic rock into weak rocks by hydrothermal alteration. When these weak clay-rich rock slide, they form lahars.
+\end{itemize}
+
+\begin{figure}
+   \begin{center}
+    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers1}
+    \hfill
+    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers2}
+    \hfill
+    \includegraphics[width=0.3\textwidth]{PaperFigs/MtRainierGlaciers3}
+    \hfill\null
+    \caption{Formation of ridges modulated by the presence of glaciers at Mt. Rainier.}
+    \label{MtRainierGlaciers}
+    \end{center}
+\end{figure}
+
+\begin{itemize}
+\item During the Pleistocene, glaciers on Mount Rainier were much more voluminous than they are in present day, and they filled all of the valleys on the mountain (Figure \ref{MtRainierGlaciers} \textit{left}).
+\item Lava flows travel along the path directed by topography and of least resistance. They flowed along the sides of the glaciers and piled on top of each other.
+\item As time goes by, glaciers slowly melted and exposed the lava flow ridges created by old lava flows.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mt. Saint Helens\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mount St. Helens is an active stratovolcano located in the Cascades Volcanic Arc. It is located within the Gifford Pinchot National Forest, about 100 miles south of Seattle. Water from the volcano drains into three main river systems: The Toutle River to the north and northwest, the Kalama River to the west, and the Lewis River to the south and east.
+Subduction of the Juan de Fuca plate beneath the North American Plate at $\sim$40 mm/year leads to arc volcanism along the northwest coast of the United States. The volcanic arc extends from Lassen Peak in Northern California to Mt. Baker in Washington, extending even further north into Canada. Although volcanism began in the Cascades Arc about 37 Myr ago, most of the present-day volcanoes are less than 2 Myr old. St. Helens is relatively young compared to other major volcanoes in the range; the current volcanic edifice has formed within the past 40 kyr. During the Holocene, St. Helens has been the most active volcano within the arc. 
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_1}
+	\caption{Eruptive stages of St. Helens. Figure from USGS.}
+	\label{Celia_1}
+\end{figure}
+Although the present-day edifice has formed relatively recently, there is evidence for intermittent volcanism in the Mt. St. Helens region for the past 500 kyr. The eruptive history of St. Helens can be divided into four main eruptive stages, separated by dormant intervals for which no volcanic products have been recognized (Figure \ref{Celia_1}). In the early stages, the volcano consisted of a cluster of domes, surrounded by tephra and debris fans of fragmented volcanic rocks. 
+
+The first stage, Ape Canyon, extends from the onset of volcanism in the region at $\sim$300 kyr until 35 kyr ago.  During the Ape Canyon stage, volcanism produced a cluster of lava domes, mostly west of the present edifice. Ash layers extend over a large area indicating the occurrence of explosive eruptions. The second stage, Couger, went from 23 kyr – 17 kyr. Many explosive eruptions occurred during this stage, ejecting large amounts of ash, forming lava domes and flows, pyroclastic flows, large debris avalanches, and lahars. The largest observed lava flow in St. Helens eruptive history occurred during this stage; the Swift Creek Flow, up to 200 m thick, reached 6 km down the Swift Creek drainage. The third stage, Swift Creek, lasted between 13 kyr – 11 kyr. During this stage there were many pyroclastic flow and lahars, and expansive tephra deposits. Together, these three make up the ancestral stages of St. Helens volcanism. 
+
+The current stage of volcanism, Spirit Lake, began 4000 years ago. The eruptive stages differ primarily in the composition in the erupted lavas. Ancestral lavas consist of a mixture of dacite and andesite, while the modern lavas are more diverse, ranging from olivine basalt to andesite. This indicates progression from a simple to a more complex magmatic system as the volcano matured; more mixing occurs between silicic and mafic pools of magma as the volcano evolved.
+
+Intermittent volcanism in the Spirit Lake stage is divided up into shorter eruptive periods. For this stage there is better preservation of deposits and good age estimates from carbon and tree-ring dating. As a result, there is more detail for the eruptive history within the present stage. The Spirit Lake stage consists of seven periods of volcanism. The Smith Creek period occurred between 4000-3300 years ago, during which time the most voluminous eruption in St. Helens history happened. This eruption was approximately four times larger than the eruption in 1980. The Pine Creek period occurred from 2900-2500 years ago and was characterized by smaller-volume eruptions. During the Castle Creek period, from 2500-1600 years ago, there was a change of composition of the erupted lavas. Olivine and basalt are present in lavas from this stage, indicating intrusion and mixing with a mantle-derived magma that contaminated the crustal magma system. During this period, clusters of domes from earlier periods were transformed into the classic cone-shaped composite volcano through multiple basalt and dacite flows erupted within a short period of time. During the Sugar Bowl period around 1200 years ago, there was short-lived growth of three lava domes and there is evidence for lateral blasts similar to the one that occurred during the 1980 eruption. The Kalama period, from 1479-1720 A.D., was characterized by large-volume eruptions that lead to growth of a large dome at the summit. From 1800-1857, the Goat Rocks period was the last period of activity before the modern eruptive period. The last significant eruption before 1980 occurred in 1857.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_2}
+	\caption{Cryptodome on the north flank of St. Helens in the days preceding the eruption on May 18, 1980.}
+	\label{Celia_2}
+\end{figure}
+
+In the spring of 1980, activity began at St. Helens. The main eruption was preceded by an earthquake swarm beginning on March 20, 1980. This swarm lasted for several months, during which time there were several small eruptions at the volcano. Magma intruding into the volcano caused the north flank to swell and form a cryptodome. By the time of the eruption on May 18th, the north flank of the volcano had swelled almost 500 feet (Figure \ref{Celia_2}).
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_3}
+	\caption{Ash cloud during the May 1980 eruption of St. Helens.}
+	\label{Celia_3}
+\end{figure}
+
+On May 18, 1980 at 8:32 A.M. there was a magnitude 5.1 earthquake. A few seconds later, the north flank of the volcano collapsed, leading to the largest debris avalanche in recorded history during which 2.5 cubic km of material travelled at speeds of 170-250 km/hr. This collapse reduced the confining pressure on the partially molten, volatile rich rock, leading to the lateral blast and eruption. The pyroclastic flow from the eruption flattened vegetation and buildings over an area of 600 square km, and traveled at 250-1080 km/hr. Tephra was erupted for more than 9 hours, with the ash plume reaching more than 20 km into the atmosphere (Figure \ref{Celia_3}). The ash then moved east at about 60 mph and was deposited over 11 states. Lightning generated in the ash cloud also started forest fires. Ice, snow, and water on St. Helens mixed with debris to form lahars, which flowed down the Toutle and Cowlitz rivers. In total, the eruption released 24 Mton of thermal energy and more than 0.67 cubic miles of material was ejected. Figure 3 shows pictures taken just before and after the eruption. The elevation of the summit was reduced from 9677 ft to 8365 ft.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_4}
+	\caption{Before and after the May 1980 eruption of St. Helens, looking from the North.}
+	\label{Celia_4}
+\end{figure}
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Celia_5}
+	\caption{“Whaleback” feature seen in the crater on St. Helens in February 2005.}
+	\label{Celia_5}
+\end{figure}
+
+The eruption caused extensive damage. 57 people were killed, including USGS volcanologist David Johnston. 250 homes, 45 bridges, 15 miles of railways, and 185 miles of highway were destroyed, causing $\$$1.1 billion in property damage. Ash fallout also destroyed crops over a large region.
+
+In the years following the 1980 eruption, a new dome grew (Figure \ref{Celia_4}). A glacier also formed in the crater of St. Helens the winter after the eruption. It grew in thickness rapidly at a rate of 4.3 m/year. The rapid growth was due to both heavy winter snowfall and sun-shading by surrounding cliffs to the south of the glacier. It was divided in half by recent volcanic activity between 2004-2008. Figure \ref{Celia_5} shows a “whaleback” feature in February 2005, part of new growth of the dome. Since 1980, vegetation has come back quickly in the area surrounding the volcano. Of the volcanoes in the Cascades Volcanic Arc, St. Helens is one of the most likely to erupt in the future. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mt. Baker\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Columbia River Basalts\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The Columbia River Basalt Group (CRBG) is a large igneous province (LIP) that covers over 70,000 square miles of the Pacific Northwest (Washington, Oregon and Idaho), with a total estimated volume of 53,700 cubic miles \citep{Martin2005}. The flood basalts erupted from linear fissures between 17.5 and 6 Ma ago (late Miocene-early Pliocene). The CRBG consists of a sequence of over 300 tholeiitic basalt flows, the majority of which erupted during a period of 2.5 million years (17-14.5 Ma ago). During this peak activity, many individual flows exceeded 1,000 km$^3$ in volume, and traveled hundreds of miles from their vent system \citep{Martin2005}. Despite their huge volumes and great distances traveled, the stratigraphic units in the CRBG can be reliably identified and correlated on a regional basis, mostly due to a remarkable geochemical homogeneity of individual flows \citep{Hooper2000}. Based on the combination of geochemical composition, paleomagnetic properties, and lithology, the CRBG is divided into five main formations (in ascending stratigraphic order): the Imnaha, Grande Ronde, Picture Gorge, Wanapum, and Saddle Mountains Basalts (Figure \ref{Natalia_1}), each of which is further subdivided in members and flows \citep[e.g.]{Reidel1998}. The most voluminous formation is the Grande Ronde Basalt, erupted 16.5 to 14.5 Ma ago, which constitutes about 85$\%$ of the CRBG volume and consists of 17 individual members \citep{Reidel1989}.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_1}
+	\caption{Geologic map of the Columbia River Basalt Group \citep{Martin2005}.}
+	\label{Natalia_1}
+\end{figure}
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_2}
+	\caption{A model of the spread of the Yellowstone mantle plume \citep{Camp2004}, showing (1) the approximate position of the plume head after impingement and rapid spreading (?15.0 Ma), (2) its approximate position today after moderate rate spreading associated with asthenospheric drag and counterflow above the subducting plate, (3) the track of the plume tail connecting that CRBG with the modern-day position of the Yellowstone hotspot. The short lines located above the area of first-stage spreading are surficial dikes; the longer curvilinear lines indicate the linear magnetic anomalies, which are thought to be buried intrusions or keel dikes. The approximate boundaries of distinct lithospheric domains beneath the plume head are delineated by the 87Sr/86Sr isopleths.}
+	\label{Natalia_2}
+\end{figure}
+
+As with other LIPs, formation of the Columbia River flood basalts is commonly attributed to a mantle plume, or a ‘hotspot’ activity. Although this theory is not universally accepted, the CRBG is generally associated with the passage of the North American plate over the Yellowstone hotspot \citep[e.g.]{Camp1995,Smith2009}, as it best explains the eruption of such a large volume of tholeiitic basalt within such an unusually short period and within such a restricted area \citep{Hooper2007}. Unlike the younger magmatism of the Snake River Plain, also produced by the Yellowstone hotspot, the CRBG lies off the projected track of roughly southwestward plate motion (Figure \ref{Natalia_2}). \citet{Camp1995} explained this apparent ‘discrepancy’ by a two-phase plume spreading model consisting of a wide plume ‘head’ and a more focused plume ‘tail’ (Figure \ref{Natalia_2}). According to this model, the CRBG, along with the Oregon Plateau lavas, were produced by the plume head that rapidly spread outward under a thinner transitional lithosphere and accreted terrains, westward of the continental craton roughly 16-15 Ma. The subsequent Snake River Plain magmatism, in contrast, was produced by the plume tail and closely tracks the southwestward motion of the North American plate.
+The Columbia River Basalt Group is located in the intermontane region between the Cascade Range and the Rocky Mountains of the Pacific Northwest, and forms a broad plain also called the Columbia Plateau \citep[e.g.]{Martin2005}. In the central part of the plateau, the CRBG is underlain predominantly by early Tertiary continental sedimentary rocks and overlain by late Neogene and Quaternary fluvial and glacial-fluvial deposits. Farther east, the CRBG is directly underlain by metasediments of the Paleozoic continental margin \citep{Reidel2002}. 
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Natalia_3}
+	\caption{Principal structural features of the Columbia River Flood Basalt province \citep{Martin2005}.}
+	\label{Natalia_3}
+\end{figure}
+
+The Columbia Plateau consists of three structural-tectonic regions or subprovinces: the Yakima Fold Belt, the Palouse Slope, and the Blue Mountains (Figure \ref{Natalia_3}). The Yakima Fold Belt is the western portion of the Columbia Plateau, where CRBG flows and sediments were folded and faulted during and after the flows were emplaced. This resulted in a series of anticlinal ridges and synclinal valleys that controlled the thickness and distribution of subsequent CRBG flows. Immediately east of the fold belt, the basalts erupted on the Palouse Slope, which is a gently westward dipping paleoslope of pre-Miocene age overlying the North American craton \citep{Reidel1998}. The Palouse Slope is significantly less deformed, with only a few faults and low-amplitude, long-wavelength folds. The Blue Mountains is a broad NE trending anticlinorium that extends over 250 km from the Oregon Cascades to the eastern part of the Columbia basin and was growing during the eruption of the basalt. It overlies the Mesozoic accreted terrains and Eocene and Oligocene volcanic rocks. Dikes and vents for the CRBG occur in the Palouse Slope and Blue Mountains provinces \citep{Reidel1998}.
+
+\begin{figure}
+   \begin{center}
+    \includegraphics[width=0.2\textwidth]{PaperFigs/Natalia_4a}
+    \quad
+    \includegraphics[width=0.3\textwidth]{PaperFigs/Natalia_4b}
+    \hfill\null
+    \caption{Typical flow structure in the Columbia River Basalt Group. Left – A simplified flow schematic \citep{Long1986}; Right – colonnades and entablature in a CRBG flow.}
+    \label{Natalia_4}
+    \end{center}
+\end{figure}
+
+Each CRBG formation consists of tens to hundreds individual flows, each representing a single extrusive event. A single flow may cover as much as 5,000 $mi^2$ and extent for over 300 miles in one direction \citep{Ho1997,Reidel1998}. A single flow typically averages around 90 ft in thickness but can be as thick as 300 ft. Most flows display complex patterns of internal structures that include porous, glassy and brecciated flow tops, and dense flow interiors, usually dominated by colonnades and entablatures (Figure \ref{Natalia_4}) \citep[e.g.]{Long1986}. Colonnades consist of relatively well-formed polygonal columns that separated by cooling joints, and usually occur in the basal portion of flows, although they can also constitute the entire flow thickness. The columnar joints result from contraction during slow cooling, as the columns grow perpendicular to the cooling front (resulting in vertical columns in subhorizontal flows). Entablatures are characterized by a greater abundance of cooling joints that are more randomly oriented than in colonnades, and they often occur further away from cooling boundaries.
+
+\begin{figure}
+   \begin{center}
+    \includegraphics[width=0.25\textwidth]{PaperFigs/Natalia_5c}
+    \quad
+    \includegraphics[width=0.25\textwidth]{PaperFigs/Natalia_5b}
+    % leave this space blank so that the last picture will go on the next line
+    \includegraphics[width=0.6\textwidth]{PaperFigs/Natalia_5a}
+    \center
+    \caption{Examples of columnar joints in the Columbia River Flood Basalt.}
+    \label{Natalia_5}
+    \end{center}
+\end{figure}
+
+In simple terms, formation of the colonnades happens as following. As a lava flow cools, the temperature field within it changes in accord with Fourier’s law for heat conduction. The cooling front moves inside the body causing thermal contraction cracks to occur perpendicular to isothermal surfaces. The networks of interconnected tension fractures tend to divide solids into prisms bounded by three to eight sides (the pentagons are, in fact, as abundant as commonly known hexagons \citep{Budkewitsch1994}). The joints in the colonnades also commonly exhibit surface markings known as striae \citep{Grossenbacher1995}. They represent a single increment of join growth. As the result, the long slender joint faces of individual columns are built from a stacked succession of short crack segments. In general, large columns signify slower cooling while narrow columns result form faster cooling. Many CRBG flows exhibit spectacular colonnades that vary from about a foot to many feet in diameter (Figure \ref{Natalia_5}).
+
+%%%%%%%%%%%%%%% SURFACE PROCESSES %%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Surface Processes\\\textit{Jonathan Gale, Mike Wolovick, Keren Mezuman, and Nandini Ramesh}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Tsunamis and Surface Expressions of Earthquakes\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Paleotsunamis and their parent megathrust earthquakes have been part of native stories for hundreds of years. Specifically the 1700 Cascadia earthquake can be characterized in some detail by these stories.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_1}
+	\caption{Story Motifs related to Cascadian Earthquake and Tsunami Phenomena \citep{Ludwin2005}}
+	\label{Jonathan_1}
+\end{figure}
+
+The entire Cascadia subduction zone appears to have evidence for paleotsunami activity. As part of the trip itinerary, we pass along parts of the coast that have this evidence for past megathrust earthquakes - notably the low lying Aberdeen area in Grays Harbor County. Several sites in this area have paleotsunami evidence for such earthquakes.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_2}
+	\caption{Map of Cascadia Subduction Zone with land level changes and paleotsunami locations.}
+	\label{Jonathan_2}
+\end{figure}
+
+Paleotsunamis have been recorded in the low areas along the Pacific coast and Puget sound. Buried trees that died during these events are used for dating the 1700 earthquake. For older events, radiocarbon was used to measure the ages of the washed up marine material. Japanese records of tsunamis have also been used to match the local sand flows on the Cascadia margin with specific dates and times.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Jonathan_3}
+	\caption{Photo from Oregon's Salmon River of a peat layer overlain by tsunami sands which are covered by grey-green layers of marine plants and sediments.  Two Native American campfire pits buried by the peat, paleotsunami deposit. (From PNSN)}
+	\label{Jonathan_3}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Glacial History and Features of Washington\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Glaciers are solid-state rivers.  At the most fundamental level, they function as a drainage system for snow, just as rivers function as a drainage system for rain.  In mountainous terrain, snow accumulates at high elevations where it is cold year-round.  Glacial flow transports this snow to lower elevations, where it melts during the summer months.  The runoff enters the normal fluvial system and eventually reaches the ocean, completing the hydrologic cycle.  
+
+In a valley glacier setting, the glacier is generally divided into two regimes based on elevation: the accumulation zone and the ablation zone, separated by the equilibrium line altitude (ELA) \citep{Cuffey2010}.  In the accumulation zone higher on the mountain, net snowfall exceeds net melt over the annual cycle.  In the ablation zone lower down, net melt exceeds net snowfall.  Both zones experience snowfall in the winter, but in the ablation zone summer melt eats away all the winter snow and cuts down into the underlying glacial ice.  In the accumulation zone, summer melt (if it occurs) is insufficient to remove winter snow.  The excess snow is compacted by the pressure of subsequent years' snowfall (and by in situ refreezing of summer melt) until it is metamorphosed into glacial ice, which has a characteristic blue color.  
+
+The ELA also marks a transition in strain rate within the glacier, and thus in deformation structures observable in the field.  Within the accumulation zone, the glacier experiences extension and thinning, while in the ablation zone the glacier experiences compression and thickening \citep{Cuffey2010}.  If a glacier is in balance, the thickening or thinning is exactly compensated by surface mass balance.  In the accumulation zone the loss of thickness due to extension is replenished by net annual snowfall, while in the ablation zone the gain of thickness due to compression is planed off by net annual melt.  However, glaciers are rarely in balance, so fluctuations in thickness and length are common.  In addition, local strain rates differ from the average within that region of a glacier due to flow around bedrock obstacles, curves in the glacier's path, and junctions with tributaries or distributaries. 
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Mike_1}
+	\caption{Crevasses on the lateral shear margin of Nesqually Glacier on Mount Rainier.  Glacier surface is partially covered by avalanche debris.  Picture by Mike Wolovick.}
+	\label{Mike_1}
+\end{figure}
+
+The upper surface of a glacier contains many deformation structures that are readily observed from a distance.  The most common are crevasses (Figure \ref{Mike_1}), or tensile cracks.  Crevasses open when the glacier experiences extension, and the tensile stress causing extension is greater than the overburden pressure of the ice.  Crevasses form in the accumulation zone, around local flow irregularities, and in shear margins along the trunk of a glacier (shear can be broken down into perpendicular tension and compression along the principal axes).  Once formed, crevasses are advected downstream by glacial flow, and may be subsequently overprinted by newer generations of crevasses at alternate orientations.  As a result, glacier surfaces often become progressively more broken up and chaotic as they travel downstream.  
+
+Glaciers erode bedrock by abrasion and quarrying \citep{Clarke2005}.  Abrasion works through the action of small rocks embedded in the underside of the glacier.  As the glacier slides over the bedrock, these small rocks (themselves eroded from further upstream) gouge out grooves and striations in the rock surface.  Quarrying works through fluctuating water pressure.  When the ice slides over a bedrock bump, a  cavity forms in the lee of the bump that is usually filled with water.  Subglacial water pressure varies both in response to fluctuations in meltwater input and as a result of unforced fluctuations in the subglacial hydrologic system.  Varying water pressure creates time-varying stresses in the rock that result in fracture.
+
+Glaciers transport sediment either through direct ice flow or through subglacial water.  Avalanches onto the upper surface of a glacier are common in mountainous regions and this debris is transported downstream and eventually deposited at the terminus.  Sediment produced by subglacial erosion is ploughed downstream by ice sliding and can also be transported upwards into the body of the glacier by compressional deformation in the ablation zone.  When meltwater fluxes are high in the summer, subglacial water forms an organized hydrological network with a dendritic network of pressurized conduits that carry water to the terminus \citep{Clarke2005}.  Water flow rates within these conduits can be quite high, and they are therefore capable of transporting sediment in a similar manner as energetic subaerial rivers.
+
+Sediment transported by direct ice flow is generally composed of till.  Till is a poorly sorted mixture of everything from mud to boulders \citep{Clarke2005; Cuffey2010}.  It is roughly similar to what you would get if you applied a jackhammer and an industrial bulldozer to the rock and dumped the results in a large pile. Till deposits include lateral moraines, deposited at the sides of the glacier trunk, medial moraines, deposited in the middle of the glacier trunk (often downstream of the confluence of two tributaries), and terminal moraines, deposited at the downstream end (terminus) of the glacier trunk.  Lateral and medial moraines are parallel to ice flow, terminal moraines are perpendicular to ice flow.  Very large boulders (up to house-sized) known as erratics can be deposited out of place by ice flow.  
+
+Sediment deposited by glacial meltwater has similar characteristics to other fluvial sediments.  Underneath the glacier itself it may form eskers, which are sinuous mounds of sediment deposited by subglacial conduits \citep{Clarke2005}.  Once the meltwater emerges from the glacier's terminus into the proglacial environment, it may deposit sediment into deltas, fans, etc, and otherwise behaves like a fluvial system from that point on.
+
+The Pliestocene has seen cyclical fluctuations of large-scale ice sheets on the North American continent.  The cyclicity is related to orbital forcing of the Earth's climate, but the response of the climatic and glaciological systems to the forcing is nonlinear and has changed over time.  In the beginning of the Pliestocene, the ice age cycle was dominated by the 40 ka obliquity cycle \citep{Lisiecki2005}.  About one million years ago, for reasons that are still debated, the ice age cycle transitioned to the 100 ka eccentricity cycle.  
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{PaperFigs/Mike_2}
+	\caption{Map of the Puget lobe of the Cordilleran ice sheet.  Taken from \citet{Porter1998}.}
+	\label{Mike_2}
+\end{figure}
+
+During the last glacial period, North America was covered by the Laurentide ice sheet in the east and the Cordilleran ice sheet in the west.  Modern-day Washington State was partially covered by the Puget Lobe of the Cordilleran ice sheet.  This lobe covered Puget Sound and the surrounding lowlands but did not penetrate significantly into the Southern Cascades or the Olympic Mountains (Figure \ref{Mike_2} \citep{Porter1998}.  Smaller valley glaciers were widespread in the mountains.    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Olympic National Park Rainforest\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Temperate rainforests are defined by their mid-latitude (temperate) location and climatic conditions: annual precipitation of more than 140cm and a mean annual temperature of $4<T<12^\circ C$. The Olympic National Park falls under this category, and receives the most rainfall in the continental US. The park is a UNESCO World Heritage Site and is being conserved since the early 19-hundreds. The three main sections of the park are the Hoh, Queets and Quinault Rainforests. All of which are along valleys that were carved during the last ice age (about 13,000 years ago).
+
+The weather forcing is mainly driven by moist air carried from the Pacific Ocean, which condenses and rains on the peninsula as the Olympic and Cascade Mountains blocks the western flowing air. The park experience about 400cm annually \citep{Witczuk2013}. Summer time is the dry season, and heavy night fog supplies moisture to the system. The Cascade Mountains on the Northeast protects the Olympic peninsula from cold Arctic air masses, keeping the temperature fluctuation mild. Another significant water supply system is snow melt water, as some of the mountain tops at the Peninsula get as much as 10 meters of snow annually. Stream chemistry shows to be effected by bedrock weathering rather than precipitation chemistry, dominated by Ca, HCO3 and SO4 \citep{Edmonds1997}.
+
+The diverse ecosystem of the Olympic Park is attributed to its remote location. Mountainous geography, the peninsula structure and effects of changing sea level, and glaciers made it hard for settlers to thrive. The most prominent feature in the park is the trees. There are more than 12 different conifers at the grounds, among which Douglas fir, Stika Spruce, and Western Hemlock. These conifers are said to have a successful germination rate of about 1/10K \citep{NPS2014}. Some of the trees have been growing undisputedly for hundreds of years, and even up to 1000 years. The massive old trees reach over 200 feet tall. The iconic feature of the forest is the wide variety of epiphytes (“plants that grow upon plants”), more than 130 species of moss, lichens and ferns. Lichens are a symbiotic system of a fungus and a photosynthetic organ, and their sensitivity to acidity is used as a first hand measure for rain acidity. The endemic fauna thrives within the deadwood that slowly decays and supplies plentiful of nutrients. An annual mean of 3594kg/ha of overstory litterfall was measured at the park \citep{Edmonds2002}. The number of different species of insects is unknown, and many microhabitats in the park are yet to be surveyed. Of the unique wildlife there are less than 1000 Olympic Marmots, with their population being on decline for the past 30 years. Evidence suggests that has to do with the invasion of non-native coyote predators \citep{Witczuk2013}. The Roosevelt elk is another native to the area and its population has slightly risen thanks to conservation attempts, to about 4-5,000 units. The elk population has an indirect effect on riverbank erosion due to interaction with riparian communities \citep{Beschta2008}.
+
+The air quality at the Olympic National Park is relatively good, however, some air masses origination in Asia can transport pollution across the Pacific and into the park, and together with industrial sites across the State affect the ecosystem of the park. It was observed that increasing amounts of nitrogen deposition disrupts the eco-balance allowing weedy species to grow faster, affecting lichen communities (lichens adapted to low nitrogen are being replaced by lichens adapted to a more polluted environment). Surveys in Olympic Park have found that current nitrogen deposition rates in the park are low and have not affected lichens \citep{Geiser2010}. These findings are supported in a research done on nitrogen deposition effects on diatom communities, with water chemistry indicating “ultra-oligotrophic with ammonia and nitrate concentration often at or below detection limits” \citep{Sheibley2014}. Topospheric ozone is transported to the Park from close by urban areas and trans-Pacific sources \citep{Barna2000}. Current concentrations are below levels known to be harmful to plants; however, it is being regulated, as extreme air pollution events get more frequent with shifts in climate. Contaminants like mercury, pesticides, and industrial by-products were observed in snow, sediment, vegetation, and fish \citep{Frenzel1990,Landers2008}. Mercury concentrations in fish are among the highest of eight western national parks, exceeding safe consumption thresholds for wildlife and humans \citep{Mast2010}.
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Keren_1}
+	\caption{\citep{NPS2014}}
+	\label{Keren_1}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Waterbodies and Coastal Ecology of the Olympic Peninsula Region\\}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The two major water bodies visited on this trip were the Olympic Coast and the Puget Sound. The Olympic Coast is the stretch of coastline of the Olympic Peninsula with the Pacific Ocean, and the Puget Sound is the large estuarine water body separating the Olympic Peninsula from the rest of Washington State.
+
+The Pacific coast of the Olympic Peninsula stretches for 73 miles (117.5 km) and comprises both rocky and sandy beaches. The strong winds of the region produce high-energy waves at the coast. This has resulted in erosional features along the coast such as sea stacks, cliffs, caves, and arches, seen in particular on the stretch of Ruby Beach.
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_1}
+	\caption{Pattern of wind stress near the Pacific coast of the USA.}
+	\label{Nandini_1}
+\end{figure}
+
+The Olympic Coast lies in the region of transition from westerly winds at lower latitudes to southwesterly winds at higher latitudes, near the boundary between the North Pacific subtropical gyre and the North Pacific polar gyre (Figure \ref{Nandini_1}). The divergent winds at the coast resulting from this transition drive an upwelling eddy that remains in place near the Olympic Coast known as the Juan de Fuca Eddy \citep{NOAA2008} (Figure \ref{Nandini_2}).
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_2}
+	\caption{Juan de Fuca Eddy.}
+	\label{Nandini_2}
+\end{figure}
+
+Regions in the ocean dominated by upwelling motion are highly biologically productive. Photosynthesizing phytoplankton form the base of the food chain in many ocean ecosystems. While the sunlight that they require is abundant at the surface of the ocean, nutrients are not. Upwelling motion brings nutrients from lower depths in the ocean to the surface, enabling the growth of phytoplankton, which in turn supports entire ecosystems. In addition, runoff from coastal water bodies can supplement coastal regions with nutrients. The Juan de Fuca Eddy draws nutrients both through upwelling motion and from the outflow from the Puget Sound through the Strait of Juan de Fuca into the Pacific Ocean \citep{NOAA2008}, producing a region of high nutrient concentrations that facilitates the growth of an abundance of species in the region. 
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_3}
+	\caption{Underwater photograph of bull kelp. Image credit: Royal British Columbia Museum.}
+	\label{Nandini_3}
+\end{figure}
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_4}
+	\caption{Schematic of the intertidal zone environment.}
+	\label{Nandini_4}
+\end{figure}
+
+There are four types of habitats found along the Olympic Coast \citep{NOAA2013}:
+\begin{itemize}
+\item Open Ocean
+The open ocean habitat receives its nutrient supply, as described above, from the circulation of the Juan de Fuca Eddy. At the base of the food chain are autotrophic phytoplankton species. The food chain ranges from these to large marine mammals such as harbor seals, orca, and migratory humpback whales.
+\item Kelp Forests
+The continental shelf is dominated by seasonal kelp forests. The base of the food chain here are bull kelp (Figure \ref{Nandini_3}) and giant kelp, which grow rooted to the seafloor. They die out in winter and are regenerated through rapid growth in the summer with growth rates of up to 2 feet per day for bull kelp. The kelp forests provide an important nursing ground for young fish, as the tall stalks both provide shelter and concentrate nutrients. In addition, they shelter several species of crabs, sea snails, starfish, sea cucumbers, and sea otters. These forests also provide feeding grounds for several species of seabird.
+\item Rocky Reefs
+The jagged rocks of these environments serve to concentrate nutrients. They are particularly important for mollusk species.
+\item Intertidal Zone
+The intertidal zone in this region forms many tidal pools as a consequence of the jagged, rocky topography. These tidal pools support a variety of species, such as sea anemones, sea cucumbers, starfish, and mussels. Further inland, this environment also supports crabs, barnacles, and limpets. The subdivisions of the intertidal zone are shown in Figure \ref{Nandini_4}.
+\end{itemize}
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{PaperFigs/Nandini_5}
+	\caption{Subdivisions of the Puget Sound from USGS Washington Water Science Center.}
+	\label{Nandini_5}
+\end{figure}
+
+Puget Sound is an inland estuarine system with source waters from the rivers of the watersheds of the Olympic Peninsula and the Cascades. Rather than being a result of erosion by water bodies of the region, the topography of the Sound is a product of erosion by the glaciers and ice sheets of the Last Glacial Maximum \citep{NOAA2000}.  Puget Sound is divided into five regions: the Strait of Juan de Fuca, Hood Canal, Central Puget Sound, South Puget Sound, and Whidbey Basin (Figure \ref{Nandini_5}). The total length of the Sound is 95 miles (153 km), and ranges in width from 1 to 3 miles (1.6-4.8 km).
+
+The high precipitation and presence of glaciers in the region surrounding the Puget Sound give rise to numerous small rivers, which feed into the Sound. An estimated 20$\%$ of the total volume of the Sound is replenished each year by inflow from rivers \citep{NOAA2000}. Below is a list of the rivers that drain into the Puget Sound:
+\begin{itemize}
+\item Cedar
+\item Duwamish
+\item Nisqually
+\item Skokomish
+\item Hama Hamma
+\item Duckabush
+\item Dosewallips
+\item Skagit
+\item Stillaguamish
+\item Snohomish
+\item Puyallup
+\end{itemize}
+
+The complex topography of the Sound acts both to amplify and dampen the tides. The circulation is primarily tidally driven, with velocities as high as 5 m/s reached in narrower parts such as Deception Pass \citep{NOAA2000b}. The waters are also well-mixed as the result of tidal action. This can be seen in the temperature variations throughout the Sound, which range only from 8 to 17 oC, as well as in salinity, which ranges from 27-30 psu. 
+
+The tides have a pair of highs and a pair of lows each day. These are known as the Higher High Water (HHW), Higher Low Water (HLW), Lower High Water (LHW), and Lower Low Water (LLW). Of these, the Low Waters have more variability. The tidal range also varies according to the local topography, with the general pattern being one of increasing tidal range from north to south. The highest tidal range is 4.4 m \citep{NOAA2000b}. 
+
+The other driver of the flow is the density difference between the salty waters of the Pacific and the fresh water of the rivers. This density difference results in a saltier inflow at depth and a fresh outflow at the surface. Tidal mixing complicates this simple flow, and results in the waters of the Sound being composed of 10$\%$ river discharge and 90$\%$ Pacific seawater \citep{NOAA2000}.
+
+The major ecosystems of the Puget Sound are the kelp forests and intertidal zones described above. There have been 221 species of fish found in the Puget Sound, with a variety of cod and salmon species \citep{NOAA2000}. 
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{citations_fieldtrip}
+\end{document}

@@ -1,0 +1,854 @@
+\begin{thebibliography}{111}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abers et~al.(2009)Abers, MacKenzie, Rondenay, Zhang, Wech, and
+  Creager]{Abers2009}
+Geoffrey~A. Abers, Laura~S. MacKenzie, St{\'e}phane Rondenay, Zhu Zhang,
+  Aaron~G. Wech, and Kenneth~C. Creager.
+\newblock Imaging the source region of cascadia tremor and intermediate-depth
+  earthquakes.
+\newblock \emph{Geology}, 37\penalty0 (12):\penalty0 1119--1122, 2009.
+
+\bibitem[Acharya(1992)]{Acharya1992}
+Hemendra Acharya.
+\newblock {Comparison of seismicity parameters in different subduction zones
+  and its implications for the Cascadia Subduction Zone}.
+\newblock \emph{Journal of Geophysical Research}, 97\penalty0 (B6):\penalty0
+  8831, 1992.
+
+\bibitem[Arndt and Goldstein(1987)]{Arndt87}
+Nicholas~T. Arndt and Steven~L. Goldstein.
+\newblock Use and abuse of crust-formation ages.
+\newblock \emph{Geology}, 15\penalty0 (10):\penalty0 893--895, 1987.
+\newblock \doi{10.1130/0091-7613(1987)15<893:UAAOCA>2.0.CO;2}.
+\newblock URL \url{http://geology.gsapubs.org/content/15/10/893.abstract}.
+
+\bibitem[Atwater(1987)]{Atwater1987}
+Brian~F. Atwater.
+\newblock Evidence for great holocene earthquakes along the outer coast of
+  washington state.
+\newblock \emph{Science}, 236\penalty0 (4804):\penalty0 942--944, 1987.
+
+\bibitem[Atwater and Moore(1992)]{Atwater92}
+Brian~F. Atwater and Andrew~L. Moore.
+\newblock A tsunami about 1000 years ago in puget sound, washington.
+\newblock \emph{Science}, 258\penalty0 (5088):\penalty0 1614--1617, 1992.
+\newblock \doi{10.1126/science.258.5088.1614}.
+\newblock URL \url{http://www.sciencemag.org/content/258/5088/1614.abstract}.
+
+\bibitem[Atwater(1970)]{Atwater1970}
+T.~Atwater.
+\newblock Implications of plate tectonics for the cenozoic tectonic evolution
+  of western north america.
+\newblock \emph{Geological Society of America Bulletin}, 81\penalty0
+  (12):\penalty0 3513--3536, 1970.
+\newblock \doi{10.1130/0016-7606(1970)81[3513:IOPTFT]2.0.CO;2}.
+\newblock URL \url{http://gsabulletin.gsapubs.org/content/81/12/3513.abstract}.
+
+\bibitem[Atwater(2014)]{PacWebAtwater}
+T.~Atwater.
+\newblock Plate tectonic history of the north pacific ocean, animation.
+\newblock \url{http://emvc.geol.ucsb.edu/2_infopgs/IP3RegTect/dNoPacific.html},
+  2014.
+
+\bibitem[Audet et~al.(2009)Audet, Bostock, Christensen, and Peacock]{Audet2009}
+Pascal Audet, Michael~G. Bostock, Nikolas~I. Christensen, and Simon~M. Peacock.
+\newblock Seismic evidence for overpressured subducted oceanic crust and
+  megathrust fault sealing.
+\newblock \emph{Nature}, 457\penalty0 (7225):\penalty0 76--78, 2009.
+
+\bibitem[Barna et~al.(2000)Barna, Lamb, ONeill, Westberg, Figueroa-Kaminsky,
+  Otterson, Bowman, and DeMay]{Barna2000}
+Mike Barna, Brian Lamb, Susan ONeill, Hal Westberg, Cris Figueroa-Kaminsky,
+  Sally Otterson, Clint Bowman, and Jennifer DeMay.
+\newblock Modeling ozone formation and transport in the cascadia region of the
+  pacific northwest.
+\newblock \emph{Journal of Applied Meteorology}, 39\penalty0 (3):\penalty0
+  349--366, 2000.
+
+\bibitem[Beschta and Ripple(2008)]{Beschta2008}
+R.L. Beschta and W.J. Ripple.
+\newblock Wolves, trophic cascades, and rivers in the olympic national park,
+  usa.
+\newblock \emph{Ecohydrology}, 1:\penalty0 118--130, 2008.
+
+\bibitem[Bostock et~al.(2002)Bostock, Hyndman, Rondenay, and
+  Peacock]{Bostock2002}
+M.~G. Bostock, R.~D. Hyndman, S.~Rondenay, and S.~M. Peacock.
+\newblock An inverted continental moho and serpentinization of the forearc
+  mantle.
+\newblock \emph{Nature}, 417\penalty0 (6888), 2002.
+
+\bibitem[Brown et~al.(1979)Brown, Bradshaw, and Mustoe]{Brown79}
+E.~H. Brown, J.~Y. Bradshaw, and G.~E. Mustoe.
+\newblock Plagiogranite and keratophyre in ophiolite on fidalgo island,
+  washington.
+\newblock \emph{Geological Society of America Bulletin}, 90\penalty0
+  (5):\penalty0 493--507, 1979.
+\newblock URL \url{http://gsabulletin.gsapubs.org/content/90/5/493.abstract}.
+
+\bibitem[Budkewitsch and Robin(1994)]{Budkewitsch1994}
+Paul Budkewitsch and Pierre-Yves Robin.
+\newblock Modelling the evolution of columnar joints.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 59\penalty0
+  (3):\penalty0 219--239, January 1994.
+
+\bibitem[Burchfiel et~al.(1992)Burchfiel, Cowan, and Davis]{Burchfiel92}
+B.~C. Burchfiel, D.~S. Cowan, and G.~A. Davis.
+\newblock Tectonic overview of the cordilleran orogen in the western u. s.
+\newblock In B.~C. Burchfiel, P.~W. Lipman, and M.~L. Zoback, editors,
+  \emph{The Cordilleran Orogen: conterminous U. S.: The Geology of North
+  America}, volume G-3, pages 407--480. Geological Society of America, Boulder,
+  1992.
+
+\bibitem[Burlini et~al.(2009)Burlini, {Di Toro}, and Meredith]{Burlini2009}
+Luigi Burlini, Giulio {Di Toro}, and Philip Meredith.
+\newblock Seismic tremor in subduction zones: Rock physics evidence.
+\newblock \emph{Geophysical Research Letters}, 36\penalty0 (8), 2009.
+\newblock \doi{10.1029/2009GL037735}.
+
+\bibitem[Camp(1995)]{Camp1995}
+V.E. Camp.
+\newblock Mid-miocene propagation of the yellowstone mantle plume head beneath
+  the columbia river basalt source region.
+\newblock \emph{Geology}, 23\penalty0 (5):\penalty0 435--438, 1995.
+
+\bibitem[Camp and Ross(2004)]{Camp2004}
+V.E. Camp and M.E. Ross.
+\newblock Mantle dynamics and genesis of mafic magmatism in the intermontane
+  pacific northwest.
+\newblock \emph{Journal of Geophysical Research: Solid Earth (1978--2012)},
+  109\penalty0 (B8), 2004.
+
+\bibitem[Clarke(2005)]{Clarke2005}
+G.K.C. Clarke.
+\newblock Subglacial processes.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 33:\penalty0
+  247--276, 2005.
+\newblock ISSN 0084-6597.
+\newblock \doi{10.1146/annurev.earth.33.092203.122621}.
+
+\bibitem[Coney et~al.(1980)Coney, Jones, and Monger]{Coney1980}
+Peter~J Coney, David~L Jones, and James W~H Monger.
+\newblock {Cordilleran suspect terranes}.
+\newblock \emph{Nature}, 288\penalty0 (5789):\penalty0 329--333, 1980.
+
+\bibitem[Cuffey and Paterson(2010)]{Cuffey2010}
+K.M. Cuffey and W.S.B. Paterson.
+\newblock \emph{The Physics of Glaciers}.
+\newblock Butterworth-Heineman/Elsevier, Burlington, {MA}, 4 edition, 2010.
+
+\bibitem[DeMets and Dixon(1999)]{DeMets99}
+C.~DeMets and T.~H. Dixon.
+\newblock New kinematic models for pacific-north america motion from 3 ma to
+  present: 1. evidence for steady motions and biases in the nuvel‐1a model.
+\newblock \emph{Geophys. Res. Lett.}, 26\penalty0 (13):\penalty0 1921--1924,
+  1999.
+
+\bibitem[DePaolo et~al.(1991)DePaolo, Linn, and Schubert]{DePaolo91}
+D.~J. DePaolo, A.~M. Linn, and G.~Schubert.
+\newblock The continental crustal age distribution: Methods of determining
+  mantle separation ages from sm-nd isotopic data and application to the
+  southwestern united states.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 96\penalty0
+  (B2):\penalty0 2071--2088, 1991.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/90JB02219}.
+\newblock URL \url{http://dx.doi.org/10.1029/90JB02219}.
+
+\bibitem[Dickinson(1991)]{Dickinson91}
+William~R. Dickinson.
+\newblock Tectonic setting of faulted tertiary strata associated with the
+  catalina core complex in southern arizona.
+\newblock \emph{Geological Society of America Special Papers}, 264:\penalty0
+  1--106, 1991.
+\newblock \doi{10.1130/SPE264-p1}.
+\newblock URL \url{http://specialpapers.gsapubs.org/content/264/1.abstract}.
+
+\bibitem[Dickinson(1997)]{Dickinson97}
+William~R. Dickinson.
+\newblock Tectonic implications of cenozoic volcanism in coastal california.
+\newblock \emph{Geological Society of America Bulletin}, 109\penalty0
+  (8):\penalty0 936--954, 1997.
+\newblock \doi{10.1130/0016-7606(1997)109<0936:OTIOCV>2.3.CO;2}.
+\newblock URL \url{http://gsabulletin.gsapubs.org/content/109/8/936.abstract}.
+
+\bibitem[Dickinson(2006)]{Dickinson06}
+William~R. Dickinson.
+\newblock Geotectonic evolution of the great basin.
+\newblock \emph{Geosphere}, 2\penalty0 (7):\penalty0 353--368, 2006.
+\newblock \doi{10.1130/GES00054.1}.
+\newblock URL \url{http://geosphere.gsapubs.org/content/2/7/353.abstract}.
+
+\bibitem[DNR(2014)]{dnr}
+DNR.
+\newblock Geology of washington.
+\newblock
+  \url{http://www.dnr.wa.gov/ResearchScience/Topics/GeologyofWashington/Pages/geolofwa.aspx},
+  2014.
+
+\bibitem[Dragert et~al.(2004)Dragert, Wang, and Rogers]{Dragert2004}
+H~Dragert, K~Wang, and G~Rogers.
+\newblock Geodetic and seismic signatures of episodic tremor and slip in the
+  northern cascadia subduction zone.
+\newblock \emph{Earth, Planets and Space}, 56\penalty0 (12):\penalty0
+  1143--1150, 2004.
+
+\bibitem[Edmonds and Blew(1997)]{Edmonds1997}
+R.L. Edmonds and R.D. Blew.
+\newblock Trends in precipitation and stream chemistry in a pristine old-growth
+  forest watershed, olympic national park, washington.
+\newblock \emph{Journal of the American Water Resources Association},
+  33\penalty0 (4):\penalty0 781--793, 1997.
+
+\bibitem[Edmonds and Murray(2002)]{Edmonds2002}
+R.L. Edmonds and G.L.D. Murray.
+\newblock Overstory litter inputs and nutrient returns in an old-growth
+  temperate forest ecosystem, olympic national park, washington.
+\newblock \emph{Canadian Journal of Earth Sciences}, 32:\penalty0 742--750,
+  2002.
+
+\bibitem[Engebretson et~al.(1984)Engebretson, Cox, and Thompson]{Engebretson84}
+D.~C. Engebretson, A.~Cox, and G.~A. Thompson.
+\newblock Correlation of plate motions with continental tectonics: Laramide to
+  basin-range.
+\newblock \emph{Tectonics}, 3\penalty0 (2):\penalty0 115--119, 1984.
+\newblock ISSN 1944-9194.
+\newblock \doi{10.1029/TC003i002p00115}.
+\newblock URL \url{http://dx.doi.org/10.1029/TC003i002p00115}.
+
+\bibitem[Ernst(1988)]{Ernst88}
+W.~G. Ernst.
+\newblock Metamorphic terranes, isotopic provinces, and implications for
+  crustal growth of the western united states.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 93\penalty0
+  (B7):\penalty0 7634--7642, 1988.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JB093iB07p07634}.
+\newblock URL \url{http://dx.doi.org/10.1029/JB093iB07p07634}.
+
+\bibitem[Evans et~al.(2013)Evans, Wannamaker, McGary, and Elsenbeck]{Evans2013}
+Rob~L Evans, Philip~E Wannamaker, R~Shane McGary, and Jimmy Elsenbeck.
+\newblock {Electrical structure of the central Cascadia subduction zone: The
+  EMSLAB Lincoln Line revisited}.
+\newblock \emph{Earth and Planetary Science Letters}, 2013.
+
+\bibitem[Farmer and DePaolo(1983)]{FarmerDePaolo83}
+G.~Lang Farmer and Donald~J. DePaolo.
+\newblock Origin of mesozoic and tertiary granite in the western united states
+  and implications for pre-mesozoic crustal structure: 1. nd and sr isotopic
+  studies in the geocline of the northern great basin.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 88\penalty0
+  (B4):\penalty0 3379--3401, 1983.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JB088iB04p03379}.
+\newblock URL \url{http://dx.doi.org/10.1029/JB088iB04p03379}.
+
+\bibitem[Fitch(1972)]{Fitch72}
+Thomas~J. Fitch.
+\newblock Plate convergence, transcurrent faults, and internal deformation
+  adjacent to southeast asia and the western pacific.
+\newblock \emph{Journal of Geophysical Research}, 77\penalty0 (23):\penalty0
+  4432--4460, 1972.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JB077i023p04432}.
+\newblock URL \url{http://dx.doi.org/10.1029/JB077i023p04432}.
+
+\bibitem[Fleck and Criss(1985)]{FleckCriss85}
+R.J. Fleck and R.E. Criss.
+\newblock Strontium and oxygen isotopic variations in mesozoic and tertiary
+  plutons of central idaho.
+\newblock \emph{Contributions to Mineralogy and Petrology}, 90\penalty0
+  (2-3):\penalty0 291--308, 1985.
+\newblock ISSN 0010-7999.
+\newblock \doi{10.1007/BF00378269}.
+\newblock URL \url{http://dx.doi.org/10.1007/BF00378269}.
+
+\bibitem[Frenzel et~al.(1990)Frenzel, Witmer, and Starkey]{Frenzel1990}
+R.W. Frenzel, G.W. Witmer, and E.E. Starkey.
+\newblock Heavy metal concentrations in a lichen of mt. rainier and olympic
+  national parks, washington, usa.
+\newblock \emph{Bulletin of environmental contamination and toxicology},
+  44\penalty0 (1):\penalty0 158--164, 1990.
+
+\bibitem[Geiser and et~al.(2010)]{Geiser2010}
+L.H. Geiser and et~al.
+\newblock Lichen-based critical loads for atmospheric nitrogen depositionin
+  western oregon and washington forests, usa.
+\newblock \emph{Environmental pollution}, 158\penalty0 (7):\penalty0
+  2412--2421, 2010.
+
+\bibitem[Gerdom et~al.(2000)Gerdom, Trehu, Flueh, and Klaeschen]{Gerdom2000}
+M~Gerdom, A.M Trehu, E.R Flueh, and D~Klaeschen.
+\newblock The continental margin off oregon from seismic investigations.
+\newblock \emph{Tectonophysics}, 329:\penalty0 79--97, 2000.
+
+\bibitem[Goldfinger et~al.(2003)Goldfinger, Nelson, and
+  Johnson]{Goldfinger2003}
+Chris Goldfinger, C.~Hans Nelson, and Joel E.~and Johnson.
+\newblock Holocene earthquake records from the cascadia subduction zone and
+  northern san andreas fault based on precise dating of offshore turbidites.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 31\penalty0
+  (1):\penalty0 555--577, 2003.
+\newblock \doi{10.1146/annurev.earth.31.100901.141246}.
+
+\bibitem[Goldfinger et~al.(2012)Goldfinger, Nelson, Morey, Johnson,
+  Guti{\'e}rrez-Pastor, Eriksson, Karabanov, Patton, Gr{\`a}cia, and
+  Enkin]{Goldfinger2012}
+Chris Goldfinger, C~Hans Nelson, A~Morey, Joel~E Johnson,
+  J~Guti{\'e}rrez-Pastor, A~T Eriksson, E~Karabanov, J~Patton, Eul{\`a}lia
+  Gr{\`a}cia, and R~Enkin.
+\newblock {Turbidite event history -- Methods and implications for Holocene
+  paleoseismicity of the Cascadia subduction zone}.
+\newblock \emph{U.S. Geological Survey Profesional Paper 1661-F}, 170:\penalty0
+  64, 2012.
+
+\bibitem[Gray(1986)]{Gray86}
+Gary~G. Gray.
+\newblock Native terranes of the central klamath mountains, california.
+\newblock \emph{Tectonics}, 5\penalty0 (7):\penalty0 1043--1054, 1986.
+\newblock ISSN 1944-9194.
+\newblock \doi{10.1029/TC005i007p01043}.
+\newblock URL \url{http://dx.doi.org/10.1029/TC005i007p01043}.
+
+\bibitem[Grossenbacher and McDuffie(1995)]{Grossenbacher1995}
+Kenneth~A. Grossenbacher and Stephen~M. McDuffie.
+\newblock Conductive cooling of lava: columnar joint diameter and stria width
+  as function of cooling rate and thermal gradient.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 69\penalty0
+  (1-2):\penalty0 95--103, December 1995.
+
+\bibitem[Ho and Cashman(1997)]{Ho1997}
+A.M. Ho and K.V. Cashman.
+\newblock Temperature constraints on the ginkgo flow of the columbia river
+  basalt group.
+\newblock \emph{Geology}, 25\penalty0 (5):\penalty0 403--406, 1997.
+
+\bibitem[Hoffman(1988)]{Hoffman88}
+P.~F. Hoffman.
+\newblock Belt basin: A landlocked remnant ocean basin? (analogous to the south
+  caspian and black seas).
+\newblock In \emph{Geological Society of America Abstracts with Programs},
+  volume~7, page A50, 1988.
+
+\bibitem[Hooper(2000)]{Hooper2000}
+P.R. Hooper.
+\newblock Chemical discrimination of columbia river basalt flows.
+\newblock \emph{Geochemistry, Geophysics, Geosystems}, 1\penalty0 (6):\penalty0
+  doi:10.1029/2000gc000040, 2000.
+
+\bibitem[Hooper et~al.(2007)Hooper, Camp, Reidel, and Ross]{Hooper2007}
+P.R. Hooper, V.E. Camp, S.P. Reidel, and M.E. Ross.
+\newblock The origin of the columbia river flood basalt province: Plume versus
+  nonplume models.
+\newblock In G.R. Foulger and D.M. Jurdy, editors, \emph{Plates, plumes, and
+  planetary processes}, volume 430, pages 635--668. Geological Society of
+  America Special Papers, 2007.
+
+\bibitem[Howell(1989)]{Howell89}
+D.~G. Howell.
+\newblock \emph{Tectonics of Suspect Terranes, Mountain Building and
+  Continental Growth}.
+\newblock Chapman and Hall, London, 1989.
+
+\bibitem[Humphreys(2009)]{Humphreys09}
+Eugene Humphreys.
+\newblock Relation of flat subduction to magmatism and deformation in the
+  western united states.
+\newblock \emph{Geological Society of America Memoirs}, 204:\penalty0 85--98,
+  2009.
+\newblock \doi{10.1130/2009.1204(04)}.
+\newblock URL \url{http://memoirs.gsapubs.org/content/204/85.abstract}.
+
+\bibitem[Humphreys(1995)]{Humphreys95}
+Eugene~D. Humphreys.
+\newblock Post-laramide removal of the farallon slab, western united states.
+\newblock \emph{Geology}, 23\penalty0 (11):\penalty0 987--990, 1995.
+\newblock URL \url{http://geology.gsapubs.org/content/23/11/987.abstract}.
+
+\bibitem[Hyndman et~al.(1997)Hyndman, Yamano, and Oleskevich]{Hyndman1997}
+R.D. Hyndman, M.~Yamano, and D.A. Oleskevich.
+\newblock The seismogenic zone of subduction thrust faults.
+\newblock \emph{The Island Arc}, 6:\penalty0 244--260, 1997.
+
+\bibitem[Ikari and Saffer(2011)]{Ikari2011a}
+Matt~J. Ikari and Demian~M. Saffer.
+\newblock Comparison of frictional strength and velocity dependence between
+  fault zones in the nankai accretionary complex.
+\newblock \emph{Geochemistry, Geophysics, Geosystems}, 12\penalty0 (4), 2011.
+\newblock \doi{10.1029/2010GC003442}.
+
+\bibitem[Irving(1979)]{Irving79}
+E.~Irving.
+\newblock Paleopoles and paleolatitudes of north america and speculations about
+  displaced terrains.
+\newblock \emph{Canadian Journal of Earth Sciences}, 16\penalty0 (3):\penalty0
+  669--694, 1979.
+
+\bibitem[Kao et~al.(2009)Kao, Shan, Dragert, and Rogers]{Kao2009}
+Honn Kao, Shao-Ju Shan, Herb Dragert, and Garry Rogers.
+\newblock Northern cascadia episodic tremor and slip: A decade of tremor
+  observations from 1997 to 2007.
+\newblock \emph{Journal of Geophysical Research}, 114\penalty0 (June), 2009.
+\newblock \doi{10.1029/2008JB006046}.
+
+\bibitem[Kelsey et~al.(2005)Kelsey, Nelson, Hemphill-Haley, and
+  Witter]{Kelsey2005}
+Harvey~M Kelsey, Alan~R Nelson, Eileen Hemphill-Haley, and Robert~C Witter.
+\newblock Tsunami history of an oregon coastal lake reveals a 4600 yr record of
+  great earthquakes on the cascadia subduction zone.
+\newblock \emph{Geological Society of America Bulletin}, 117\penalty0
+  (7):\penalty0 1009, 2005.
+
+\bibitem[Khazaradze et~al.(1999)Khazaradze, Qamar, and Dragert]{Khazaradze99}
+Giorgi Khazaradze, Anthony Qamar, and Herb Dragert.
+\newblock Tectonic deformation in western washington from continuous gps
+  measurements.
+\newblock \emph{Geophysical Research Letters}, 26\penalty0 (20):\penalty0
+  3153--3156, 1999.
+\newblock ISSN 1944-8007.
+\newblock \doi{10.1029/1999GL010458}.
+\newblock URL \url{http://dx.doi.org/10.1029/1999GL010458}.
+
+\bibitem[Landers et~al.(2008)Landers, Simonich, Jaffe, Geiser, Campbell,
+  Schwindt, Schreck, Kent, Hafner, Taylor, Hageman, Usenko, Ackerman, Schrlau,
+  Rose, Blett, and Erway]{Landers2008}
+D.H. Landers, S.I. Simonich, L.H. Jaffe, I.H. Geiser, D.H. Campbell, A.R.
+  Schwindt, C.B. Schreck, M.L. Kent, W.D. Hafner, H.E. Taylor, K.J. Hageman,
+  S.~Usenko, L.K. Ackerman, J.E. Schrlau, N.L. Rose, T.F. Blett, and M.M.
+  Erway.
+\newblock \emph{The Fate, Transport, and Ecological Impacts of Airborne
+  Contaminants in Western National Parks (USA)}.
+\newblock U.S. Environmental Protection Agency, Office of Research and
+  Development, NHEERL, Western Ecology Division, Corvallis, Oregon, 2008.
+
+\bibitem[Lincoln(2014)]{NOAA2000b}
+J.~H. Lincoln.
+\newblock The puget sound model summary.
+\newblock \url{http://exhibits.pacsci.org/puget_sound/PSSummary.html}, 2014.
+
+\bibitem[Lisiecki and Raymo(2005)]{Lisiecki2005}
+Lorraine~E. Lisiecki and Maureen~E. Raymo.
+\newblock A pliocene-pleistocene stack of 57 globally distributed benthic δ18o
+  records.
+\newblock \emph{Paleoceanography}, 20\penalty0 (1):\penalty0 n/a--n/a, 2005.
+\newblock ISSN 1944-9186.
+\newblock \doi{10.1029/2004PA001071}.
+\newblock URL \url{http://dx.doi.org/10.1029/2004PA001071}.
+
+\bibitem[Long and Wood(1986)]{Long1986}
+P.E. Long and B.J. Wood.
+\newblock Structures, textures, and cooling histories of columbia river basalt
+  flows.
+\newblock \emph{Geological Society of America Bulletin}, 97:\penalty0
+  1144--1155, 1986.
+
+\bibitem[Ludwin et~al.(2005)Ludwin, Dennis, Carver, McMillan, Losey, Clague,
+  Jonientz-Trisler, Bowechop, Wray, and James]{Ludwin2005}
+R.S. Ludwin, R.~Dennis, D.~Carver, A.D. McMillan, R.~Losey, J.~Clague,
+  C.~Jonientz-Trisler, J.~Bowechop, J.~Wray, and K.~James.
+\newblock Dating the 1700 cascadia earthquake: Great coastal earthquakes in
+  native stories.
+\newblock \emph{Seismological Research Letters}, 76\penalty0 (2):\penalty0
+  140--148, 2005.
+
+\bibitem[Magill et~al.(1982)Magill, Wells, Simpson, and Cox]{Magill82}
+James~R. Magill, Ray~E. Wells, Robert~W. Simpson, and Allan~V. Cox.
+\newblock Post 12 m.y. rotation of southwest washington.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 87\penalty0
+  (B5):\penalty0 3761--3776, 1982.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/JB087iB05p03761}.
+\newblock URL \url{http://dx.doi.org/10.1029/JB087iB05p03761}.
+
+\bibitem[Malone et~al.(1981)Malone, Endo, Weaver, and J.W.]{Malone1981}
+S.D. Malone, E.T. Endo, C.S. Weaver, and Ramey J.W.
+\newblock Seismic monitoring for eruption prediction.
+\newblock In Peter~W. Lipman and Donal~R. Mullineau, editors, \emph{1980
+  Eruptions of Mt. St. Helens}, volume 1250, pages 803--813. US Geological
+  Survey Professional Papers, 1981.
+
+\bibitem[Marone and Scholz(1988)]{Marone1988}
+Chris Marone and C~H Scholz.
+\newblock {The depth of seismic faulting and the upper transition from stable
+  to unstable slip regimes}.
+\newblock \emph{Geophysical Research Letters}, 15\penalty0 (8):\penalty0
+  621--624, 1988.
+
+\bibitem[Martin et~al.(2005)Martin, Petcovic, and Reidel]{Martin2005}
+B.S. Martin, H.L. Petcovic, and S.P. Reidel.
+\newblock \emph{Goldschmidt Conference: Field trip guide to the Columbia River
+  Basalt Group, PNNL-15221}.
+\newblock Pacific Northwest National Laboratory, Richland, Washington, 2005.
+
+\bibitem[Mast et~al.(2010)Mast, Manthorne, and Roth]{Mast2010}
+M.A. Mast, D.J. Manthorne, and D.A. Roth.
+\newblock Historical deposition of mercury and selected trace elements to
+  high-elevation national parks in the western u.s. inferred from lake-sediment
+  cores.
+\newblock \emph{Atmospheric Environment}, 44\penalty0 (21-22):\penalty0
+  2577--2586, 2010.
+
+\bibitem[McCaffrey et~al.(2007)McCaffrey, Qamar, King, Wells, Khazaradze,
+  Williams, Stevens, Vollick, and Zwick]{McCaffreyGJI2007}
+Robert McCaffrey, Anthony~I. Qamar, Robert~W. King, Ray Wells, Giorgi
+  Khazaradze, Charles~A. Williams, Colleen~W. Stevens, Jesse~J. Vollick, and
+  Peter~C. Zwick.
+\newblock Fault locking, block rotation and crustal deformation in the pacific
+  northwest.
+\newblock \emph{Geophysical Journal International}, 169\penalty0 (3):\penalty0
+  1315--1340, 2007.
+\newblock ISSN 1365-246X.
+\newblock \doi{10.1111/j.1365-246X.2007.03371.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1365-246X.2007.03371.x}.
+
+\bibitem[McNutt(1996)]{McNutt1996}
+S.R. McNutt.
+\newblock Seismic monitoring and eruption forecasting of volcanoes: a review of
+  the state-of-the-art and case histories.
+\newblock In R.~Scarpa and R.I. Tilling, editors, \emph{Monitoring and
+  mitigation of volcano hazards}, pages 99--146. Springer Berlin Heidelberg,
+  1996.
+
+\bibitem[McNutt(2005)]{McNutt2005}
+S.R. McNutt.
+\newblock Volcanic seismology.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 33:\penalty0
+  461--491, 2005.
+
+\bibitem[NAM(2014)]{Nam}
+NAM.
+\newblock Paleogeography and geologic evolution of north america.
+\newblock \url{http://pubs.er.usgs.gov/publication/fs20133014}, 2014.
+
+\bibitem[Nedimovic et~al.(2009)Nedimovic, Bohnenstiehl, Carbotte,
+  Pablo~Canales, and Dziak]{Nedimovic2009}
+M~R Nedimovic, DelWayne~R Bohnenstiehl, Suzanne~M Carbotte, J~Pablo~Canales,
+  and Robert~P Dziak.
+\newblock {Faulting and hydration of the Juan de Fuca plate system}.
+\newblock \emph{Earth and Planetary Science Letters}, 284\penalty0
+  (1):\penalty0 94--102, 2009.
+
+\bibitem[Nedimovi{\'c} et~al.(2003)Nedimovi{\'c}, Hyndman, Ramachandran, and
+  Spence]{Nedimovic2003}
+Mladen~R Nedimovi{\'c}, Roy~D Hyndman, Kumar Ramachandran, and George~D Spence.
+\newblock {Reflection signature of seismic and aseismic slip on the northern
+  Cascadia subduction interface}.
+\newblock \emph{Nature}, 424\penalty0 (6947):\penalty0 416--420, July 2003.
+
+\bibitem[Nelson et~al.(1995)Nelson, Atwater, Bobrowsky, Bradley, Clague,
+  Carver, Darienzo, Grant, Krueger, Sparks, Stafford, and Stuiver]{Nelson1995}
+Alan~R Nelson, Brian~F Atwater, Peter~T Bobrowsky, Lee-Ann Bradley, John~J
+  Clague, Gary~A Carver, Mark~E Darienzo, Wendy~C Grant, Harold~W Krueger,
+  Rodger Sparks, Thomas~W Stafford, Jr, and Minze Stuiver.
+\newblock {Radiocarbon evidence for extensive plate-boundary rupture about 300
+  years ago at the Cascadia subduction zone}.
+\newblock \emph{Nature}, 378\penalty0 (6555):\penalty0 371--374, November 1995.
+
+\bibitem[Nelson et~al.(2006)Nelson, Kelsey, and Witter]{Nelson2006}
+Alan~R Nelson, Harvey~M Kelsey, and Robert~C Witter.
+\newblock {Great earthquakes of variable magnitude at the Cascadia subduction
+  zone}.
+\newblock \emph{Quaternary Research}, 65\penalty0 (3):\penalty0 354--365, May
+  2006.
+
+\bibitem[Nelson et~al.(2002)Nelson, Johnson, Wells, Pezzopane, Kelsey, Sherrod,
+  Bradley, Koehler, Bucknam, Haugerud, and Laprade]{Nelson02}
+A.R. Nelson, S.Y. Johnson, R.E. Wells, S.K. Pezzopane, H.M. Kelsey, B.L.
+  Sherrod, L.~Bradley, R.D. Koehler, R.C. Bucknam, R.~Haugerud, and W.T.
+  Laprade.
+\newblock Field and laboratory data from an earthquake history study of the toe
+  jam hill fault, bainbridge island, washington.
+\newblock \emph{U.S. Geological Survey Open-File Report}, 02-0060, 2002.
+
+\bibitem[NOAA(2008)]{NOAA2008}
+NOAA.
+\newblock Olympic coast 2008 sanctuary report.
+\newblock \url{http://sanctuaries.noaa.gov/science/condition/ocnms/state.html},
+  2008.
+
+\bibitem[NOAA(2013)]{NOAA2013}
+NOAA.
+\newblock Olympic coast national monument sanctuary-habitat.
+\newblock \url{http://olympiccoast.noaa.gov/living/habitats/habitats.html},
+  2013.
+
+\bibitem[NOAA(2014{\natexlab{a}})]{NOAA2000}
+NOAA.
+\newblock Environmental history and features of puget sound.
+\newblock
+  \url{http://www.nwfsc.noaa.gov/publications/scipubs/techmemos/tm44/environment.htm},
+  2014{\natexlab{a}}.
+
+\bibitem[NOAA(2014{\natexlab{b}})]{NPS2014}
+NOAA.
+\newblock Olympic national park-three parks in one, 2014{\natexlab{b}}.
+\newblock URL \url{\url{http://www.nps.gov/olym/index.htm}}.
+
+\bibitem[Obara(2002)]{Obara2002}
+Kazushige Obara.
+\newblock {Nonvolcanic deep tremor associated with subduction in southwest
+  Japan.}
+\newblock \emph{Science}, 296\penalty0 (5573):\penalty0 1679--81, May 2002.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1070378}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/12040191}.
+
+\bibitem[Obara and Sekine(2009)]{Obara2009}
+Kazushige Obara and Shutaro Sekine.
+\newblock Characteristic activity and migration of episodic tremor and
+  slow-slip events in central japan.
+\newblock \emph{Earth, Planets and Space}, 61\penalty0 (7):\penalty0 853--862,
+  2009.
+
+\bibitem[Obrebski et~al.(2010)Obrebski, Allen, Xue, and Hung]{Obrebski2010}
+Mathias Obrebski, Richard~M. Allen, Mei Xue, and Shu-Huei Hung.
+\newblock Slab-plume interaction beneath the pacific northwest.
+\newblock \emph{Geophysical Research Letter}, 37\penalty0 (14), 2010.
+
+\bibitem[Parsons et~al.(1998)Parsons, Trehu, Luetgert, Miller, Kilbride, Wells,
+  Fisher, Flueh, ten Brink, and Christensen]{Parsons1998}
+Tom Parsons, Anne~M. Trehu, James~H. Luetgert, Kate Miller, Fiona Kilbride,
+  Ray~E. Wells, Michael~A. Fisher, Ernst Flueh, Uri~S. ten Brink, and
+  Nikolas~I. Christensen.
+\newblock A new view into the cascadia subduction zone and volcanic arc:
+  Implications for earthquake hazards along the washington margin.
+\newblock \emph{Geology}, 26\penalty0 (3):\penalty0 199--202, 1998.
+
+\bibitem[Porter and Swanson(1998)]{Porter1998}
+Stephen~C. Porter and Terry~W. Swanson.
+\newblock Radiocarbon age constraints on rates of advance and retreat of the
+  puget lobe of the cordilleran ice sheet during the last glaciation.
+\newblock \emph{Quaternary Research}, 50\penalty0 (3):\penalty0 205--213,
+  November 1998.
+\newblock ISSN 0033-5894.
+\newblock \doi{10.1006/qres.1998.2004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S003358949892004X}.
+
+\bibitem[Preston(2003)]{Preston2003}
+L~A Preston.
+\newblock {Intraslab Earthquakes: Dehydration of the Cascadia Slab}.
+\newblock \emph{Science}, 302\penalty0 (5648):\penalty0 1197--1200, November
+  2003.
+
+\bibitem[Reidel(1998)]{Reidel1998}
+S.P. Reidel.
+\newblock Emplacement of columbia river flood basalt.
+\newblock \emph{Journal of Geophysical Research}, 103\penalty0 (B11):\penalty0
+  27,393--27,410, November 1998.
+
+\bibitem[Reidel et~al.(1989)Reidel, Tolan, Hooper, Beeson, Beeson, Fecht, and
+  Anderson]{Reidel1989}
+S.P. Reidel, T.L. Tolan, P.R. Hooper, M.H. Beeson, K.R. Beeson, R.D.~Bentley
+  Fecht, and J.L. Anderson.
+\newblock The grande ronde basalt, columbia river basalt group; stratigraphic
+  descriptions and correlations in washington, oregon, and idaho.
+\newblock \emph{Volcanism and tectonism in the Columbia River flood-basalt
+  province: Geological Society of America Special Paper}, 239:\penalty0 21--53,
+  1989.
+
+\bibitem[Reidel et~al.(2002)Reidel, Johnson, and Spane]{Reidel2002}
+S.P. Reidel, V.G. Johnson, and F.A. Spane.
+\newblock \emph{Natural Gas Storage in Basalt Aquifers of the Columbia Basin,
+  Pacific Northwest USA: A Guide to Site Characterization, Rep. PNNL-13962}.
+\newblock Pacific Northwest Natl. Lab., Richland, Washington, 2002.
+
+\bibitem[Reidel et~al.(2013)Reidel, Camp, Tolan, and Martin]{Reidel13}
+Stephen~P. Reidel, Victor~E. Camp, Terry~L. Tolan, and Barton~S. Martin.
+\newblock The columbia river flood basalt province: Stratigraphy, areal extent,
+  volume, and physical volcanology.
+\newblock \emph{Geological Society of America Special Papers}, 497:\penalty0
+  1--43, 2013.
+\newblock \doi{10.1130/2013.2497(01)}.
+\newblock URL \url{http://specialpapers.gsapubs.org/content/497/1.abstract}.
+
+\bibitem[Rogers and Dragert(2003)]{Rogers2003}
+Garry Rogers and Herb Dragert.
+\newblock {Episodic tremor and slip on the Cascadia subduction zone: the
+  chatter of silent slip.}
+\newblock \emph{Science (New York, N.Y.)}, 300\penalty0 (5627):\penalty0
+  1942--3, June 2003.
+\newblock ISSN 1095-9203.
+\newblock \doi{10.1126/science.1084783}.
+\newblock URL \url{http://www.ncbi.nlm.nih.gov/pubmed/12738870}.
+
+\bibitem[Saffer and Tobin(2011)]{Saffer2011}
+Demian~M. Saffer and Harold~J. Tobin.
+\newblock Hydrogeology and mechanics of subduction zone forearcs: Fluid flow
+  and pore pressure.
+\newblock \emph{Annual Review of Earth and Planetary Sciences}, 39\penalty0
+  (1):\penalty0 157--186, 2011.
+\newblock \doi{10.1146/annurev-earth-040610-133408}.
+
+\bibitem[Satake et~al.(2003)Satake, Wang, and Atwater]{Satake2003}
+Kenji Satake, Kelin Wang, and Brian~F Atwater.
+\newblock {Fault slip and seismic moment of the 1700 Cascadia earthquake
+  inferred from Japanese tsunami descriptions}.
+\newblock \emph{Journal of Geophysical Research}, 108\penalty0 (B11):\penalty0
+  2535, 2003.
+
+\bibitem[Savage et~al.(2000)Savage, Svarc, Prescott, and Murray]{Savage00}
+J.~C. Savage, J.~L. Svarc, W.~H. Prescott, and M.~H. Murray.
+\newblock Deformation across the forearc of the cascadia subduction zone at
+  cape blanco, oregon.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 105\penalty0
+  (B2):\penalty0 3095--3102, 2000.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/1999JB900392}.
+\newblock URL \url{http://dx.doi.org/10.1029/1999JB900392}.
+
+\bibitem[Scholz(1998)]{Scholz1998}
+Christopher~H Scholz.
+\newblock {Earthquakes and friction laws}.
+\newblock \emph{Nature}, 391:\penalty0 37--42, 1998.
+
+\bibitem[Sheibley et~al.(2014)Sheibley, Mihaela, Swarzenski, Moran, and
+  Foreman]{Sheibley2014}
+R.W. Sheibley, E.~Mihaela, P.W. Swarzenski, P.W. Moran, and J.R. Foreman.
+\newblock Nitrogen deposition effects on diatom communities in lakes from three
+  national parks in washington state.
+\newblock \emph{Water Air and Soil Pollution}, 225\penalty0 (2):\penalty0 1857,
+  2014.
+
+\bibitem[Sherrod et~al.(2004)Sherrod, Brocher, Weaver, Bucknam, Blakely,
+  Kelsey, Nelson, and Haugerud]{Sherrod04}
+Brian~L. Sherrod, Thomas~M. Brocher, Craig~S. Weaver, Robert~C. Bucknam,
+  Richard~J. Blakely, Harvey~M. Kelsey, Alan~R. Nelson, and Ralph Haugerud.
+\newblock Holocene fault scarps near tacoma, washington, usa.
+\newblock \emph{Geology}, 32\penalty0 (1):\penalty0 9--12, 2004.
+\newblock \doi{10.1130/G19914.1}.
+\newblock URL \url{http://geology.gsapubs.org/content/32/1/9.abstract}.
+
+\bibitem[Smith et~al.(2009)Smith, Jordan, Steinberger, Puskas, Farrell, Waite,
+  Chang, and O'Connell]{Smith2009}
+R.B. Smith, M.~Jordan, B.~Steinberger, C.M. Puskas, J.~Farrell, S.~Waite,
+  Husen, W.L. Chang, and R.~O'Connell.
+\newblock Geodynamics of the yellowstone hotspot and mantle plume: Seismic and
+  gps imaging, kinematics, and mantle flow.
+\newblock \emph{Journal of Volcanology and Geothermal Research}, 188\penalty0
+  (1):\penalty0 26--56, 2009.
+
+\bibitem[Stock and Molnar(1988)]{StockMolnar88}
+Joann Stock and Peter Molnar.
+\newblock Uncertainties and implications of the late cretaceous and tertiary
+  position of north america relative to the farallon, kula, and pacific plates.
+\newblock \emph{Tectonics}, 7\penalty0 (6):\penalty0 1339--1384, 1988.
+\newblock ISSN 1944-9194.
+\newblock \doi{10.1029/TC007i006p01339}.
+\newblock URL \url{http://dx.doi.org/10.1029/TC007i006p01339}.
+
+\bibitem[Trehu et~al.(1994)Trehu, Asudeh, Brocher, Luetgert, Mooney, Nabelek,
+  and Nakamura]{Trehu94}
+A.~M. Trehu, I.~Asudeh, T.~M. Brocher, J.~H. Luetgert, W.~D. Mooney, J.~L.
+  Nabelek, and Y.~Nakamura.
+\newblock Crustal architecture of the cascadia forearc.
+\newblock \emph{Science}, 266\penalty0 (5183):\penalty0 237--243, 1994.
+\newblock \doi{10.1126/science.266.5183.237}.
+\newblock URL \url{http://www.sciencemag.org/content/266/5183/237.abstract}.
+
+\bibitem[Van~Wagoner et~al.(2002)Van~Wagoner, Crosson, Creager, Medema,
+  Preston, Symons, and Brocher]{van2002crustal}
+TM~Van~Wagoner, RS~Crosson, KC~Creager, G~Medema, L~Preston, NP~Symons, and
+  TM~Brocher.
+\newblock Crustal structure and relocated earthquakes in the puget lowland,
+  washington, from high-resolution seismic tomography.
+\newblock \emph{Journal of Geophysical Research: Solid Earth (1978--2012)},
+  107\penalty0 (B12):\penalty0 ESE--22, 2002.
+
+\bibitem[von Huene and Scholl(1991)]{vonHuene91}
+Roland von Huene and David~W. Scholl.
+\newblock Observations at convergent margins concerning sediment subduction,
+  subduction erosion, and the growth of continental crust.
+\newblock \emph{Reviews of Geophysics}, 29\penalty0 (3):\penalty0 279--316,
+  1991.
+\newblock ISSN 1944-9208.
+\newblock \doi{10.1029/91RG00969}.
+\newblock URL \url{http://dx.doi.org/10.1029/91RG00969}.
+
+\bibitem[Wang et~al.(2012)Wang, Hu, and He]{Wang2012}
+Kelin Wang, Yan Hu, and Jiangheng He.
+\newblock {Deformation cycles of subduction earthquakes in a viscoelastic
+  Earth}.
+\newblock \emph{Nature}, 484\penalty0 (7394):\penalty0 327--332, April 2012.
+
+\bibitem[Wassermann(2002)]{Wassermann2002}
+J.~Wassermann.
+\newblock Volcano seismology.
+\newblock \emph{IASPEI New Manual of Seismological Observatory Practice},
+  1\penalty0 (13):\penalty0 662--703, 2002.
+
+\bibitem[Wells(2014)]{WellsWeb}
+R.~Wells.
+\newblock Evolution of the cascadia convergent margin.
+\newblock
+  \url{http://www.geoprisms.org/images/stories/documents/Cascadia/presentations/thursday/Wells.pdf},
+  2014.
+
+\bibitem[Wells and Heller(1988)]{Wells88}
+R.~E. Wells and P.~L. Heller.
+\newblock The relative contribution of accretion, shear, and extension to
+  cenozoic tectonic rotation in the pacific northwest.
+\newblock \emph{Geological Society of America Bulletin}, 100\penalty0
+  (3):\penalty0 325--338, 1988.
+\newblock \doi{10.1130/0016-7606(1988)100<0325:TRCOAS>2.3.CO;2}.
+\newblock URL \url{http://gsabulletin.gsapubs.org/content/100/3/325.abstract}.
+
+\bibitem[Wells and {The Cascadia Working Group}(1989)]{Wells93}
+R.~E. Wells and {The Cascadia Working Group}.
+\newblock Cascadia regional lithospheric studies of the pacific northwest.
+\newblock \emph{U. S. Geological Survey Open-File Report 93-706}, 1989.
+
+\bibitem[Wells et~al.(2014)Wells, Bukry, Friedman, Pyle, Duncan, Haeussler, and
+  Wooden]{Wells14}
+Ray Wells, David Bukry, Richard Friedman, Doug Pyle, Robert Duncan, Peter
+  Haeussler, and Joe Wooden.
+\newblock Geologic history of siletzia, a large igneous province in the oregon
+  and washington coast range: Correlation to the geomagnetic polarity time
+  scale and implications for a long-lived yellowstone hotspot.
+\newblock \emph{Geosphere}, 2014.
+\newblock \doi{10.1130/GES01018.1}.
+\newblock URL
+  \url{http://geosphere.gsapubs.org/content/early/2014/07/14/GES01018.1.abstract}.
+
+\bibitem[Wells et~al.(1998)Wells, Weaver, and Blakely]{Wells98}
+Ray~E. Wells, Craig~S. Weaver, and Richard~J. Blakely.
+\newblock Fore-arc migration in cascadia and its neotectonic significance.
+\newblock \emph{Geology}, 26\penalty0 (8):\penalty0 759--762, 1998.
+\newblock \doi{10.1130/0091-7613(1998)026<0759:FAMICA>2.3.CO;2}.
+\newblock URL \url{http://geology.gsapubs.org/content/26/8/759.abstract}.
+
+\bibitem[Wells and Simpson(2001)]{WellsSimpson01}
+R.E. Wells and R.W. Simpson.
+\newblock Microplate motion of the cascadia forearc and implications for
+  subduction deformation.
+\newblock \emph{Earth, Planets, Space}, 53:\penalty0 275--283, 2001.
+
+\bibitem[Wilson(2002)]{Wilson02}
+D.~S. Wilson.
+\newblock The juan de fuca plate and slab: Isochron structure and cenozoic
+  plate motions.
+\newblock \emph{U.S. Geol. Survey, Reston, Va.}, Rep. 02--238:\penalty0 9--12,
+  2002.
+
+\bibitem[Wilson(1993)]{Wilson93}
+Douglas~S. Wilson.
+\newblock Confidence intervals for motion and deformation of the juan de fuca
+  plate.
+\newblock \emph{Journal of Geophysical Research: Solid Earth}, 98\penalty0
+  (B9):\penalty0 16053--16071, 1993.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/93JB01227}.
+\newblock URL \url{http://dx.doi.org/10.1029/93JB01227}.
+
+\bibitem[Witczuk et~al.(2013)Witczuk, Pagacz, and Mills]{Witczuk2013}
+J.~Witczuk, S.~Pagacz, and L.S. Mills.
+\newblock Disproportionate predation on endemic marmots by invasive coyotes.
+\newblock \emph{Journal of Mammalogy}, 94\penalty0 (3):\penalty0 702--713,
+  2013.
+
+\end{thebibliography}
