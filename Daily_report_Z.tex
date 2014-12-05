@@ -1,13 +1,17 @@
-\documentclass[12pt,oneside,draft]{article}
+\documentclass[12pt,oneside]{article}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry} 
 \usepackage{amsmath, amsthm}               		
 \geometry{letterpaper}                   		
 \usepackage{graphicx}				
+\usepackage{tabularx}				
 \usepackage{amssymb}
 \usepackage{subfig}
 \usepackage{natbib}
 \usepackage[nodisplayskipstretch]{setspace}
 \usepackage{placeins}
+%\usepackage{wrapfig}
+%\usepackage{caption}
+%\usepackage{subcaption}
 
 \newcommand{\fdir}{\string~/Dropbox/Washington_State_Field_Trip/Daily_Report_Tex}
 
@@ -34,7 +38,7 @@
 \end{tabbing}
 
 \subsection{Stop 1 -- Cap Sante Park viewpoint in Anacortes, 3:00 pm}
-This stop offers spectacular 360$^{\circ}$ views of Fidalgo Bay, the City of Anacortes, marinas, and the Cascades with snow-capped Mount Baker (Figure~\ref{Fig:080314_1}). The viewpoint is located on a hill made up of coarse-grained sedimentary rocks about 60 million years old. Although not a part of the Fidalgo ophiolite per se, these rocks represent near-shore sediments that could be found overlying the oceanic crust. The outcrop allows examination of various sedimentary fabrics and glacial features such as striations and glacially smoothed surfaces. One can also observe glacial till deposits down by the water to the northwest of the viewpoint, which stand out due to their lighter color and noticeably poor consolidation. Another interesting observation that can be made at this stop (as well as en route throughout the day) is the differences in vegetation between various islands scattered in the bay, which is related to bedrock geology. Ultramafic rocks, in particular the low-crustal and mantle sections of the ophioliote complex, weather into soils poor in potassium and other essential nutrients, which cannot support vegetation. Therefore, the ophiolite islands can be recognized from the distance by their relative paucity of vegetation. 
+This stop offers spectacular 360$^{\circ}$ views of Fidalgo Bay, the City of Anacortes, marinas, and the Cascades with snow-capped Mount Baker (Figure~\ref{fig:080314_1}). The viewpoint is located on a hill made up of coarse-grained sedimentary rocks about 60 million years old. Although not a part of the Fidalgo ophiolite per se, these rocks represent near-shore sediments that could be found overlying the oceanic crust. The outcrop allows examination of various sedimentary fabrics and glacial features such as striations and glacially smoothed surfaces. One can also observe glacial till deposits down by the water to the northwest of the viewpoint, which stand out due to their lighter color and noticeably poor consolidation. Another interesting observation that can be made at this stop (as well as en route throughout the day) is the differences in vegetation between various islands scattered in the bay, which is related to bedrock geology. Ultramafic rocks, in particular the low-crustal and mantle sections of the ophioliote complex, weather into soils poor in potassium and other essential nutrients, which cannot support vegetation. Therefore, the ophiolite islands can be recognized from the distance by their relative paucity of vegetation. 
 
 \begin{figure}[h]
 \centering
@@ -42,7 +46,7 @@ This stop offers spectacular 360$^{\circ}$ views of Fidalgo Bay, the City of Ana
 \subfloat[]{\includegraphics[height=0.55\textwidth]{\fdir/080314_1a.png}}
 \subfloat[]{\includegraphics[height=0.55\textwidth]{\fdir/080314_1b.png}}}
 \caption{A view on Mount Baker (a) and an outcrop of meta-sedimentary rocks (b) at Cap Sante Park's viewpoint.}
-\label{Fig:080314_1}
+\label{fig:080314_1}
 \end{figure}
 
 \begin{figure}[h]
@@ -51,21 +55,21 @@ This stop offers spectacular 360$^{\circ}$ views of Fidalgo Bay, the City of Ana
 \subfloat[]{\includegraphics[height=0.55\textwidth]{\fdir/080314_2a.png}}
 \subfloat[]{\includegraphics[height=0.55\textwidth]{\fdir/080314_2b.png}}}
 \caption{Mantle section of Fidalgo ophiolite at Green point, Washington Park: pyroxenite banding in dunite (a) and carbonate veins (b).}
-\label{Fig:080314_2}
+\label{fig:080314_2}
 \end{figure}
 
 \subsection{Stop 2 -- Green point, Washington Park, 3:55 pm}
-The name of this stop comes from the exposures of serpentinite, a metamorphosed mantle rock, found along a picturesque rocky shore in Washington park. It represents an upper-mantle section in the basal portion of the Fidalgo ophiolite. The rocks that we examined on the northern side of the beach at Green point had rusty-brown color characteristic of weathered mantle rocks in many ophiolite outcrops. We observed dunites and pyroxenites intersected by an extensive network of carbonate veins (Figure~\ref{Fig:080314_2}). The ophiolite rocks at this location are overlain by loose glacial deposits.
+The name of this stop comes from the exposures of serpentinite, a metamorphosed mantle rock, found along a picturesque rocky shore in Washington park. It represents an upper-mantle section in the basal portion of the Fidalgo ophiolite. The rocks that we examined on the northern side of the beach at Green point had rusty-brown color characteristic of weathered mantle rocks in many ophiolite outcrops. We observed dunites and pyroxenites intersected by an extensive network of carbonate veins (Figure~\ref{fig:080314_2}). The ophiolite rocks at this location are overlain by loose glacial deposits.
 
 \subsection{Stop 3 -- Mount Erie viewpoint, Mount Erie Park, 4:45 pm}
-The rocks found on Mt. Erie represent the crustal section of the Fidalgo ophiolite that lie sequentially above the mantle serpentinite at stop 2. Here they consist mainly of diorite, a slightly more felsic rock than gabbro commonly found in ophiolite’s crustal section. They are interpreted to represent magmas formed below a chain of subduction-zone volcanoes. U-Pb zircon ages are 167 $\pm$ 5 Ma ~\citep{Tucker2014}. Thus, the Fidalgo ophiolite is interpreted to represent the lithosphere of a Jurassic volcanic arc. The whole sequence was tipped on its side during accretion, so the deepest portion, the serpentinite, is now found to the west (Washington Park), the uppermost portion, i.e. the ocean floor lavas and sedimentary rocks, are found toward the east, and the intracrustal intrusives are in the middle (Mt. Erie). The stop also offers spectacular views from small platforms on the summit knobs (Figure~\ref{Fig:080314_3}). 
+The rocks found on Mt. Erie represent the crustal section of the Fidalgo ophiolite that lie sequentially above the mantle serpentinite at stop 2. Here they consist mainly of diorite, a slightly more felsic rock than gabbro commonly found in ophiolite’s crustal section. They are interpreted to represent magmas formed below a chain of subduction-zone volcanoes. U-Pb zircon ages are 167 $\pm$ 5 Ma ~\citep{Tucker2014}. Thus, the Fidalgo ophiolite is interpreted to represent the lithosphere of a Jurassic volcanic arc. The whole sequence was tipped on its side during accretion, so the deepest portion, the serpentinite, is now found to the west (Washington Park), the uppermost portion, i.e. the ocean floor lavas and sedimentary rocks, are found toward the east, and the intracrustal intrusives are in the middle (Mt. Erie). The stop also offers spectacular views from small platforms on the summit knobs (Figure~\ref{fig:080314_3}). 
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[]{\includegraphics[width=1.0\textwidth]{\fdir/080314_3.png}}}
 \caption{A view south from stop 3 at Mount Erie on Lake Campbell and Skagit Bay.}
-\label{Fig:080314_3}
+\label{fig:080314_3}
 \end{figure}
 
 
@@ -143,7 +147,7 @@ The colour of this mudstone is mostly dark, but much more reddish in some layers
 
 \subsubsection*{11:05 am -- North side of bridges at Deception Pass. Phenomenal exposure in cliffs above road.}
 \textit{Initial observations:}\\
-Grey/green altered sedimentary rock with clear bedding features and quartz veins that are folded and boudinaged. Small faults cross-cut the cliff in multiple directions, with several good examples of slickensides particularly evident in the quartz veins (Figure~\ref{Fig:day2_stop4_fig1}). The bedding dips steeply ($\sim40^{\circ}$) into the cliff face (East). Further up (N) the bedding pattern is clearer, with alternating sequences of pebbly conglomerates grading into (green/greyish) sandstones and thence to (darker) mudstones.\\
+Grey/green altered sedimentary rock with clear bedding features and quartz veins that are folded and boudinaged. Small faults cross-cut the cliff in multiple directions, with several good examples of slickensides particularly evident in the quartz veins (Figure~\ref{fig:day2_stop4_fig1}). The bedding dips steeply ($\sim40^{\circ}$) into the cliff face (East). Further up (N) the bedding pattern is clearer, with alternating sequences of pebbly conglomerates grading into (green/greyish) sandstones and thence to (darker) mudstones.\\
 \textit{Explanation:}
 The alternating fining-up sequences comprise a series of turbidites. There was some disagreement about the younging direction, which should in theory be in the direction of the fining. It is possible that the heavily faulted and folded nature of this outcrop resulted in different younging directions in different places. This outcrop included several fault zones with a thrusting sense (see field sketch), and the major fault structures dipped northwards, implying N-S convergence. Pervasive deformation is also indicated by the strongly folded bedding planes and boudinage of more competent vein material.  \\
 \textit{Summary:}\\
@@ -157,7 +161,7 @@ Excellent spot for lunch on Pass Island w/ remarkable views. Little shade from t
 \subfloat[Outcrop on NE side of road, N of bridges]{\includegraphics[width=0.5\textwidth]{\fdir/day2_stop4_map}}
 \subfloat[Field sketch of small fault (total height 40 cm) with displaced quartz veins.]{\includegraphics[width=0.5\textwidth]{\fdir/day2_stop4_fig1}}}
 \caption{}
-\label{Fig:day2_stop4_fig1}
+\label{fig:day2_stop4_fig1}
 \end{figure}
 
 \subsection{Stop 3 -- Rosario Beach, Deception Pass State Park}
@@ -250,12 +254,12 @@ Mesozoic accretionary sequence seen from miles away, on ridge line.\\
 After a quick breakfast, we leave the campground, driving south on some road.  On the right hand side, are lavas of the Sulfur Creek stage which are mostly covered by trees.  We drive by the Upper Baker Lake Dam, a hydroelectric plant.  The dam walls expose layers of metasedimentary rocks.  As we drive up the mountain, a brave little quail runs in front of the car, bringing the caravan to a halt.  Jonathan has to run out of the car to encourage the quail to leave the road.
 
 \subsection{Stop 1 -- Mt. Baker Overlook, 10:30--11:30 am}
-We stop on a mountain road to talk a little bit about the geology and glaciology of the Mt. Baker area and discuss how Mt. Baker (to the NW, Figure~\ref{Fig:080514_1}) fits into the context of the Cascade Range.  The lithology present at the overlook is primarily phyllite, which can be seen from the micaceous sheen as well as the cleavage. 
+We stop on a mountain road to talk a little bit about the geology and glaciology of the Mt. Baker area and discuss how Mt. Baker (to the NW, Figure~\ref{fig:080514_1}) fits into the context of the Cascade Range.  The lithology present at the overlook is primarily phyllite, which can be seen from the micaceous sheen as well as the cleavage. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080514_1.png}
-\label{Fig:080514_1}
+\label{fig:080514_1}
 \caption{Mt. Baker from the overlook.}
 \end{figure}
 
@@ -271,7 +275,7 @@ We went for a hike further up the road from Stop 1.  The Anderson-Watson Trail i
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080514_2.png}
-\label{Fig:080514_2}
+\label{fig:080514_2}
 \caption{Lunch stop on the Anderson-Watson trail.}
 \end{figure}
 
@@ -279,14 +283,14 @@ We went for a hike further up the road from Stop 1.  The Anderson-Watson Trail i
 Here, we saw metamorphosed mudstone (slate or phyllite) of the Nooksack Formation with EW striking quartz veins and faults (180/57W) with foliation dipping to the north (253/56N).  The outcrop exhibits good foliation and early mica development.  Walking over the bridge over the dam, we discussed hazard preparedness in association with volcanic activity at Mt. Baker.  In 1975, Mt. Baker started emitting elevated levels of SO2.  In response to this increased activity, officials began improving volcanic monitoring instrumentation in the area (for example installing a seismic network to monitor volcanic tremor) and planning for hazard response in the event of an eruption.  For example, they realized that, in anticipation of an eruption, dam levels should be lowered to reduce the risk from lahars and pyroclastic flows, which would follow river channels away from the volcano.  Though the 1975 Mt. Baker eruption never happened, the increased awareness that followed in the wake of the volcanic activity proved to be important 5 years later when Mt. St. Helens erupted in 1980.  Richard, a hot springs soaker from Hamilton, confirmed that flooding hazards associated with the dam are a constant concern and that major flooding affects locals every few years.    
 
 \subsection{Stop 4 -- Boulder Creek, 4:20 pm}
-A small trail to the side of the bridge here leads to a streambed.  The boulders making up the streambed are primarily black and red in color.  Both are basaltic in composition, the red color deriving from the in situ oxidation of the volcanic debris (Figure~\ref{Fig:080514_4}).  Walking along this streambed, we reached an outcrop of lahar deposits from an 1845 cold lahar (a lahar not associated with a volcanic eruption).  These deposits are poorly sorted.  One very notable feature of these lahar deposits is a large tree trunk lying within the deposit (Figure~\ref{Fig:080514_4}).
+A small trail to the side of the bridge here leads to a streambed.  The boulders making up the streambed are primarily black and red in color.  Both are basaltic in composition, the red color deriving from the in situ oxidation of the volcanic debris (Figure~\ref{fig:080514_4}).  Walking along this streambed, we reached an outcrop of lahar deposits from an 1845 cold lahar (a lahar not associated with a volcanic eruption).  These deposits are poorly sorted.  One very notable feature of these lahar deposits is a large tree trunk lying within the deposit (Figure~\ref{fig:080514_4}).
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[Oxidized rocks at Boulder Creek]{\includegraphics[width=0.5\textwidth]{\fdir/080514_4a.png}}
 \subfloat[Tree trunk preserved in a cold lahar deposit at Boulder Creek.]{\includegraphics[width=0.5\textwidth]{\fdir/080514_4b.png}}}
-\label{Fig:080514_4}
+\label{fig:080514_4}
 \caption{}
 \end{figure}
 
@@ -310,91 +314,91 @@ Leaving Horseshoe Cove Campground, we drive south on Baker Lake Road and then so
 Between Concrete and Marblemount, we see landslides and fluvial deposits on the north side of the road. At Marblemount, we make a sharp left turn on Route 20 to follow the Straight Creek Fault. This fault separates Mesozoic Metasediments to the west and the 220 Ma Marblemount Meta-Quartz Diorite to the east. The Quartz Diorite is a muscovite-chlorite-epidote-alibet-quartz rock that contains small amounts of biotite and hornblende. This and equivalent plutonic formations extend southeastward from the Straight Creek Fault for ~150 km before disappearing beneath Miocene Columbia River Basalts. After entering North Cascades National Park, there are outcrops of Napeequa Schist around miles 112-113 on Route 20. Between miles 115-116 are outcrops of Oligocene granodiorite, exhibiting a rounded weathering pattern. We continue driving east into the Skagit Gneiss Complex, which is ~60-70 Ma. The first 7 stops of the day are all within this complex.
 
 \subsection{Stop 1 -- New Halen, 10:15 am}
-The outcrop is on the left when you enter New Halem, just after the visitor’s center. The New Halem orthogneiss is a $\sim$75-60 Ma biotite gness, containing a complicated network of quartz veins and fractures (Figure~\ref{Fig:stop1a}. The wavy quartz veins are migmatite, indicating that the rock started to melt on a large scale. The straighter pegmatite dikes are evidence of a later hydrothermal overprint. On a smaller scale, biotite is drawn out into concentrated layers. This gneiss is in the lower to middle part of the crustal section.
+The outcrop is on the left when you enter New Halem, just after the visitor’s center. The New Halem orthogneiss is a $\sim$75-60 Ma biotite gness, containing a complicated network of quartz veins and fractures (Figure~\ref{fig:stop1a}. The wavy quartz veins are migmatite, indicating that the rock started to melt on a large scale. The straighter pegmatite dikes are evidence of a later hydrothermal overprint. On a smaller scale, biotite is drawn out into concentrated layers. This gneiss is in the lower to middle part of the crustal section.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/STOP1A.jpg}
-\label{Fig:stop1a}
+\label{fig:stop1a}
 \caption{Migmatite quartz veins in the New Halem orthogneiss.}
 \end{figure}
 
 \subsection{Stop 2 -- Gorge Creek Outlook, 10:40 am}
-The outcrops are a short walk from the parking lot. The Skagit orthogneiss is more strongly foliated than the previous outcrop, indicating more deformation relative to the New Halen orthogneiss. There is little migmatization, but evidence is present of both brittle and ductile deformation. There are large fault surfaces with slickensides (Figure~\ref{Fig:stop2a}) as well as smaller-scale folds. Large radial blast fractures in the outcrop have an obvious anthropogenic source. After examining the outcrops at the overlook, cross the road and walk out onto the bridge. There is a nice view of a tall, narrow waterfall.
+The outcrops are a short walk from the parking lot. The Skagit orthogneiss is more strongly foliated than the previous outcrop, indicating more deformation relative to the New Halen orthogneiss. There is little migmatization, but evidence is present of both brittle and ductile deformation. There are large fault surfaces with slickensides (Figure~\ref{fig:stop2a}) as well as smaller-scale folds. Large radial blast fractures in the outcrop have an obvious anthropogenic source. After examining the outcrops at the overlook, cross the road and walk out onto the bridge. There is a nice view of a tall, narrow waterfall.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\textwidth]{\fdir/STOP2A.jpg}
-\label{Fig:stop2a}
+\label{fig:stop2a}
 \caption{Slickensides on a fault surface.}
 \end{figure}
 
 \subsection{Stop 3 -- Outcrop at Mile 124.5 on Route 20, 11:15 am}
-This outcrop is still within the Skagit gneiss complex. It is strongly banded, with mica dominating the darker layers. The lighter layers contains large clasts of augen. There are sigma shear markers indicating dextral shear (Figure~\ref{Fig:stop3}). There are many small garnets within the dark layers. This is a porphyroclastic augen gneiss that has undergone multiple phases of shear deformation.
+This outcrop is still within the Skagit gneiss complex. It is strongly banded, with mica dominating the darker layers. The lighter layers contains large clasts of augen. There are sigma shear markers indicating dextral shear (Figure~\ref{fig:stop3}). There are many small garnets within the dark layers. This is a porphyroclastic augen gneiss that has undergone multiple phases of shear deformation.
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/STOP3A.jpg}}
 \subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/STOP3B.jpg}}}
-\label{Fig:stop3}
+\label{fig:stop3}
 \caption{Shear markers in augen gneiss}
 \end{figure}
 
 \subsection{Stop 4 -- Oucrop at Mile 125.2 on Route 20, 11:30 am}
-This gneiss outcrop contains significantly more garnets than the previous orthogneiss, indicating both higher-pressure conditions and a different, more aluminum-rich, source rock. This is a $\sim$70-68 Ma metapelite, with a shale parent rock (Figure~\ref{Fig:stop4a}).
+This gneiss outcrop contains significantly more garnets than the previous orthogneiss, indicating both higher-pressure conditions and a different, more aluminum-rich, source rock. This is a $\sim$70-68 Ma metapelite, with a shale parent rock (Figure~\ref{fig:stop4a}).
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/STOP4A.jpg}
-\label{Fig:stop4a}
+\label{fig:stop4a}
 \caption{Garnet-rich metapelite}
 \end{figure}
 
 \subsection{Stop 5 -- Diablo Lake Overlook, 12:00 pm}
-First, we have lunch overlooking Diablo Lake until approximately 12:40. Then we walk to the outcrop directly across the road from the overlook. The outcrop contains many intersecting dikes indicating a large melt network (Figure~\ref{Fig:stop5}). These are quartzo-feldspathic pegmatites within the gneiss that date to 53 Ma. The gneiss itself is approximately 61 Ma, but there are older zircons within the gneiss that date to 2.6 Ga, demonstrating recycling of the crust. This gneiss is not strongly banded and is somewhat faulted.
+First, we have lunch overlooking Diablo Lake until approximately 12:40. Then we walk to the outcrop directly across the road from the overlook. The outcrop contains many intersecting dikes indicating a large melt network (Figure~\ref{fig:stop5}). These are quartzo-feldspathic pegmatites within the gneiss that date to 53 Ma. The gneiss itself is approximately 61 Ma, but there are older zircons within the gneiss that date to 2.6 Ga, demonstrating recycling of the crust. This gneiss is not strongly banded and is somewhat faulted.
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[View over Diablo Lake]{\includegraphics[width=0.5\textwidth]{\fdir/STOP5A.jpg}}
 \subfloat[Pegmatites in gneiss]{\includegraphics[width=0.5\textwidth]{\fdir/STOP5B.jpg}}}
-\label{Fig:stop5}
+\label{fig:stop5}
 \caption{}
 \end{figure}
 
 \subsection{Stop 6 -- John Pierce Falls, 1:00 pm}
-This gneiss outcrop is on the side of the road. It is very strongly banded and contains large amounts of mica. There are many small-scale folds. Pegmatite bodies dating to 54-52.5 Ma are pervasive, though they are not as large as at the previous stop. Lenses of leucosome, very light-colored rock, have formed within the bands. A large dike has been intruded into the gneiss; there is a clear contact on either side of the dike between the fine-grained dike and the coarser-grained gneiss. The dike itself is granitic to granodioritic and it is slightly foliated, particularly on the sides, because it was pushed through into the gneiss. On either side of the dikes, the density of pegmatites is high and decreases with distance from the intruded rock. There are also smaller dikes present (Figure~\ref{Fig:stop6}). This meta-greywacke outcrop is a good view of large-scale melt production. 
+This gneiss outcrop is on the side of the road. It is very strongly banded and contains large amounts of mica. There are many small-scale folds. Pegmatite bodies dating to 54-52.5 Ma are pervasive, though they are not as large as at the previous stop. Lenses of leucosome, very light-colored rock, have formed within the bands. A large dike has been intruded into the gneiss; there is a clear contact on either side of the dike between the fine-grained dike and the coarser-grained gneiss. The dike itself is granitic to granodioritic and it is slightly foliated, particularly on the sides, because it was pushed through into the gneiss. On either side of the dikes, the density of pegmatites is high and decreases with distance from the intruded rock. There are also smaller dikes present (Figure~\ref{fig:stop6}). This meta-greywacke outcrop is a good view of large-scale melt production. 
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[Small fold]{\includegraphics[width=0.5\textwidth]{\fdir/STOP6A.jpg}}
 \subfloat[Dike intruded into gneiss]{\includegraphics[width=0.5\textwidth]{\fdir/STOP6B.jpg}}}
-\label{Fig:stop6}
+\label{fig:stop6}
 \caption{}
 \end{figure}
 
 \subsection{Stop 7 -- View over Ross Lake, 1:45 pm}
-Last stop heading out of the Skagit Gneiss Complex, with a nice view over Ross Lake (Figure~\ref{Fig:stop7}). The Ross Lake Fault marks the end of the complex. The complex is bounded on the other side by the Entiat Fault. After this stop, we begin driving through the Golden Horn Batholith, which is a 49 Ma granitic pluton that is not genetically related to the Skagit Gneiss Complex. Note that as we head into the more granitic rocks, the weathering patterns change. With increasing amounts of k-feldspar, the color of the weathered rocks becomes more peachy-beige as the rocks weather to clay. The drainages begin to have a beige color that is typical of granite weathering.
+Last stop heading out of the Skagit Gneiss Complex, with a nice view over Ross Lake (Figure~\ref{fig:stop7}). The Ross Lake Fault marks the end of the complex. The complex is bounded on the other side by the Entiat Fault. After this stop, we begin driving through the Golden Horn Batholith, which is a 49 Ma granitic pluton that is not genetically related to the Skagit Gneiss Complex. Note that as we head into the more granitic rocks, the weathering patterns change. With increasing amounts of k-feldspar, the color of the weathered rocks becomes more peachy-beige as the rocks weather to clay. The drainages begin to have a beige color that is typical of granite weathering.
 
 \begin{figure}[h]
 \centering
 \makebox[\textwidth]{
 \subfloat[View over Ross Lake]{\includegraphics[width=0.5\textwidth]{\fdir/STOP7A.jpg}}
 \subfloat[Cars parked at viewpoint]{\includegraphics[width=0.5\textwidth]{\fdir/STOP7B.jpg}}}
-\label{Fig:stop7}
+\label{fig:stop7}
 \caption{}
 \end{figure}
 
 \subsection{Stop 8 -- Washington Pass Overlook, 2:30 pm}
-Short walk from the parking lot to an overlook in the middle of the Golden Horn Batholith. We can see Liberty Bell to the right and the Early Winter Spires just to the left of Liberty Bell. Kangaroo Ridge is directly in front of us, behind a glacially carved valley (Figure~\ref{Fig:stop8a}). Decompression fractures are evidence for how the pluton has been unroofed (Figure~\ref{Fig:stop8bc}. We also see strange trees that grow in spirals in both directions, but primarily clockwise. One hypothesis for this is strong unidirectional wind leading the trees to grow that way, but we are not sure.\\
+Short walk from the parking lot to an overlook in the middle of the Golden Horn Batholith. We can see Liberty Bell to the right and the Early Winter Spires just to the left of Liberty Bell. Kangaroo Ridge is directly in front of us, behind a glacially carved valley (Figure~\ref{fig:stop8a}). Decompression fractures are evidence for how the pluton has been unroofed (Figure~\ref{fig:stop8bc}. We also see strange trees that grow in spirals in both directions, but primarily clockwise. One hypothesis for this is strong unidirectional wind leading the trees to grow that way, but we are not sure.\\
 Note that this is also a nice spot for lunch, if you leave earlier in the morning or spend less time at the previous stops.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.0\textwidth]{\fdir/STOP8A.jpg}
-\label{Fig:stop8a}
+\label{fig:stop8a}
 \caption{View from Washington Pass Overlook}
 \end{figure}
 
@@ -404,17 +408,17 @@ Note that this is also a nice spot for lunch, if you leave earlier in the mornin
 \subfloat[Spiral trees]{\includegraphics[width=0.5\textwidth]{\fdir/STOP8B.jpg}}
 \linebreak
 \subfloat[Decompression fractures]{\includegraphics[width=0.5\textwidth]{\fdir/STOP8C.jpg}}}
-\label{Fig:stop8bc}
+\label{fig:stop8bc}
 \caption{}
 \end{figure}
 
 \subsection{Stop 9 -- Outcrop at Mile 167.6 on Route 20, 3:15 pm}
-This outcrop by the side of the road is a light-colored granite, containing a large amount of k-feldspar. There is a rapakivi texture in the granite, with the pink feldspar crystals inside white plagioclase crystals (Figure~\ref{Fig:stop9a}. There are also some fine-grained mafic enclaves with amphiboles in plagioclase. At this stop, we also compare the granite to samples that Philipp collected at several outcrops along the road. We compare samples of tonalite, granodiorite, and granite. The fraction of k-feldspar is larger in the more granitic samples, while the granodiorite is dominated by quartz and the tonalite has only a very small fraction of k-feldspar. This indicates increasing fractionation of the melt as we move from tonalite to granite. The granite represents the shallow crust, while granodiorite and tonalite represent the shallow to middle level of the crust.
+This outcrop by the side of the road is a light-colored granite, containing a large amount of k-feldspar. There is a rapakivi texture in the granite, with the pink feldspar crystals inside white plagioclase crystals (Figure~\ref{fig:stop9a}. There are also some fine-grained mafic enclaves with amphiboles in plagioclase. At this stop, we also compare the granite to samples that Philipp collected at several outcrops along the road. We compare samples of tonalite, granodiorite, and granite. The fraction of k-feldspar is larger in the more granitic samples, while the granodiorite is dominated by quartz and the tonalite has only a very small fraction of k-feldspar. This indicates increasing fractionation of the melt as we move from tonalite to granite. The granite represents the shallow crust, while granodiorite and tonalite represent the shallow to middle level of the crust.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\textwidth]{\fdir/STOP9A.jpg}
-\label{Fig:stop9a}
+\label{fig:stop9a}
 \caption{Rapakivi texture in granite}
 \end{figure}
 
@@ -427,62 +431,61 @@ This outcrop by the side of the road is a light-colored granite, containing a la
 \clearpage
 \section{Day 6 -- August 8, 2014: Hiking Burroughs Mountain at Mt. Rainier National Park}
 \begin{tabbing}
-\\\textbf{8:40:} \hspace{0.5cm} \= Depart campsite
-\\\textbf{9:05:} 		\> Stop 1 -- Ice contact lava columns.
-\\\textbf{10:30:}	  	\> Stop 2 -- Parking lot at Sunrise
-\\\textbf{11:00:}		\> Starting hiking 
-\\\textbf{11:30:} 		\> Stop 3 --  Little ice age moraine of Emmons glaciers 
-\\\textbf{12:30:} 		\> Stop 4 --  On top of 2nd Burroughs Mtn.
-\\\textbf{13:00:} 		\> Lunch 
-\\\textbf{13:30:}		\> Stop 5 -- Pumice of the C tephra
-\\\textbf{13:51:}		\> Stop 6 --  Igneous inclusion in andesite
-\\\textbf{14:15:}		\> Stop 7 --  Back into granodiorite basement
-\\\textbf{15:30:}		\> Stop 8 -- Old mine at Glacial Basin
-\\\textbf{16:30:}		\> Hike out to White River exit and return to campsite
-\\\textbf{17:30:} 		\> Return to campground
+\\\textbf{8:40 am:} \hspace{0.5cm} \= Depart campsite
+\\\textbf{9:05 am:} 		\> Stop 1 -- Ice contact lava columns
+\\\textbf{10:30 am:}	  	\> Stop 2 -- Parking lot at Sunrise
+\\\textbf{11:00 am:}		\> Starting hiking 
+\\\textbf{11:30 am:} 		\> Stop 3 --  Little ice age moraine of Emmons glaciers 
+\\\textbf{12:30 pm:} 		\> Stop 4 --  On top of 2nd Burroughs Mtn.
+\\\textbf{1:00 pm:} 		\> Lunch 
+\\\textbf{1:30 pm:}		\> Stop 5 -- Pumice of the C tephra
+\\\textbf{1:50 pm:}		\> Stop 6 --  Igneous inclusion in andesite
+\\\textbf{2:15 pm:}		\> Stop 7 --  Back into granodiorite basement
+\\\textbf{3:30 pm:}		\> Stop 8 -- Old mine at Glacial Basin
+\\\textbf{4:30 pm:}		\> Hike out to White River exit and return to campsite
+\\\textbf{5:30 pm:} 		\> Return to campground
 \end{tabbing}
 
-\noindent This day was dedicated to a 6 hour hiking on to the Burroughs Mountain at the northeastern side of Mt. Rainier National Park (Figure~\ref{Fig:080814_9}). Total hiking distance was about 9 mi. The trail starts with a elevation climb from 6400 ft at Sunrise to 7400 ft at top of 2nd Burroughs Mtn (3.2 mi), followed by a descent to 4232 ft at White River Campground(6 mi).  We were joined by USGS scientist Tom Sisson, who gave a very thorough and informative introduction to volcanism at Mt. Rainier.  
+\noindent This day was dedicated to a 6 hour hiking on to the Burroughs Mountain at the northeastern side of Mt. Rainier National Park (Figure~\ref{fig:080814_9}). Total hiking distance was about 9 mi. The trail starts with a elevation climb from 6400 ft at Sunrise to 7400 ft at top of 2nd Burroughs Mtn (3.2 mi), followed by a descent to 4232 ft at White River Campground(6 mi).  We were joined by USGS scientist Tom Sisson, who gave a very thorough and informative introduction to volcanism at Mt. Rainier.  
 \\
 \\
 \textbf{8:40 am} -- We left campsite, drove to White River Campground (the end of the trail, elevation 4232 ft). We parked one car here in order to shuttle drivers to the upper parking lot at Sunrise after the hike. 
 
 \subsection[Stop 1 -- Roadside lava flow on Sunrise Park Road, 9:30 am]{Stop 1 -- Roadside of Sunrise Park Rd between White River Campground and Sunrise, 9:30 am}
-On the downhill side of the road we saw andesitic lava flows from the modern Mt. Rainier ($<$500 ka). Tom pointed out that large volume lava flows are mostly found on ridge crests instead of valley floors. This is intriguing because one might think that lava flows would tend to flow down and fill valley floors first. One explanation was that the valley-filling lava had been eroded away. But given the young age ($\sim$40,000 ybps) of these lavas, there is not enough time to erode away hundreds of meters of rocks. So this model was rejected.
+On the downhill side of the road we saw andesitic lava flows from the modern Mt. Rainier ($<$500 ka). Tom pointed out that large volume lava flows are mostly found on ridge crests instead of valley floors. This is intriguing because one might think that lava flows would tend to flow down and fill valley floors first. One explanation was that the valley-filling lava had been eroded away. But given the young age ($\sim$40 ka) of these lavas, there is not enough time to erode away hundreds of meters of rocks. So this model was rejected.
 \\\\
-These ridge-forming lava flows have narrow, glassy columns pointing perpendicular to the ridge slope (Figure~\ref{Fig:080814_1}). These are actually cooling features resulting from lava being chilled against glacier ice. The direction of columns corresponds to direction of maximum cooling - i.e. columns are parallel to thermal gradients -  indicating that lava was cooled from below.  In the valleys where ice was thick, lava flows were cooled rapidly, preventing it from flowing downhill. On the ridges where ice was thin, lava can melt away the ice and advance further. After the glacier retreated, the lava flows are left on the ridge.  These ice contact features are ubiquitous and one rarely sees valley floor lava. This feature suggests that these valleys were covered with thick ice during nearly all of Pleistocene. Furthermore, the top of these lava flows can be used to infer ice thickness at the time of the eruption.
+These ridge-forming lava flows have narrow, glassy columns pointing perpendicular to the ridge slope (Figure~\ref{fig:080814_1}). These are actually cooling features resulting from lava being chilled against glacier ice. The direction of columns corresponds to direction of maximum cooling - i.e. columns are parallel to thermal gradients -  indicating that lava was cooled from below.  In the valleys where ice was thick, lava flows were cooled rapidly, preventing it from flowing downhill. On the ridges where ice was thin, lava can melt away the ice and advance further. After the glacier retreated, the lava flows are left on the ridge.  These ice contact features are ubiquitous and one rarely sees valley floor lava. This feature suggests that these valleys were covered with thick ice during nearly all of Pleistocene. Furthermore, the top of these lava flows can be used to infer ice thickness at the time of the eruption.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_1.png}
-\label{Fig:080814_1}
 \caption{Lava cooling feature at Stop 1.}
+\label{fig:080814_1}
 \end{figure}
 
 \noindent We also saw some plutonic inclusions within the andesitic lava. These are porous, and are compositionally more mafic than the lava (according to Tom). These inclusions have been dated to be around the same age of the erupted lava. This suggests that these are genetically related to the lava (although slightly older), possibly included during some magma mingling activity. 
 
 \subsection{Stop 2 -- Parking lot at Sunrise (elevation 6400 ft), 10:30 am}
-As we are getting ready for the long hike, Tom gave us an intro of what we expect to see on this side of Mt Rainier (Figure~\ref{Fig:080814_2}).  There are two summit craters at Rainier: \textit{East crater} which is taller and younger (shown in the picture) and \textit{West crater}. Both craters have steam vents with temperature measured to be up to 100$^{\circ}$C.  There is reportedly a subglacial crater lake inside the East crater, but only intrepid climbers have the chance to see this in person. This vantage point affords good views of Emmons glacier to the left (east) and Winthrop glacier to the right (north). In the intermediate foreground is the Steamboat Prow, which consists of a coarse fragmental deposit. \\
+As we are getting ready for the long hike, Tom gave us an intro of what we expect to see on this side of Mt Rainier (Figure~\ref{fig:080814_2}).  There are two summit craters at Rainier: \textit{East crater} which is taller and younger (shown in the picture) and \textit{West crater}. Both craters have steam vents with temperature measured to be up to 100$^{\circ}$C.  There is reportedly a subglacial crater lake inside the East crater, but only intrepid climbers have the chance to see this in person. This vantage point affords good views of Emmons glacier to the left (east) and Winthrop glacier to the right (north). In the intermediate foreground is the Steamboat Prow, which consists of a coarse fragmental deposit. \\
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_2.png}
-\label{Fig:080814_2}
 \caption{View of Rainier summit from Sunrise.}
+\label{fig:080814_2}
 \end{figure}
 
-\noindent \textbf{11:00 am} -- Starting Hiking \\
-We started hiking from the Sunrise parking lot towards Burroughs Mountain, which erupted sometime within the period 480-490 ka. This is the earliest large volume lava flow from the onset of the modern Mt. Rainier edifice.
+\noindent \textbf{11:00 am} -- We started hiking from the Sunrise parking lot towards Burroughs Mountain, which erupted sometime within the period 480-490 ka. This is the earliest large volume lava flow from the onset of the modern Mt. Rainier edifice.
 
 \subsection{Stop 3 -- Little ice age moraine of Emmons glacier, 11:30 am}
 As we hiked up the mountain, we got a better view of the Emmons glacier valley. To the north side of the valley (right side in the picture) we saw a sharp scarp along the valley. Outside the scarp there is developed forest, but inside the scarp there are no trees on the slope and very small trees in the valley. This turns out to be the limit of the glaciers during the little ice age; at the peak of little ice age the valley up to the tree line was covered by much larger glaciers than we observe today.  Coring of trees dates the cessation of the little ice age to be approximately the year 1850. 
-Mike also pointed out the terminus of the Emmons glacier (Figure~\ref{Fig:080814_3}). It is at the base of a dirty, seemingly rocky slope where a stream flows out. The lower reaches of the glacier are darker and appear rocky from a distance due to cover by landslide debris.
+Mike also pointed out the terminus of the Emmons glacier (Figure~\ref{fig:080814_3}). It is at the base of a dirty, seemingly rocky slope where a stream flows out. The lower reaches of the glacier are darker and appear rocky from a distance due to cover by landslide debris.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_3.png}
-\label{Fig:080814_3}
 \caption{Emmons glacier and little ice age tree line.}
+\label{fig:080814_3}
 \end{figure}
 
 \subsection{Stop 4 -- Peak of 2nd Burroughs (elevation 7400 ft), 12:30 pm}
@@ -493,50 +496,50 @@ Paleomagnetic measurements on the deposited clasts show that those near the top 
 
 \subsection{Stop 5 -- Pumice of the C tephra, 1:30 pm}
 
-After deciding that we were not going to climb up to the 3rd Burroughs Mountain, we began descending down to the Glacial Basin Trail.  Near the beginning of the descend we stopped to look at the pumice from the C tephra deposit. This is from a 2200 year-old eruption, the most voluminous of the Holocene ($\sim$0.1 km$^3$). This is a compositionally diverse eruption. Most of the deposit is brown-ish andesite, but there are light color dacite streaks that may be attributable to magma mingling (Figure~\ref{Fig:080814_5}), as well as pods of grey-ish vesicular andesite. Geochemical analysis showed that both are very high in Sr, similar to the Sr concentration of a 2500 year-old eruption.  The interpretation is that these dacite streaks and vesicular andesite are residues left over in the shallow magmatic system following the 2500 year-old eruption that were then mixed with the 2200 year-old magma and flushed out of the system.
+After deciding that we were not going to climb up to the 3rd Burroughs Mountain, we began descending down to the Glacial Basin Trail.  Near the beginning of the descend we stopped to look at the pumice from the C tephra deposit. This is from a 2200 year-old eruption, the most voluminous of the Holocene ($\sim$0.1 km$^3$). This is a compositionally diverse eruption. Most of the deposit is brown-ish andesite, but there are light color dacite streaks that may be attributable to magma mingling (Figure~\ref{fig:080814_5}), as well as pods of grey-ish vesicular andesite. Geochemical analysis showed that both are very high in Sr, similar to the Sr concentration of a 2500 year-old eruption.  The interpretation is that these dacite streaks and vesicular andesite are residues left over in the shallow magmatic system following the 2500 year-old eruption that were then mixed with the 2200 year-old magma and flushed out of the system.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_5.png}
-\label{Fig:080814_5}
 \caption{Vesicular andesite (left) and regular andesite with white dacite blebs (right) within C tephra deposit.}
+\label{fig:080814_5}
 \end{figure}
 
 \subsection{Stop 6 -- Igneous inclusion in andesite, 1:50 pm}
-As we continued down the trail, near the base of the lava flow, we saw again some fine grain andesitic enclaves that are reportedly geochemically more evolved than the surrounding andesite (Figure~\ref{Fig:080814_6}). They are interpreted to result from magma mingling activity. 
+As we continued down the trail, near the base of the lava flow, we saw again some fine grain andesitic enclaves that are reportedly geochemically more evolved than the surrounding andesite (Figure~\ref{fig:080814_6}). They are interpreted to result from magma mingling activity. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_6.png}
-\label{Fig:080814_6}
 \caption{Plutonic inclusions in andesitic lava.}
+\label{fig:080814_6}
 \end{figure}
 
 \subsection{Stop 7 -- Back into granodiorite basement, 2:15 pm}
 We continued hiking downhill. Shortly after the last stop (about 100 m elevation drop) we crossed a distinct lithological boundary between the younger andesitic lava and older crystalline granodiorite basement. 
 \\\\
-3:00 pm -- We came down the Burroughs Mountain Trail to the junction with the Glacial Basin Trail. The team split into two groups. One continued on to the Glacier Basin Camp (1.5 mi round trip), the other headed back directly to the White River Campground parking lot.
+\textbf{3:00 pm} -- We came down the Burroughs Mountain Trail to the junction with the Glacial Basin Trail. The team split into two groups. One continued on to the Glacier Basin Camp (1.5 mi round trip), the other headed back directly to the White River Campground parking lot.
 
 \subsection{Stop 8 -- Old mine at Glacier Basin, 3:30 pm}
-The upper group enjoyed a romping hike up the Glacier Basin Trial. At the end of the trail we took in an excellent view of the Emmons Glacier (Figure~\ref{Fig:080814_8}). An old mine used to operate here, drilling into the basement granodiorite for useful minerals (e.g. sulphite). We also saw some vertical radial dikes in the lava flow.
+The upper group enjoyed a romping hike up the Glacier Basin Trial. At the end of the trail we took in an excellent view of the Emmons Glacier (Figure~\ref{fig:080814_8}). An old mine used to operate here, drilling into the basement granodiorite for useful minerals (e.g. sulphite). We also saw some vertical radial dikes in the lava flow.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/080814_8.png}
-\label{Fig:080814_8}
 \caption{Glacial basin.}
+\label{fig:080814_8}
 \end{figure}
 
 \subsection{Stop 9 -- Back to White River Campground, 4:30 pm.}
 We returned to White River Campground, where we had left one car. Tom took this car along with three drivers back to Sunrise parking lot to retrieve the other cars. 
 \\\\
-5:30 pm -- Returned to campsite
+\noindent \textbf{5:30 pm} -- Returned to campsite
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1\textwidth]{\fdir/080814_9.png}
-\label{Fig:080814_9}
-\caption{Trail map and approximate location of each stop.}
+\includegraphics[width=1\textwidth]{\fdir/080814_9.png} 
+\caption{Trail map and approximate location of each stop.} 
+\label{fig:080814_9}
 \end{figure}
 
 % Day 7 - August 9, 2014
@@ -544,66 +547,120 @@ We returned to White River Campground, where we had left one car. Tom took this 
 \clearpage
 \section{Day 7 -- August 9, 2014: \\Hiking south side of Mt. Rainier}
 \begin{tabbing}
-\textbf{7:45 am:}  \hspace{0.3cm}\= Depart campsite\\
+\textbf{7:45 am:}  \hspace{0.4cm}\= Depart campsite\\
 \textbf{8:53 am:}	\>Arrive at Paradise visitor center\\
 \textbf{10:20 am:}	\>Began hike towards Panorama Point\\
+\textbf{11:30 am:} 	\>Stop 1 -- Panorama of Cascade Range\\
+\textbf{12:30 pm:}     \>Lunch at  Panorama Point\\
+\textbf{2:00 pm:}     \>Stop 2 -- Glacier Vista\\
+\textbf{2:30 pm:}     \>Moraine Trail\\
+\textbf{4:00 pm:}     \>Drive to the next campsite\\
+\textbf{6:00 pm:}     \>Arrival at Iron Creek Campground\\
 \end{tabbing}
 
-\noindent \textbf{7:45 am} -- We left camp without breakfast to beat the Saturday crowds. On the drive around to the south of Ranier we saw plutons from the Tatoosh Range (14 ma) to our south. \\
+\subsection{Departure, 7:45 am}
+We left camp without breakfast to beat the Saturday crowds. On the drive around to the south of Ranier we saw plutons from the Tatoosh Range (14 ma) to our south. \\
 
-\noindent \textbf{8:53 am} -- Arrived at Paradise visitor's center to find that the parking lot was already very full, vindicating our early rise. We purchased breakfast at the Paradise Inn (Fig 1) and prepared lunches for the hike.
+\noindent \textbf{8:53 am} -- Arrived at Paradise visitor's center to find that the parking lot was already very full, vindicating our early rise. We purchased breakfast at the Paradise Inn (Fig. \ref{fig:MW_daily_fig01}) and prepared lunches for the hike.\\
 
-\noindent \textbf{10:20 am} -- Began hike on trail towards Panorama Point.  Early stages of the trail are paved and crowded. Today we are on the south side of the mountain, yesterday we were on the northeast side.  There are more (and larger) glaciers on the north side of the mountain because it faces away from the sun. After Panorama Point trail, we plan on taking the Glacier Trail. Lenses visible in andesite along trail (Fig 2).  Lenses are lighter colored and contain plagioclase phenocrysts.  Flow banding is visible.
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{\fdir/MW_daily_fig01.jpg}
+\caption{Mount Rainier visible behind Paradise Inn (or nearby building).}
+\label{fig:MW_daily_fig01}
+\end{figure}
 
-St. Helens visible in the distance to the south (Fig 3).  We can see the north face  of it, including the amphitheater and new dome.  Mt Adams is also visible in the distance.
+\noindent \textbf{10:20 am} -- Began hike on trail towards Panorama Point.  Early stages of the trail are paved and crowded. Today we are on the south side of the mountain, yesterday we were on the northeast side.  There are more (and larger) glaciers on the north side of the mountain because it faces away from the sun. After Panorama Point trail, we plan on taking the Glacier Trail. Lenses visible in andesite along trail (Fig. \ref{fig:MW_daily_fig02}).  Lenses are lighter colored and contain plagioclase phenocrysts.  Flow banding is visible.
 
-Phillip's musings:  it's difficult to come up with a universal theory of eruption styles.  The processes are too complex.  My private thoughts:  multi-phase flow is hard, man.  So many different timescales are relevant.  I feel your pain.
+\begin{figure}[h]
+\centering
+\includegraphics[trim=10cm 0cm 0cm 10cm, clip=true,width=0.6\textwidth]{\fdir/MW_daily_fig02.jpg}
+\caption{Lenses visible in andesite alongside the Panorama Point trail.  Lens cap and finger for scale.}
+\label{fig:MW_daily_fig02}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[trim=0cm 0cm 0cm 15cm, clip=true,width=0.70\textwidth]{\fdir/MW_daily_fig03.jpg}
+\caption{Mount St. Helens visible in the distance from Mount Rainier.  Eruption amphitheater is facing us. }
+\label{fig:MW_daily_fig03}
+\end{figure}
+\FloatBarrier
 
-We had lunch at Panorama Point (Fig 4).  
+\subsection{Stop 1 -- Panorama of Cascade Range, 11:30 am}
+St. Helens visible in the distance to the south (Fig. \ref{fig:MW_daily_fig03}). We can see the north face of it, including the amphitheater and new dome.  Mt Adams is also visible in the distance - Mt Adams is surrounded by a large apron of volcanoclastic material, which is why it is volumetrically larger despite being less tall.  Its eruptions have been more explosive than Rainier. We discussed why it is difficult to come up with a universal theory of eruption styles.  The processes, involving multi-phase flow and different timescales are too complex. 
 
-Pyroclastics visible on trail up to Glacier Vista, in between andesite flows (I think). Andesite breaks in slaty pieces because of conjugate fracture pattern. The group split up after lunch.  The self-styled “exploration group” (Johnathan, Zach, Jingle, Yang, and myself) climbed two more minor peaks and met up with the main group again at Glacier Vista. At Glacier Vista, Nesqually Glacier is visible in the valley (Fig 5). Little Ice Age scarp and lateral moraine visible on opposite valley wall (Fig 5). The glacier toe is covered in debris (Fig 5). Contact visible in rocks exposed below the LIA scarp on the opposite valley wall.  Speculation about coherent landslide blocks or exposed basement (Fig 6). A waterfall emerging from beneath a small hanging glacier higher on the mountain can be observed entering the subglacial hydrology system beneath Nesqually Glacier (Fig 7).
+\subsection{Lunch at Panorama Point, 12:30 pm}
+This lunch spot had excellent views, fully justifying the last stretch of more arduous hiking (Fig. \ref{fig:MW_daily_fig04}). Pyroclastics visible on trail up to Glacier Vista, in between what look like andesite flows. Andesite breaks in slaty pieces because of conjugate fracture pattern. \\
 
-The deformation structures in the glacier reflect the overall strain rate regime that is expected for a mountain glacier.  Above the equilibrium line altitude (ELA), in the accumulation zone, the glacier experiences extension and thinning to compensate for a positive surface mass balance.  Subsidence caused by extension is (roughly) in balance with snowfall on the surface.  Ice flux increases from the mountain peak towards the ELA, reflecting the increasing volume of snowfall that must be removed by ice flow.  The extension is manifested in brittle failure features visible at the glacier surface, including crevasses and scarps (Figs 8 and 9).  Crevasses are tensile cracks that form when the ice experiences extension or shear (shear stress can be decomposed into compression and tension along the principal axes).  Once they are formed, crevasses are simultaneously advected downstream and deformed by ice flow, resulting in a highly complex pattern of multiple crevasse orientations overprinted on each other in the main glacier trunk (Fig 10).  In addition, crevasses also form to accommodate strain induced by local disturbances in the ice flow, such as turns in the glacier direction and resistant bedrock outcrops below the glacier.  In places, debris-covered portions of the glacier can be distinguished from the surrounding mountainside because crevasses in the underlying ice pull the debris apart (Fig 11).  
+\begin{figure}[h]
+\centering
+\includegraphics[trim=10cm 0cm 0cm 0cm, clip=true,width=0.75\textwidth]{\fdir/MW_daily_fig04.jpg}
+\caption{The group having lunch at Panorama Point.}
+\label{fig:MW_daily_fig04}
+\end{figure}
 
-Below the ELA, in the ablation zone, the ice experiences compression and thickening to compensate for a negative surface mass balance.  Uplift caused by compression is (roughly) in balance with melting at the surface.  Ice flux decreases from the ELA to the glacier toe, reflecting the increasing volume of ice that has been lost to melting.  Crevasses are less common downstream, reflecting the compressional regime that tends to close them.  Some glaciers have thrust faults in the ablation zone, but these are hard to see from a distance on a debris-covered glacier (they are identified by dipping, arcuate bands of sediment outcropping at the glacier surface) and I don't know if Nesqually has them.  The debris cover on the glacier surface becomes thicker downstream, reflecting the selective removal of ice (but not sediment) by melting.  Thick debris can act to insulate the glacier surface and reduce melting, counteracting the albedo effect seen with thin debris cover.
+The group split up after lunch.  The self-styled ``exploration group'' (Jonathan, Zach, Jingle, Yang, and Mike) climbed two more minor peaks and met up with the main group again at Glacier Vista. 
+
+\subsection{Stop 2 -- Glacier Vista, 2:00pm}
+At Glacier Vista, Nisqually Glacier is visible in the valley (Fig \ref{fig:MW_daily_fig05}). The Little Ice Age scarp and lateral moraine are visible on opposite valley wall, while the glacier toe is covered in debris. The contact is visible in rocks exposed below the LIA scarp on the opposite valley wall.  It is difficult to distinguish coherent landslide blocks from exposed basement (Fig \ref{fig:MW_daily_fig06}). A waterfall emerging from beneath a small hanging glacier higher on the mountain can be observed entering the subglacial hydrology system beneath Nisqually Glacier (Fig \ref{fig:MW_daily_fig07}).
+
+\begin{figure}[h]
+\centering
+\makebox[\textwidth]{
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig05.jpg} \label{fig:MW_daily_fig05}}
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig06.jpg} \label{fig:MW_daily_fig06}}}
+\caption{\small{(a) Nisqually Glacier and surroundings visible from Glacier Vista.  The rocky valley floor visible in the mid-ground is actually the debris-covered tongue of the glacier.  The glacier toe is just visible at the left of the image.  Little Ice Age lateral moraine forms the far wall of the valley in the left side of the image. (b) Contact visible in the exposed valley wall above Nisqually Glacier.  Triangle of material in the middle of the picture of unknown origin. }}
+\end{figure}
+
+The deformation structures in the glacier reflect the overall strain rate regime that is expected for a mountain glacier.  Above the equilibrium line altitude (ELA), in the accumulation zone, the glacier experiences extension and thinning to compensate for a positive surface mass balance.  Subsidence caused by extension is (roughly) in balance with snowfall on the surface.  Ice flux increases from the mountain peak towards the ELA, reflecting the increasing volume of snowfall that must be removed by ice flow.  The extension is manifested in brittle failure features visible at the glacier surface, including crevasses and scarps (Figs \ref{fig:MW_daily_fig08} and \ref{fig:MW_daily_fig09}).  Crevasses are tensile cracks that form when the ice experiences extension or shear (shear stress can be decomposed into compression and tension along the principal axes).  Once they are formed, crevasses are simultaneously advected downstream and deformed by ice flow, resulting in a highly complex pattern of multiple crevasse orientations overprinted on each other in the main glacier trunk (Fig \ref{fig:MW_daily_fig10}).  In addition, crevasses also form to accommodate strain induced by local disturbances in the ice flow, such as turns in the glacier direction and resistant bedrock outcrops below the glacier.  In places, debris-covered portions of the glacier can be distinguished from the surrounding mountainside because crevasses in the underlying ice pull the debris apart (Fig \ref{fig:MW_daily_fig11}).  
+
+\begin{figure}[ht]
+\centering
+\makebox[\textwidth]{
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig07.jpg} \label{fig:MW_daily_fig07}}
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig08.jpg} \label{fig:MW_daily_fig08}}}
+\makebox[\textwidth]{
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig09.jpg} \label{fig:MW_daily_fig09}}
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig10.jpg} \label{fig:MW_daily_fig10}}}
+\caption{\small{(a) Waterfall fed by subglacial hydrology in unknown upper glacier re-enters the subglacial hydrology of Nisqually Glacier. (b) Crevasses opening across a glacier near the summit of Mount Rainier, reflecting extension in the accumulation zone. (c) Crevasses opening into scarps on Nisqually Glacier.  Note exposed blue ice, indicating exposure of glacial ice from below the snow pack (white).  Also note that the heavy sediment load of the glacial ice appears to be concentrated in discrete fracture zones. (d) Complex deformation field visible near the confluence of Nisqually Glacier with one of its tributaries.}}
+\end{figure}
+\FloatBarrier
+
+Below the ELA, in the ablation zone, the ice experiences compression and thickening to compensate for a negative surface mass balance.  Uplift caused by compression is (roughly) in balance with melting at the surface.  Ice flux decreases from the ELA to the glacier toe, reflecting the increasing volume of ice that has been lost to melting.  Crevasses are less common downstream, reflecting the compressional regime that tends to close them.  Some glaciers have thrust faults in the ablation zone, but these are hard to see from a distance on a debris-covered glacier (they are identified by dipping, arcuate bands of sediment outcropping at the glacier surface) and we don't know if Nisqually has them.  The debris cover on the glacier surface becomes thicker downstream, reflecting the selective removal of ice (but not sediment) by melting.  Thick debris can act to insulate the glacier surface and reduce melting, counteracting the albedo effect seen with thin debris cover.
+
+\begin{figure}[h]
+\centering
+\makebox[\textwidth]{
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig11.jpg} \label{fig:MW_daily_fig11}}
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig12.jpg} \label{fig:MW_daily_fig12}}}
+\caption{\small{(a) Crevasses in a debris-covered part of Nisqually Glacier. Note the sediment is pulled apart by cracks in the underlying ice. (b) The outlet of the subglacial hydrological system at the toe of Nisqually Glacier, viewed from the LIA lateral moraine.}}
+\end{figure}
 
 Like most mountain glaciers in the summer, this glacier toe hosts an outlet of the subglacial hydrological system.  This outlet is a large (several meters) tunnel from which a proglacial stream emerges (Fig 12).  The fact that meltwater is released from a single coherent point, rather than diffusely across the entire toe, reflects a highly organized and efficient subglacial hydrological network.  Underneath the glacier, small pipes feed into large pipes in a dendritic system similar to subaerial rivers and tributaries.  These pipes can be carved into the bedrock, melted out of the overlying ice, or both (the outlet visible at the toe of this glacier appeared to be carved upwards into the ice, although we only saw it from a distance).  These pipes carry a large volume of water without lubricating much of the basal area.  Efficient subglacial hydrological networks are a common feature of glaciers that have to move large quantities of meltwater in the summer.  Generally these systems take several weeks to develop; in the interim, glaciers often experience a spring speed-up when water spreads out over the bed before the hydrological system has developed the capacity to move the water efficiently.  Once the efficient system develops, large amounts of water may be in motion below the glacier, but the pipes that carry this water occupy only a small fraction of the basal area, reducing lubrication.  However, sudden spikes in water input (such as from rainstorms) can temporarily overwhelm the system and cause water to spread out on the bed.  
 
-We took the Moraine Trail, which is an “unmaintained” path going out to the crest of one of the LIA lateral moraines of Nesqually Glacier and then back in a loop.  Trail was easy to follow, despite being “unmaintained”.  The return part of the loop included a steep ascent that would have been dangerous going downhill.  Take a right at the fork to make sure you take the steep slope going uphill, which is safer.  Trail runs along the top of the LIA lateral moraine (Fig 13).
+\subsection{Moraine Trail, 2:30 pm}
+We took the Moraine Trail, an unmaintained path going out to the crest of one of the LIA lateral moraines of Nisqually Glacier and then back in a loop.  Trail was easy to follow, despite being unmaintained.  The return part of the loop included a steep ascent that would have been dangerous going downhill.  Take a right at the fork to make sure you take the steep slope going uphill, which is safer.  Trail runs along the top of the LIA lateral moraine (Fig \ref{fig:MW_daily_fig13}).
 
-Up close we can see that the glacier tongue splits in two, with exposed bedrock in the middle (plutonic Tatoosh?).
+Up close we can see that the glacier tongue splits in two, with exposed bedrock in the middle - possibly plutonic Tatoosh. The ice surface is extremely dirty, and in places can be hard to distinguish from un-vegetated valley floor/walls.  However, the ice surface (where it is exposed) appears darker than the rock and the glacier toe has multiple holes representing abandoned outlets of the subglacial hydrological system (Fig \ref{fig:MW_daily_fig14}). Both branches of the glacier tongue have water outlets.  The larger branch has the hydrologic outlet roughly in the middle, the smaller branch has an outlet near the contact with the lateral moraine.
 
-The ice surface is extremely dirty, and in places can be hard to distinguish from unvegetated valley floor/walls.  However, the ice surface (where it is exposed) appears darker than the rock and the glacier toe has multiple holes representing abandoned outlets of the subglacial hydrological system (Fig 14).
+\begin{figure}[h]
+\centering
+\makebox[\textwidth]{
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig13.jpg} \label{fig:MW_daily_fig13}}
+\subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/MW_daily_fig14.jpg} \label{fig:MW_daily_fig14}}}
+\caption{\small{(a) The group hiking on the Moraine Trail.  This portion of the trail runs along the crest of the LIA lateral moraine. (b)  Abandoned outlet of the subglacial hydrological system beneath Nisqually Glacier.  Dark material above the opening is debris-covered ice, material below the opening is ice-free till.}}
+\end{figure}
 
-Both branches of the glacier tongue have water outlets.  The larger branch has the hydrologic outlet roughly in the middle, the smaller branch has an outlet near the contact with the lateral moraine.
+Nisqually Glacier is relatively well-studied.  The terminus position has been monitored since the 1940's because of water resource concerns in the downstream river valley.  It advanced between the 1940's and the 1970's, then began a retreat that continues today.  Currently the terminus is in a position similar to where it was in the 1940's.  Retreat can also be inferred between the LIA moraines, deposited in the mid-1800's, and the 1940's, although monitoring was not taking place then.  
 
-Nesqually Glacier is relatively well-studied.  Terminus position has been monitored since the 1940's because of water resource concerns in the downstream river valley.  It advanced between the 1940's and the 1970's, then began a retreat that continues today.  Currently the terminus is in a position similar to where it was in the 1940's.  Retreat can also be inferred between the LIA moraines, deposited in the mid-1800's, and the 1940's, although monitoring was not taking place then.  
+\subsection{Drive to the next campsite, 16:00 pm}
+Our drive out of ranger took us back east, past the Reflection Lakes and Box Canyon, which comprises a fracture system in the Tatoosh that is easily erodible. It has been occupied by both rivers and glaciers. We observed a welded tuff, with its disctinctive stretched out clasts, as well as with andesite dikes and observable columnar joints. The Rainier edifice is built on Tatoosh granodiorite, a Miocene age quartz monzanite.
 
-Notes on the drive to the next campsite:
+On the way south, towards Mt St. Helens and the Iron Creek campsite that was to be our next overnight location, we passed the Ohanapecosh formation along Rte 123. This is an Oligocene (27-37 Ma) intrusive andesites conatining columnar joints. We passed Packwood lake on Rte 12, a landslide-dammed lake (with a small creek for drainage, so it is no longer filling).
 
-Rainier edifice built on Tatoosh granodiorite (Miocene?)
+As the road bends due west towards Randall, we found ourselves driving through a flat valley, with flood deposits exposed in river bank.  These flooding episodes have good age constraints because of tephra layers. The fertile soil supports extensive farming, which is presumably why people brave the multiple natural hazards. We passed through the town of Randall, which was the base of northern operations for the IMUSH seismic deployment (which Zach participated in).  A fond tribute was paid to the uneven pool tables in the Tall Timber Bar. We turned south down into the Gifford Pinchot National Forest, towards Mt. St. Helens. \\
 
-Quartz monzanite.
-
-Welded tuff.  Stretched out clasts.  
-
-Box Canyon is a fracture system in the Tatoosh that is easily erodible.  It has been occupied by both rivers and glaciers.
-
-Welded tuff with andesite dikes.
-
-Welded tuff can have columnar joints.
-
-Ohanapecosh formation, 27-37 ma.  Figure 18 in the USGS guide.
-
-Oligocene intrusive andesites with columnar joints.
-
-Packwood lake.  A landslide-dammed lake (with a small creek for drainage, so it's no longer filling).
-
-Castle Rock. 
-
-Driving through a flat valley.  Flood deposits exposed in river bank.  Floods have good age constrain because of tephra layers.  People live here anyway, extensive farming.
-
-Town of Randall was the base of operations for the IMUSH seismic deployment (which Zach participated in).  
+\noindent\textbf{6:00 pm} -- Arrival at Iron Creek Campground. 
 
 
 
@@ -625,32 +682,32 @@ Town of Randall was the base of operations for the IMUSH seismic deployment (whi
 
 \subsection{Stop 1 -- Bear Meadow, 9:50 am}
 
-Here, Gary Rosenquist and his friends captured 22 pictures of the landslide and the following lateral blast at Mt. St. Helens on May 17, 1980 (Figure~\ref{Fig: 081014_1}). Activity prior to the eruption started as early as March 1980. As concern mounted scientists started to closely monitor the volcano. In these two months, the north side of the volcano rapidly expanded, with surface deformation reaching a rate of about 1 m/day just before the eruption. A spike in small magnitude earthquakes was also observed. Restricted areas were established around the volcano, however these were based on the assumption that the volcano would erupt vertically. The eruption started with an magnitude 5 earthquake which triggered a landslide. The mass movement of the landslide decompressed the magmatic system, which led to a lateral blast from the side where the landslide occurred. Following the eruption, the group struggled to escape the area by driving east. The ash blocked the sunlight and rained on their windshield. It took them hours to drive out and luckily their engine was not choked by the ash.
+Here, Gary Rosenquist and his friends captured 22 pictures of the landslide and the following lateral blast at Mt. St. Helens on May 17, 1980 (Figure~\ref{fig: 081014_1}). Activity prior to the eruption started as early as March 1980. As concern mounted scientists started to closely monitor the volcano. In these two months, the north side of the volcano rapidly expanded, with surface deformation reaching a rate of about 1 m/day just before the eruption. A spike in small magnitude earthquakes was also observed. Restricted areas were established around the volcano, however these were based on the assumption that the volcano would erupt vertically. The eruption started with an magnitude 5 earthquake which triggered a landslide. The mass movement of the landslide decompressed the magmatic system, which led to a lateral blast from the side where the landslide occurred. Following the eruption, the group struggled to escape the area by driving east. The ash blocked the sunlight and rained on their windshield. It took them hours to drive out and luckily their engine was not choked by the ash.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=3in]{\fdir/stop1/1_1.jpg}
 	\includegraphics[width=3in]{\fdir/stop1/1_2.jpg}
 	\caption{Gary Rosenquist's photographs from the 1980 eruption, and the view of Mt. St. Helens from Bear Meadow.}
-	\label{Fig: 081014_1}
+	\label{fig: 081014_1}
 \end{figure}
 
 \subsection{Stop 2 -- Donnybrook Viewpoint, 10:30 am}
 
-The 1980 eruption created hummocky deposits, which are observable from this viewpoint (Figure~\ref{Fig: 081014_2}). The eruption was notable for its lateral blast, which downed trees in the surrounding area so that they now lay in a radial pattern outwards from the volcano. Logs can still be seen floating in Spirit Lake over 30 years after the eruption. The blast brought material up to the ridge, which sadly killed the USGS geologist David Johnston, after he transmitted his famous last words: "Vancouver! Vancouver! This is it!''. His remains were never found. Johnston Ridge Observatory is named after him today.
+The 1980 eruption created hummocky deposits, which are observable from this viewpoint (Figure~\ref{fig: 081014_2}). The eruption was notable for its lateral blast, which downed trees in the surrounding area so that they now lay in a radial pattern outwards from the volcano. Logs can still be seen floating in Spirit Lake over 30 years after the eruption. The blast brought material up to the ridge, which sadly killed the USGS geologist David Johnston, after he transmitted his famous last words: "Vancouver! Vancouver! This is it!''. His remains were never found. Johnston Ridge Observatory is named after him today.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop2/2_1.jpg}
 	\caption{Spirit Lake with tree deposits, valleys and ridges with hummocky terrian}
-	\label{Fig: 081014_2}
+	\label{fig: 081014_2}
 \end{figure}
 
 \subsection{Stop 3 -- Windy Ridge, 10:34 am}
 
-Lecture by Heather Wright, USGS Volcano Observatory - Disaster Response and Mitigation Program (Figure~\ref{Fig: 081014_3_1}).
+Lecture by Heather Wright, USGS Volcano Observatory - Disaster Response and Mitigation Program (Figure~\ref{fig: 081014_3_1}).
 \\\\
-Mt. St. Helens has been active since 300 ka; however, much of the edifice construction has been relatively young and most of the terrains we see today are less than 3000 years old. Several dome structures exist in the center of the  crater, including the 1100-1200 year old Sugar Bowl Dome and the dome that formed after the 1980 eruption (Figure~\ref{Fig: 081014_3_2}). 
+Mt. St. Helens has been active since 300 ka; however, much of the edifice construction has been relatively young and most of the terrains we see today are less than 3000 years old. Several dome structures exist in the center of the  crater, including the 1100-1200 year old Sugar Bowl Dome and the dome that formed after the 1980 eruption (Figure~\ref{fig: 081014_3_2}). 
 \\\\
 The eruption history of Mt. St. Helens can be divided into four different stages (from youngest to oldest): Spirit Lake, Swift Creek, Cougar, and Ape Cave. The most recent Spirit Lake stage is divided into six periods: Modern, Goat Rocks, Kalama, Sugar Bowl, Castle Creek, Pine Creek, and Smith Creek. The material from the Spirit Lake stage is more depleted in incompatible elements relative to other Cascade volcanos, suggesting that the source had already been depleted. During the Kalama Period the two largest eruptions contained more than 2 km$^3$ of erupted material, and the third largest had about 0.5 km$^3$. 
 \\\\
@@ -664,43 +721,43 @@ At this location, Zach also gave us a short introduction to the iMUSH project, a
 	\centering
 	\includegraphics[width=5in]{\fdir/stop3/3_1.jpg}
 	\caption{USGS geologist Heather Wright and her students/postdocs. }
-	\label{Fig: 081014_3_1}
+	\label{fig: 081014_3_1}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop3/3_2.jpg}
 	\caption{The view of Mt. St. Helens from this stop. The dome generated during the Sugar Bowl period can be seen in the center of the crater.}
-	\label{Fig: 081014_3_2}
+	\label{fig: 081014_3_2}
 \end{figure}
 
 \subsection{Stop 4 -- Windy Ridge Trail}
 \subsubsection*{Volcanic Breccia, 12:17 pm}
 
-At this brief stop along the road from Windy Ridge we encountered volcanic breccia surrounded by pumice deposits (Figure~\ref{Fig: 081014_4}). It is likely not from the modern eruptive period, and may be a block and ash flow - a cooler debris flow than a pyroclastic flow.
+At this brief stop along the road from Windy Ridge we encountered volcanic breccia surrounded by pumice deposits (Figure~\ref{fig: 081014_4}). It is likely not from the modern eruptive period, and may be a block and ash flow - a cooler debris flow than a pyroclastic flow.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=3in]{\fdir/stop4/4_1.jpg}
 	\includegraphics[width=3in]{\fdir/stop4/4_2.jpg}
 	\caption{Left: Old lava flow. Right: volcanic breccia.}
-	\label{Fig: 081014_4}
+	\label{fig: 081014_4}
 \end{figure}
 
 \subsubsection*{Fall Deposit, 12:27 pm}
 
-About 50m down the road we dug into some sedimentary layers (Figure~\ref{Fig: 081014_5}). The deposit layer we found here is well-sorted alternating fine and coarse grained material, indicating that it is air-transported, or fall deposit. Differences in grain size are likely due to the waxing and waning of the eruptive cycle.
+About 50m down the road we dug into some sedimentary layers (Figure~\ref{fig: 081014_5}). The deposit layer we found here is well-sorted alternating fine and coarse grained material, indicating that it is air-transported, or fall deposit. Differences in grain size are likely due to the waxing and waning of the eruptive cycle.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop5/5_1.jpg}
 	\caption{Fall deposit from the volcano.}
-	\label{Fig: 081014_5}
+	\label{fig: 081014_5}
 \end{figure}
 
 \subsubsection*{Truman Trailhead, 13:27}
 
-The outcrop was comprised of low-density plagioclase-rich porphyritic rock (Figure~\ref{Fig: 081014_7}). These rocks are usually formed within the magmatic system over a long period of time as it slowly cools. The residence time of the magma can be determined from isotope analysis using Thorium-230 and Radium-226 dating. In the case of Mt. St. Helens, a crystallization time from 2000 yr - 1 Ma is detected. This can help to determine how much magma within the system is depleted and how much can stay molten during an eruption. 
+The outcrop was comprised of low-density plagioclase-rich porphyritic rock (Figure~\ref{fig: 081014_7}). These rocks are usually formed within the magmatic system over a long period of time as it slowly cools. The residence time of the magma can be determined from isotope analysis using Thorium-230 and Radium-226 dating. In the case of Mt. St. Helens, a crystallization time from 2000 yr - 1 Ma is detected. This can help to determine how much magma within the system is depleted and how much can stay molten during an eruption. 
 
 The porphyritic texture of the rock is generated by water within the magma that forms bubbles as the pressure decreases near the surface. This loss of water also moves the solidus to higher temperatures, which causes the magma to crystalize the fine grained mineral microlite. If exhumation is too rapid, microlite crystals will not have time to form.
 
@@ -708,21 +765,21 @@ The porphyritic texture of the rock is generated by water within the magma that 
 	\centering
 	\includegraphics[width=5in]{\fdir/stop7/7_1.jpg}
 	\caption{Low-density igneous rock with porphyritic texture.}
-	\label{Fig: 081014_7}
+	\label{fig: 081014_7}
 \end{figure}
 
 \subsection{Stop 5 -- Pumice Plain}
 
 \subsubsection*{Cryptodome Material, 1:51 pm}
 
-This outcrop is within the blast zone of the 1980 eruption and was comprised mainly of fine-grained, crystalline, magmatic material (Figure~\ref{Fig: 081014_8_1}). We observed two kinds of igneous rocks with a lighter and a darker color, probably caused by different levels of water content (Figure~\ref{Fig: 081014_8_2}). The cooling of the magma body makes the allows the rocks to become brittle and break easily. This is part of the 1980 blast deposit.
+This outcrop is within the blast zone of the 1980 eruption and was comprised mainly of fine-grained, crystalline, magmatic material (Figure~\ref{fig: 081014_8_1}). We observed two kinds of igneous rocks with a lighter and a darker color, probably caused by different levels of water content (Figure~\ref{fig: 081014_8_2}). The cooling of the magma body makes the allows the rocks to become brittle and break easily. This is part of the 1980 blast deposit.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=3in]{\fdir/stop8/8_1.jpg}
 	\includegraphics[width=3in]{\fdir/stop8/8_2.jpg}
 	\caption{Left: blast deposit, right: igneous rocks in the deposit.}
-	\label{Fig: 081014_8_1}
+	\label{fig: 081014_8_1}
 \end{figure}
 
 \begin{figure}[htp]
@@ -730,36 +787,36 @@ This outcrop is within the blast zone of the 1980 eruption and was comprised mai
 	\includegraphics[width=3in]{\fdir/stop8/8_3.jpg}
 	\includegraphics[width=3in]{\fdir/stop8/8_4.jpg}
 	\caption{Left: cooling feature, right: light and dark bands.}
-	\label{Fig: 081014_8_2}
+	\label{fig: 081014_8_2}
 \end{figure}
 
 \subsubsection*{Pyroclastic Flow Deposits, 2:07 pm}
 
-The outcrop contains coarse to fine grained material and is very poorly sorted (Figure~\ref{Fig: 081014_9}). This indicates that it is a flow deposit.
+The outcrop contains coarse to fine grained material and is very poorly sorted (Figure~\ref{fig: 081014_9}). This indicates that it is a flow deposit.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop9/9_1.jpg}
 	\caption{Flow deposit}
-	\label{Fig: 081014_9}
+	\label{fig: 081014_9}
 \end{figure}
 
 \subsubsection*{Kalama Period Deposits, 2:25 pm}
 
-A lens of lighter material and some dead trees can be found within the outcrop at this location (Figure~\ref{Fig: 081014_10}). This outcrop contains deposits from the Kalama Period (1400-1500), but the lens is from the Goat Rocks period (1800) (Figure~\ref{Fig: 081014_11}). This deposit was ripped up and redeposited during the 1980 eruption, explaining why the rocks are not vertically in order.
+A lens of lighter material and some dead trees can be found within the outcrop at this location (Figure~\ref{fig: 081014_10}). This outcrop contains deposits from the Kalama Period (1400-1500), but the lens is from the Goat Rocks period (1800) (Figure~\ref{fig: 081014_11}). This deposit was ripped up and redeposited during the 1980 eruption, explaining why the rocks are not vertically in order.
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop10/10_1.jpg}
 	\caption{Blast deposit}
-	\label{Fig: 081014_10}
+	\label{fig: 081014_10}
 \end{figure}
 
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=5in]{\fdir/stop11/11_1.jpg}
 	\caption{deposition profile over 2000 years}
-	\label{Fig: 081014_11}
+	\label{fig: 081014_11}
 \end{figure}
 
 % Day 9 - August 11, 2014
@@ -780,13 +837,13 @@ A lens of lighter material and some dead trees can be found within the outcrop a
 
 \subsection{Stop 1 -- Mima Mounds Natural Area Preserve, 9:15 am}
 
-The Mima Mounds Natural Area Preserve is a National Natural Landmark known for its mysterious mounded landscape, which is covered by prairie grassland.  The mounds are small regularly-spaced circular or elliptical hills about 10 meters apart and 2.5 meters in height (Figure~\ref{Fig:081214_1}). The mounds are composed primarily of gravel. There are about 8 to 10 mounds per acre, and the preserve covers 637 acres.\\\\
-There are similar mounds in North America; pimple mounds by the Gulf of Mexico, prairie mounds in the northern Great Plains and hogwallow mounds in California (Figure~\ref{Fig:081214_2}).\\\\
+The Mima Mounds Natural Area Preserve is a National Natural Landmark known for its mysterious mounded landscape, which is covered by prairie grassland.  The mounds are small regularly-spaced circular or elliptical hills about 10 meters apart and 2.5 meters in height (Figure~\ref{fig:081214_1}). The mounds are composed primarily of gravel. There are about 8 to 10 mounds per acre, and the preserve covers 637 acres.\\\\
+There are similar mounds in North America; pimple mounds by the Gulf of Mexico, prairie mounds in the northern Great Plains and hogwallow mounds in California (Figure~\ref{fig:081214_2}).\\\\
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/081214_1.png}
-\label{Fig:081214_1}
+\label{fig:081214_1}
 \caption{Mima Mounds}
 \end{figure}
 
@@ -796,7 +853,7 @@ There are similar mounds in North America; pimple mounds by the Gulf of Mexico, 
 \subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/081214_2a.png}}
 \subfloat[]{\includegraphics[width=0.5\textwidth]{\fdir/081214_2b.png}}}
 \caption{}
-\label{Fig:081214_2}
+\label{fig:081214_2}
 \end{figure}
 
 \noindent The origin of Mima Mounds has left scientists puzzled since the mid 19th century, and is now known for certain is that these mounds were formed after the glaciers of the Last Glacial Maximum started to recede about 16,500 years ago (see illustration above, right). Around 16,500 years ago, these glaciers moved into Washington, where their southernmost edge met the Mima Prairie. After the ice melted, the huge loads of rocks previously held were deposited across the area and became the prairie that we see today.
@@ -810,20 +867,20 @@ Several theories for the origin of Mima mounds have surfaced yet none has been p
 \\4)	Erosion
 \\Glacial meltwater eroded the soil between plants (trees and thrubs), leaving mounded sediments around the vegetation.
 \\5)	Pocket gophers/ Fossorial Rodent Hypothesis
-\\Small burrowing rodents, pocket gophers (Figure~\ref{Fig:081214_3}), built these mounds as shelters/nest chambers to stay above perched water tables. As the gophers excavated beneath the soil, they moved dense layers of glacial deposits upward, thus forming mounds. However, it has been argued that the mounds were there before the gophers moved into the area. 
+\\Small burrowing rodents, pocket gophers (Figure~\ref{fig:081214_3}), built these mounds as shelters/nest chambers to stay above perched water tables. As the gophers excavated beneath the soil, they moved dense layers of glacial deposits upward, thus forming mounds. However, it has been argued that the mounds were there before the gophers moved into the area. 
 \\6)	Permafrost cracking
 \\Ice formed wedges in cracked permafrost (frozen ground), and as the ice melted, only mounded shaped soil remained.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.5\textwidth]{\fdir/081214_3.png}
-\label{Fig:081214_3}
+\label{fig:081214_3}
 \caption{Pocket Gophers}
 \end{figure}
 
 \subsection{Stop 2 -- Ruby Beach, 2:15 pm}
 
-Ruby beach is a pebble beach with sea stacks and tidal pools (Figure~\ref{Fig:081214_4}. On the beach, we observed a very large number of stranded velella, a genus of deep blue hydrozoans similar to the Portuguese man-o-war that are made up of a number of polyps. These live on the surface of the sea and are propelled by the action of the wind on a small sail-like protrusion that breaches the surface. Mass strandings of velellae occur every few years in this region, and are in general driven by changes in the direction of the wind that lead to these being washed ashore. There is a large amount of driftwood that collects on this beach thanks to the logging activity in the region. \\\\
+Ruby beach is a pebble beach with sea stacks and tidal pools (Figure~\ref{fig:081214_4}. On the beach, we observed a very large number of stranded velella, a genus of deep blue hydrozoans similar to the Portuguese man-o-war that are made up of a number of polyps. These live on the surface of the sea and are propelled by the action of the wind on a small sail-like protrusion that breaches the surface. Mass strandings of velellae occur every few years in this region, and are in general driven by changes in the direction of the wind that lead to these being washed ashore. There is a large amount of driftwood that collects on this beach thanks to the logging activity in the region. \\\\
 In the northern section of the beach, there are cliffs as well as sea stacks. We found the sea stacks to be composed in some cases of fine-grained sandstone, and in other cases of a poorly-sorted conglomerate with angular clasts and large chunks of mudstone. These formations are olistostromes, or rocks that were consolidated after an underwater mudslide and subsequently exposed. \\\\
 Another feature observed at Ruby beach was the sorting of pebbles along the tide line. As the rounder pebbles are more inclined to roll down the slope and into the water, the pebbles remaining on the beach further from the tide line are flatter or more irregularly shaped than those closer to the water.\\\\
 At 3:40 PM, we left Ruby Beach for the campground, and had a short discussion to summarize the outcrops that we had seen in the context of the active plate margin of the area.
@@ -831,7 +888,7 @@ At 3:40 PM, we left Ruby Beach for the campground, and had a short discussion to
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/081214_4.png}
-\label{Fig:081214_4}
+\label{fig:081214_4}
 \caption{Ruby Beach}
 \end{figure}
 
@@ -848,17 +905,17 @@ At 3:40 PM, we left Ruby Beach for the campground, and had a short discussion to
 \subsection{Stop 1 -- Forks Timber Museum, 10:00 am}
 
 \subsection{Stop 2 -- Hall of Mosses Trail, Hoh Rainforest, 12:10 pm}
-The hikes we did at the park were not strenuous and had magnificent views (Figure~\ref{Fig:081314_1}. We started with the Hall of Moss Trial, a 0.8 mile loop through old growth temperate rain forest, with 100 foot elevation gain. This trail exhibits more than 100 types of mosses, and there are guided tours open to the public, given by the forest rangers. The climate is moist when not raining and it is advised to bring a rain jacket. The region receives some of the highest precipitation in the USA thanks to the orographic effect of the Olympic mountains and Cascades blocking the moisture-laden westerly winds from the Pacific, and experiences up to 200 inches of rainfall per year.\\\\
+The hikes we did at the park were not strenuous and had magnificent views (Figure~\ref{fig:081314_1}. We started with the Hall of Moss Trial, a 0.8 mile loop through old growth temperate rain forest, with 100 foot elevation gain. This trail exhibits more than 100 types of mosses, and there are guided tours open to the public, given by the forest rangers. The climate is moist when not raining and it is advised to bring a rain jacket. The region receives some of the highest precipitation in the USA thanks to the orographic effect of the Olympic mountains and Cascades blocking the moisture-laden westerly winds from the Pacific, and experiences up to 200 inches of rainfall per year.\\\\
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/081314_1.png}
-\label{Fig:081314_1}
+\label{fig:081314_1}
 \caption{Map of Hoh Rainforest trails}
 \end{figure}
 
 \noindent Due to the high rates of precipitation, the moisture in the ground is retained near the surface, rather than at depth. This leads the trees of the rainforest to develop very shallow root systems in order to take advantage of this moisture. As a result, the trees, not being deep-rooted, are easily toppled by the wind during the frequent storms occurring in the region. It is estimated that approximately 80\% of tree deaths in this forest are caused by the wind. \\\\
-The epiphytes found in this forest – primarily mosses and lichens – are a crucial part of the ecosystem (Figure~\ref{Fig:081314_2}). The relationship between the trees and epiphytes is symbiotic: the epiphytes use the trees for support and nutrients, while the trees have adapted to grow specialized lateral roots that re-absorb nutrients and moisture trapped in the moss and lichen layers. 
+The epiphytes found in this forest – primarily mosses and lichens – are a crucial part of the ecosystem (Figure~\ref{fig:081314_2}). The relationship between the trees and epiphytes is symbiotic: the epiphytes use the trees for support and nutrients, while the trees have adapted to grow specialized lateral roots that re-absorb nutrients and moisture trapped in the moss and lichen layers. 
 
 \begin{figure}
 \centering
@@ -867,18 +924,18 @@ The epiphytes found in this forest – primarily mosses and lichens – are a crucia
 \subfloat[]{\includegraphics[width=0.3\textwidth]{\fdir/081314_3.png}}
 \subfloat[]{\includegraphics[width=0.3\textwidth]{\fdir/081314_4.png}}}
 \caption{Mosses in the Hoh Rainforest}
-\label{Fig:081314_2}
+\label{fig:081314_2}
 \end{figure}
 
 \subsection{Stop 3 -- Spruce Nature Trail, Hoh Rainforest, 1:30 pm}
 The second hike, Spruce Nature Trail, is a 1.2 mile loop through the forest and the Hoh River. It is fairly flat with less than 100 foot elevation gain.  The dominant tree species were the Sitka Spruce, Western Hemlock, and Douglas Fir; but other conifers and several deciduous species were present as well.  According to the forest rangers “Many are 100s years old and can reach 250 feet in height and 30 to 60 feet in circumference.” When the group tried to measure the circumference, it took 8 students to hug one tree! \\\\
 This trail crosses both the glacier-fed Hoh river and the spring-fed Taft river, which are the primary waterbodies that irrigate the rainforest. The Hoh river, being glacier-fed, has a much more variable path and flow volume than the Taft river. \\\\
-Signboards along this trail provide descriptions of the common tree species, and also point out features in the forest. Among these are clearings used as grazing pastures by elk, toppled trees, and nurse log colonnades. “Nurse logs” are the trunks of trees toppled by the wind. In an ecosystem where access to sunlight is highly competitive, these toppled trees provide a gap in the canopy that allow young saplings to grow rapidly as they are able to access sunlight. These saplings grow along the trunk of the fallen tree, using up the nutrients present in the organic matter. This results in sets of trees of approximately the same age growing in near-perfect rows known as nurse log colonnades (Figure~\ref{Fig:081314_3}). In some cases, the remains of the fallen tree are still visible. It is estimated that 98\% of the trees in the Hoh rainforest began as saplings on nurse logs. 
+Signboards along this trail provide descriptions of the common tree species, and also point out features in the forest. Among these are clearings used as grazing pastures by elk, toppled trees, and nurse log colonnades. “Nurse logs” are the trunks of trees toppled by the wind. In an ecosystem where access to sunlight is highly competitive, these toppled trees provide a gap in the canopy that allow young saplings to grow rapidly as they are able to access sunlight. These saplings grow along the trunk of the fallen tree, using up the nutrients present in the organic matter. This results in sets of trees of approximately the same age growing in near-perfect rows known as nurse log colonnades (Figure~\ref{fig:081314_3}). In some cases, the remains of the fallen tree are still visible. It is estimated that 98\% of the trees in the Hoh rainforest began as saplings on nurse logs. 
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{\fdir/081314_5.png}
-\label{Fig:081314_3}
+\label{fig:081314_3}
 \caption{Row of trees grown on a nurse log}
 \end{figure}
 
